@@ -58,6 +58,7 @@ R3 Mini PCB to fit in the above cases.
 
 
 <br/>
+<br>
 
 Rev 2. Variants:
 
@@ -74,7 +75,10 @@ Rev 2. Variants:
 <img  src="https://github.com/Aeurias/NadeshikoSlimeVR/blob/main/R2%20Mini/Previews/R2Mini-PCB-Front.png"  alt="R2MiniPCB"/>
 R2 Mini PCB to fit in the above cases.
 
+
 <br/>
+<br>
+
 
 Rev 1. Variants:
 
@@ -100,7 +104,7 @@ R1 PCB to fit in the above cases.
 All of these cases use JLCPCB/JLC3DP resin 3D printing guidelines and tolereances, the cases can be ordered from JLCPCB or Elecrow, the resin to select on your order is up to you. I prefer the **8111X** in Pure White or **Black Resin**.
 
 <br/>
- 
+<br>
   
 
 ### Assembly
