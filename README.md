@@ -38,31 +38,58 @@ The cases and including the tracker extension are 2 part:
 **TOP** - Snap fitting top cover with strap through holes exits on the side and have port holes.
 **BASE** - Snap fitting base plate for the top cover with strap through holes on the bottom and PCB stand/aligners.
 
-The variants of the cases are:
+Rev 3. variants of the cases are:
 
 **503450 & 103450 LiPo's** - These cases use the R2 or R3 Mini* PCB's they are smaller, lighter and cheaper to build and print and the LiPo's can be found for a lot less than the 18650 cells but with basically the same run time:
 
 - **103450** - This similar to the 503450, but allows LiPo cells upto 10mm thick. Cell dimensions advised are 10x34x50mm. *It's the one I recommened as this has best runtime for it's size and the cell's are lowest cost.*
-- [ ] 103450-TOP.stl
-- [ ] 103450-BASE.stl
+- [ ] R3Mini-103450-TOP.stl
+- [ ] R3Mini-103450-BASE.stl
 <img  src="https://github.com/Aeurias/NadeshikoSlimeVR/blob/main/R3%20Mini/Previews/R3Mini103450-1.png"  alt="R3Mini1034501"/>
 
 - **503450** - This one allows stacking a 5mm thick 503450 or thinner LiPo cell on top of the breakout PCB and tracker modules. Cell dimensions advised are 5x34x50mm.
-- [ ] 503450-TOP.stl
-- [ ] 503450-BASE.stl
+- [ ] R3Mini-503450-TOP.stl
+- [ ] R3Mini-503450-BASE.stl
 <img  src="https://github.com/Aeurias/NadeshikoSlimeVR/blob/main/R3%20Mini/Previews/R3Mini503450-1.png"  alt="R3Mini5034501"/>
+
+
+<img  src="https://github.com/Aeurias/NadeshikoSlimeVR/blob/main/R1/Previews/R1-PCB-Front.png"  alt="R1PCB"/>
+R3 Mini PCB to fit in the above cases.
+
+
 <br/>
 
-<img  src="https://github.com/Aeurias/NadeshikoSlimeVR/blob/main/R1/Previews/R1-PCB-Front.png"  alt="R1PCb"/>
+Rev 2. Variants:
 
-**18650** - This variant can utilise the 18650 battery cells and cell holder.
-- [ ] 18650-TOP.stl
-- [ ] 18650-BASE.stl
-- <img  src="https://github.com/Aeurias/NadeshikoSlimeVR/blob/main/R1/Previews/R1-18650-1.png"  alt="R118650"/>
+**103450** - This variant can utilise the 18650 battery cells and cell holder, large in dimensions...
+- [ ] R2Mini-103450-TOP.stl
+- [ ] R2Mini-103450-BASE.stl
+<img  src="https://github.com/Aeurias/NadeshikoSlimeVR/blob/main/R2%20Mini/Previews/R2Mini-103450-1.png"  alt="R2Mini103450"/>
+
+**503450** - This cases uses the same PCB as the 18650 but without the cell holder to allow thin long LiPo to be installed.
+- [ ] R2Mini-503450-TOP.stl
+- [ ] R2Mini-503450-BASE.stl
+<img  src="https://github.com/Aeurias/NadeshikoSlimeVR/blob/main/R2%20Mini/Previews/R2Mini-503450-1.png"  alt="R2Mini503450"/>
+
+<img  src="https://github.com/Aeurias/NadeshikoSlimeVR/blob/main/R2%20Mini/Previews/R2Mini-PCB-Front.png"  alt="R2MiniPCB"/>
+R2 Mini PCB to fit in the above cases.
+
+<br/>
+
+Rev 1. Variants:
+
+**18650** - This variant can utilise the 18650 battery cells and cell holder, large in dimensions...
+- [ ] R1-18650-TOP.stl
+- [ ] R1-18650-BASE.stl
+<img  src="https://github.com/Aeurias/NadeshikoSlimeVR/blob/main/R1/Previews/R1-18650-1.png"  alt="R118650"/>
 
 **LiPo** - This cases uses the same PCB as the 18650 but without the cell holder to allow thin long LiPo to be installed.
-- [ ] LiPo-TOP.stl
-- [ ] LiPo-BASE.stl
+- [ ] R1-LiPo-TOP.stl
+- [ ] R1-LiPo-BASE.stl
+<img  src="https://github.com/Aeurias/NadeshikoSlimeVR/blob/main/R1/Previews/R1-LiPo-1.png"  alt="R1LiPo"/>
+
+<img  src="https://github.com/Aeurias/NadeshikoSlimeVR/blob/main/R1/Previews/R1-PCB-Front.png"  alt="R1PCB"/>
+R1 PCB to fit in the above cases.
 
 **Case R# is just a revision for the iterations I did over time to adjust or improve them, the bigger the number, the newer it is.*
 <br/>
