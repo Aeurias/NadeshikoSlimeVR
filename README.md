@@ -1,5 +1,5 @@
-
-# Nadeshiko's SlimeVR
+# ![](https://github.com/Aeurias/NadeshikoSlimeVR/blob/main/Misc/logo.png)
+# @Nadeshiko's SlimeVR
 
 These Slime's are similar to Frozen Slime's and use a Wemos D1 mini's with IMU of your choice that have profiles same as the SlimeVR BNO08Xs or the BMI160's, they utilize the TP4056 charger.
 
