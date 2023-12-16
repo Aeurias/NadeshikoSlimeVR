@@ -45,20 +45,20 @@ The variants of the cases are:
 - **103450** - This similar to the 503450, but allows LiPo cells upto 10mm thick. Cell dimensions advised are 10x34x50mm. *It's the one I recommened as this has best runtime for it's size and the cell's are lowest cost.*
 - [ ] 103450-TOP.stl
 - [ ] 103450-BASE.stl
-<img  src="https://github.com/Aeurias/NadeshikoSlimeVR/blob/main/R3%20Mini/Previews/R3Mini103450-1.png"  alt="R3Mini1034501"  width="533"  height="400"  />
+<img  src="https://github.com/Aeurias/NadeshikoSlimeVR/blob/main/R3%20Mini/Previews/R3Mini103450-1.png"  alt="R3Mini1034501"/>
 
 - **503450** - This one allows stacking a 5mm thick 503450 or thinner LiPo cell on top of the breakout PCB and tracker modules. Cell dimensions advised are 5x34x50mm.
 - [ ] 503450-TOP.stl
 - [ ] 503450-BASE.stl
-<img  src="https://github.com/Aeurias/NadeshikoSlimeVR/blob/main/R3%20Mini/Previews/R3Mini503450-1.png"  alt="R3Mini5034501"  width="533"  height="400"  />
+<img  src="https://github.com/Aeurias/NadeshikoSlimeVR/blob/main/R3%20Mini/Previews/R3Mini503450-1.png"  alt="R3Mini5034501"/>
 <br/>
 
-<img  src="https://github.com/Aeurias/NadeshikoSlimeVR/blob/main/R1/Previews/R1-PCB-Front.png"  alt="R1PCb"  width="533"  height="400"  />
+<img  src="https://github.com/Aeurias/NadeshikoSlimeVR/blob/main/R1/Previews/R1-PCB-Front.png"  alt="R1PCb"/>
 
 **18650** - This variant can utilise the 18650 battery cells and cell holder.
 - [ ] 18650-TOP.stl
 - [ ] 18650-BASE.stl
-- <img  src="https://github.com/Aeurias/NadeshikoSlimeVR/blob/main/R1/Previews/R1-18650-1.png"  alt="R118650"  width="533"  height="400"  />
+- <img  src="https://github.com/Aeurias/NadeshikoSlimeVR/blob/main/R1/Previews/R1-18650-1.png"  alt="R118650"/>
 
 **LiPo** - This cases uses the same PCB as the 18650 but without the cell holder to allow thin long LiPo to be installed.
 - [ ] LiPo-TOP.stl
@@ -68,7 +68,7 @@ The variants of the cases are:
 <br/>
 **Tracker Extension** - The tracker extension is also three  part, the main **CASE** and an **ENDCAP** and then the **PCB** to mount the BMI/BNO module and ZH 1.5mm 5 Pin connector, this also comes with 2 ways to mount the strap; same as the main case or right through it above the PCB.
 
-<img  src="https://github.com/Aeurias/NadeshikoSlimeVR/blob/main/TrackerExtension/Previews/Extension-1.png"  alt="TrackerExtension"  width="533"  height="400"  /> <img  src="https://github.com/Aeurias/NadeshikoSlimeVR/blob/main/TrackerExtension/Previews/Extension-PCB-Front.png"  alt="TrackerExtensionPCB"  width="533"  height="400"    />
+<img  src="https://github.com/Aeurias/NadeshikoSlimeVR/blob/main/TrackerExtension/Previews/Extension-1.png"  alt="TrackerExtension"/> <img  src="https://github.com/Aeurias/NadeshikoSlimeVR/blob/main/TrackerExtension/Previews/Extension-PCB-Front.png"  alt="TrackerExtensionPCB"/>
 
 All of these cases use JLCPCB/JLC3DP resin 3D printing guidelines and tolereances, the cases can be ordered from JLCPCB or Elecrow, the resin to select on your order is up to you. I prefer the **8111X** in Pure White or **Black Resin**.
 
