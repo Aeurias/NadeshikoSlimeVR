@@ -1,132 +1,110 @@
-# ![](https://github.com/Aeurias/NadeshikoSlimeVR/blob/main/Misc/logo.png)
-# @Nadeshiko's SlimeVR
-
-These Slime's are similar to Frozen Slime's and use a Wemos D1 mini's with IMU of your choice that have profiles same as the SlimeVR BNO08Xs or the BMI160's, they utilize the TP4056 charger.
-
-[Offical Component Guide](https://docs.slimevr.dev/diy/components-guide.html)
+<h1 align="center">
+  <a name="logo" href="l"><img src="https://github.com/Aeurias/NadeshikoSlimeVR/blob/main/Misc/logo.png" alt="@Nadeshiko's SlimeVR" width="200"></a>
+  <br>
+  Bear Stone Smart Home Documentation
+</h1>
+[Official Component Guide](https://docs.slimevr.dev/diy/components-guide.html)
+These Slime's run on a Wemos D1 Mini with IMU of your choice that have module profile same as the SlimeVR BNO08Xs or the BMI160's, they use the TP4056 charger for the battery that can work with LiPo cells and 18650 cells.
 
 ## Index
 
-- [Components](#Components)
-- [PCB](#PCB)
-- [Case](#Case)
-- [Assembly](#Assembly)
-- [Flashing Firmware](#Flashing-firmware)
-
-
+- [Components](#components)
+- [PCB](#pcb)
+- [Case](#case)
+- [Assembly](#assembly)
+- [Flashing Firmware](#flashing-firmware)
 
 ### Components
+
 **[The components needed have been all added to a sheet here with links to each item's page and total cost.](https://docs.google.com/spreadsheets/d/1Np8FZpWfbQaHiXM6Y5nCLdoeBbmQeeP_hg5ss5rDM44/edit?usp=sharing)**
 
-
 ### PCB
-This PCB lets every component be soldered on without any extra wires. This includes the diodes and resistor for battery sense and charge protection.
 
-To order the PCBs go to a website like https://cart.jlcpcb.com/quote upload the gerber file zip file and select quanity and color and order. It should autoselect all the other correct options when you upload the gerber file.
+This PCB lets every component be soldered on without any wires connections between the modules. This includes the diodes and resistor for battery sense and charge protection.
+
+PCBs can be ordered from JLCPCB or Elecrow.
 
 ![PCB R3 Mini](https://github.com/Aeurias/NadeshikoSlimeVR/blob/main/R3%20Mini/Previews/R3Mini-PCB-Front.png)
-
-  
 
 ### Case
 
 I've created and iterations of the file and uploaded all of them, at first it was similar to the 18650 Frozen Slimes, which then turned to the cheaper to make and overall less costly trackers with the LiPo pouch battery cells found on Ali Express.
 
+All of these cases use JLCPCB/JLC3DP resin 3D printing guidelines and tolerances, the cases can be ordered from JLCPCB or Elecrow, the resin to select on your order is up to you. I prefer the **8111X** or **Black Resin**.
+
 The cases and including the tracker extension are 2 part:
 
+A snap fitting top cover or main body with strap through holes exits on the side and have port holes, and a snap fitting base plate for the top cover with strap through holes on the bottom and PCB stand/aligners. For the tracker extension is case with an end cap to close it.
 
-**TOP** - Snap fitting top cover with strap through holes exits on the side and have port holes.
-**BASE** - Snap fitting base plate for the top cover with strap through holes on the bottom and PCB stand/aligners.
+The variants of the cases are:
 
-Rev 3. variants of the cases are:
+**503450 & 103450 LiPo's** - These cases use the smaller PCB design that are overall lighter, cheaper to build and print. The LiPo batteries for these can be found for a lot less than the 18650 cells but with basically the same run time for a SlimeVR tracker use:
 
-**503450 & 103450 LiPo's** - These cases use the R2 or R3 Mini* PCB's they are smaller, lighter and cheaper to build and print and the LiPo's can be found for a lot less than the 18650 cells but with basically the same run time:
-
-- **103450** - This similar to the 503450, but allows LiPo cells upto 10mm thick. Cell dimensions advised are 10x34x50mm. *It's the one I recommened as this has best runtime for it's size and the cell's are lowest cost.*
+- **103450 LiPo** - Allows 3.7v LiPo cells up to 10mm thick. Cell dimensions advised are 10x34x50mm or less. *It's the one I recommend as this has best runtime for it's size and the cell's are lowest cost.*
 - [ ] R3Mini-103450-TOP.stl
 - [ ] R3Mini-103450-BASE.stl
 <img  src="https://github.com/Aeurias/NadeshikoSlimeVR/blob/main/R3%20Mini/Previews/R3Mini103450-1.png"  alt="R3Mini1034501"/>
 
-- **503450** - This one allows stacking a 5mm thick 503450 or thinner LiPo cell on top of the breakout PCB and tracker modules. Cell dimensions advised are 5x34x50mm.
+- **503450 LiPo** - This one allows stacking a 5mm thick 503450 or thinner LiPo cell on top of the breakout PCB and tracker modules. Cell dimensions advised are 5x34x50mm or less.
 - [ ] R3Mini-503450-TOP.stl
 - [ ] R3Mini-503450-BASE.stl
 <img  src="https://github.com/Aeurias/NadeshikoSlimeVR/blob/main/R3%20Mini/Previews/R3Mini503450-1.png"  alt="R3Mini5034501"/>
 
-
 <img  src="https://github.com/Aeurias/NadeshikoSlimeVR/blob/main/R1/Previews/R1-PCB-Front.png"  alt="R1PCB"/>
-R3 Mini PCB to fit in the above cases.
-
 
 <br/>
 <br>
 
-Rev 2. Variants:
+Optional other/old variants:
 
-**103450** - This variant can utilise the 18650 battery cells and cell holder, large in dimensions...
+**103450 LiPo** - This similar to the current 103450, but was larger size and PCB was single sided for modules.
+
 - [ ] R2Mini-103450-TOP.stl
 - [ ] R2Mini-103450-BASE.stl
-<img  src="https://github.com/Aeurias/NadeshikoSlimeVR/blob/main/R2%20Mini/Previews/R2Mini-103450-1.png"  alt="R2Mini103450"/>
 
-**503450** - This cases uses the same PCB as the 18650 but without the cell holder to allow thin long LiPo to be installed.
+**503450 LiPo** - Same as above but smaller battery size.
+
 - [ ] R2Mini-503450-TOP.stl
 - [ ] R2Mini-503450-BASE.stl
-<img  src="https://github.com/Aeurias/NadeshikoSlimeVR/blob/main/R2%20Mini/Previews/R2Mini-503450-1.png"  alt="R2Mini503450"/>
 
-<img  src="https://github.com/Aeurias/NadeshikoSlimeVR/blob/main/R2%20Mini/Previews/R2Mini-PCB-Front.png"  alt="R2MiniPCB"/>
-R2 Mini PCB to fit in the above cases.
+**18650 Li-ion Cell** - This variant can utilize the 18650 battery cells and cell holder.
 
-
-<br/>
-<br>
-
-
-Rev 1. Variants:
-
-**18650** - This variant can utilise the 18650 battery cells and cell holder, large in dimensions...
 - [ ] R1-18650-TOP.stl
 - [ ] R1-18650-BASE.stl
-<img  src="https://github.com/Aeurias/NadeshikoSlimeVR/blob/main/R1/Previews/R1-18650-1.png"  alt="R118650"/>
 
-**LiPo** - This cases uses the same PCB as the 18650 but without the cell holder to allow thin long LiPo to be installed.
+**Thin/Long/Odd LiPo's** - This cases uses the same PCB as the 18650 but without the cell holder to allow thin LiPo to be installed.
+
 - [ ] R1-LiPo-TOP.stl
 - [ ] R1-LiPo-BASE.stl
-<img  src="https://github.com/Aeurias/NadeshikoSlimeVR/blob/main/R1/Previews/R1-LiPo-1.png"  alt="R1LiPo"/>
 
-<img  src="https://github.com/Aeurias/NadeshikoSlimeVR/blob/main/R1/Previews/R1-PCB-Front.png"  alt="R1PCB"/>
-R1 PCB to fit in the above cases.
-
-**Case R# is just a revision for the iterations I did over time to adjust or improve them, the bigger the number, the newer it is.*
 <br/>
 **Tracker Extension** - The tracker extension is also three  part, the main **CASE** and an **ENDCAP** and then the **PCB** to mount the BMI/BNO module and ZH 1.5mm 5 Pin connector, this also comes with 2 ways to mount the strap; same as the main case or right through it above the PCB.
 
 <img  src="https://github.com/Aeurias/NadeshikoSlimeVR/blob/main/TrackerExtension/Previews/Extension-1.png"  alt="TrackerExtension"/> <img  src="https://github.com/Aeurias/NadeshikoSlimeVR/blob/main/TrackerExtension/Previews/Extension-PCB-Front.png"  alt="TrackerExtensionPCB"/>
 
-All of these cases use JLCPCB/JLC3DP resin 3D printing guidelines and tolereances, the cases can be ordered from JLCPCB or Elecrow, the resin to select on your order is up to you. I prefer the **8111X** in Pure White or **Black Resin**.
-
 <br/>
 <br>
   
-
 ### Assembly
 
 Steps
+
 - [ ] TP4056 to Breakout PCB.
 - [ ] BMI or BNO08X to the breakout PCB.
 - [ ] Pins from Wemos D1 Mini packaging to the D1 Mini, then set it through the holes on the PCB and solder on backside.
-- [ ] 180K resitor and 1N5817 diodes in the correct orientation on the PCB.
+- [ ] 180K resistor and 1N5817 diodes in the correct orientation on the PCB.
 - [ ] Bridge pads if using BMI160 (no bridge needed for BNO08X).
 - [ ] JST PH 2mm 2 Pin battery connector in correct polarity.
 - - [ ] Check LiPo battery connector matches the +/- polarity as on the PCB.
 - [ ] SK12D07VG 4/5/6mm slide switch.
 - [ ] ZH 1.5mm 5 Pin connector for communication with extension tracker.
-- [ ] Polyimide tape to protect battery from anything sharp/shorts.
+- [ ] Polyimide tape to protect LiPo batteries from PCB and pins.
 - [ ] Connect battery.
 
- 
 ### Flashing firmware
 
 Make sure to install the Slime VR server with drivers first.
-If the Slime VR drivers arent working for you:
+If the Slime VR drivers aren't working for you:
 
 - [ ] Uninstall the drivers from device manager
 - [ ] Extract and install [CH340 driver](https://www.wemos.cc/en/latest/ch340_driver.html)
@@ -141,10 +119,12 @@ BMI160 Specific Instructions:
 
 - [ ] [BMI160 Calibration](https://github.com/SlimeVR/SlimeVR-Tracker-ESP?files=1#bmi160)
 
-  
 ### Links
 
 Resources:
+
 - [The Docs (SlimeVR Documentation)](https://docs.slimevr.dev/)
+
 - [Github Repository SlimeVR](https://github.com/SlimeVR/)
+
 - [SlimeVR Discord](https://discord.gg/SlimeVR)
