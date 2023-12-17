@@ -205,7 +205,7 @@ Steps
  
   
    
-  
+<br>
 
 ### Flashing firmware
 
