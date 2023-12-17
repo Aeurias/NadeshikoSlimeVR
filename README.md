@@ -54,6 +54,7 @@ PCBs can be ordered from JLCPCB or Elecrow.
   
 
 <img  src="https://github.com/Aeurias/NadeshikoSlimeVR/blob/main/R3%20Mini/Previews/R3Mini-PCB-Front.png"  alt="R3MiniPCBFront" width=250px />&nbsp;&nbsp;<img  src="https://github.com/Aeurias/NadeshikoSlimeVR/blob/main/R3%20Mini/Previews/R3Mini-PCB-Back.png"  alt="R3MiniPCBBack" width=260px />&nbsp;&nbsp;<img  src="https://github.com/Aeurias/NadeshikoSlimeVR/blob/main/TrackerExtension/Previews/Extension-PCB-Front.png"  alt="TrackerExtensionPCB" width=250px />
+
 *PCB Front/Back - Extension Tracker*
 
   
