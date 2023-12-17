@@ -53,7 +53,7 @@ PCBs can be ordered from JLCPCB or Elecrow.
 
   
 
-![PCB R3 Mini](https://github.com/Aeurias/NadeshikoSlimeVR/blob/main/R3%20Mini/Previews/R3Mini-PCB-Front.png)
+<img  src="https://github.com/Aeurias/NadeshikoSlimeVR/blob/main/R3%20Mini/Previews/R3Mini-PCB-Front.png"  alt="R3MiniPCB" width=250px />
 
   
 
@@ -91,7 +91,7 @@ The variants of the cases are:
 
 - [ ] R3Mini-103450-BASE.stl
 
-<img  src="https://github.com/Aeurias/NadeshikoSlimeVR/blob/main/R3%20Mini/Previews/R3Mini103450-1.png"  alt="R3Mini1034501" width=200px />
+<img  src="https://github.com/Aeurias/NadeshikoSlimeVR/blob/main/R3%20Mini/Previews/R3Mini103450-1.png"  alt="R3Mini1034501" width=250px />
 
   
 
@@ -101,13 +101,13 @@ The variants of the cases are:
 
 - [ ] R3Mini-503450-BASE.stl
 
-<img  src="https://github.com/Aeurias/NadeshikoSlimeVR/blob/main/R3%20Mini/Previews/R3Mini503450-1.png"  alt="R3Mini5034501"/>
+<img  src="https://github.com/Aeurias/NadeshikoSlimeVR/blob/main/R3%20Mini/Previews/R3Mini503450-1.png"  alt="R3Mini5034501" width=250px />
 
  <br/>
 
 **Tracker Extension** - The tracker extension is also three part, the main **CASE** and an **ENDCAP** and then the **PCB** to mount the BMI/BNO module and ZH 1.5mm 5 Pin connector, this also comes with 2 ways to mount the strap; same as the main case or right through it above the PCB.
 
-<img  src="https://github.com/Aeurias/NadeshikoSlimeVR/blob/main/TrackerExtension/Previews/Extension-1.png"  alt="TrackerExtension"/>  <img  src="https://github.com/Aeurias/NadeshikoSlimeVR/blob/main/TrackerExtension/Previews/Extension-PCB-Front.png"  alt="TrackerExtensionPCB"/>
+<img  src="https://github.com/Aeurias/NadeshikoSlimeVR/blob/main/TrackerExtension/Previews/Extension-1.png"  alt="TrackerExtension" width=250px />  <img  src="https://github.com/Aeurias/NadeshikoSlimeVR/blob/main/TrackerExtension/Previews/Extension-PCB-Front.png"  alt="TrackerExtensionPCB" width=250px />
 
 <br/>
 
