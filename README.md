@@ -29,11 +29,11 @@ PCBs can be ordered from JLCPCB or Elecrow.
 
 ### Case
 
-I've created and iterations of the file and uploaded all of them, at first it was similar to the 18650 Frozen Slimes, which then turned to the cheaper to make and overall less costly trackers with the LiPo pouch battery cells found on Ali Express.
+I've created iterations of the design and uploaded all of them, at first it was similar to the 18650 cell using Frozen Slimes, which then turned to the cheaper LiPo 503450 cells to make it overall less costly trackers.
 
 All of these cases use JLCPCB/JLC3DP resin 3D printing guidelines and tolerances, the cases can be ordered from JLCPCB or Elecrow, the resin to select on your order is up to you. I prefer the **8111X** or **Black Resin**.
 
-The cases and including the tracker extension are 2 part:
+The cases and the tracker extension are 2 part:
 
 A snap fitting top cover or main body with strap through holes exits on the side and have port holes, and a snap fitting base plate for the top cover with strap through holes on the bottom and PCB stand/aligners. For the tracker extension is case with an end cap to close it.
 
