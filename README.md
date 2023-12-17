@@ -55,7 +55,7 @@ PCBs can be ordered from JLCPCB or Elecrow.
 
 <img  src="https://github.com/Aeurias/NadeshikoSlimeVR/blob/main/R3%20Mini/Previews/R3Mini-PCB-Front.png"  alt="R3MiniPCBFront" width=250px />&nbsp;&nbsp;<img  src="https://github.com/Aeurias/NadeshikoSlimeVR/blob/main/R3%20Mini/Previews/R3Mini-PCB-Back.png"  alt="R3MiniPCBBack" width=260px />&nbsp;&nbsp;<img  src="https://github.com/Aeurias/NadeshikoSlimeVR/blob/main/TrackerExtension/Previews/Extension-PCB-Front.png"  alt="TrackerExtensionPCB" width=250px />
 
-<p align="center">*PCB Front/Back - Extension Tracker*</p>
+<p align="center">PCB Front/Back - Extension Tracker</p>
 
 These PCB's have the TP4056 charger on the back side to save on size, a JST 2mm 2-Pin connector can be added to make battery connections and swaps easier, an SK12D07VG 3-pin switch in 4, 5 or 6mm will be used to turn the tracker on or off, and a ZH 1.5mm 5-pin connector is used for AUX tracker extension communication with SCL and SDA in the same cable layout as the official tracker extension method to avoid crosstalk on long extension cables.
 
