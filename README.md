@@ -1,5 +1,5 @@
 <h1 align="center">
-  <a name="logo" href="l"><img src="https://github.com/Aeurias/NadeshikoSlimeVR/blob/main/Misc/logo.png" alt="@Nadeshiko's SlimeVR" width="200"></a>
+  <a name="logo" href="l"><img src="https://github.com/Aeurias/NadeshikoSlimeVR/blob/main/Misc/logo.png" alt="@Nadeshiko's SlimeVR"></a>
   <br>
   Bear Stone Smart Home Documentation
 </h1>
