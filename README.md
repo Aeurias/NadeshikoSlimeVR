@@ -91,7 +91,7 @@ The variants of the cases are:
 
 - [ ] R3Mini-103450-BASE.stl
 
-<img  src="https://github.com/Aeurias/NadeshikoSlimeVR/blob/main/R3%20Mini/Previews/readmepreview1.png"  alt="R3Mini1034501"/>
+<img  src="https://github.com/Aeurias/NadeshikoSlimeVR/blob/main/Misc/readmepreview1.png"  alt="R3Mini1034501"/>
 
   
 
@@ -101,7 +101,7 @@ The variants of the cases are:
 
 - [ ] R3Mini-503450-BASE.stl
 
-<img  src="https://github.com/Aeurias/NadeshikoSlimeVR/blob/main/R3%20Mini/Previews/readmepreview2.png"  alt="R3Mini5034501"/>
+<img  src="https://github.com/Aeurias/NadeshikoSlimeVR/blob/main/Misc/readmepreview2.png"  alt="R3Mini5034501"/>
 
  <br/>
 
