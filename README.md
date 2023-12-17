@@ -91,7 +91,7 @@ The variants of the cases are:
 
 - [ ] R3Mini-103450-BASE.stl
 
-<img  src="https://github.com/Aeurias/NadeshikoSlimeVR/blob/main/R3%20Mini/Previews/R3Mini103450-1.png"  alt="R3Mini1034501"/>
+<img  src="https://github.com/Aeurias/NadeshikoSlimeVR/blob/main/R3%20Mini/Previews/R3Mini103450-1.png"  alt="R3Mini1034501" width=200px />
 
   
 
