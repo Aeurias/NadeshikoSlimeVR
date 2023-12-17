@@ -94,7 +94,8 @@ The variants of the cases are:
 
 
 <img  src="https://github.com/Aeurias/NadeshikoSlimeVR/blob/main/Misc/readmepreview1.png"  alt="R3Mini1034501"/>
-<p style="text-align: center;"> *7.03x2.74x5.23cm* </p>
+
+<div align="center"> 7.03x2.74x5.23cm </div>
 
 <br/>
 
@@ -109,7 +110,8 @@ The variants of the cases are:
 
 
 <img  src="https://github.com/Aeurias/NadeshikoSlimeVR/blob/main/Misc/readmepreview2.png"  alt="R3Mini5034501"/>
-<p style="text-align: center;"> *7.03x2.11x5.23cm* </p>
+
+<div align="center">7.03x2.11x5.23cm </div>
 
  <br/>
 
