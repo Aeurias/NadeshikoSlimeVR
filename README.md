@@ -91,7 +91,7 @@ The variants of the cases are:
 
 - [ ] R3Mini-103450-BASE.stl
 
-<img  src="https://github.com/Aeurias/NadeshikoSlimeVR/blob/main/R3%20Mini/Previews/R3Mini103450-1.png"  alt="R3Mini1034501" width=200px /><img  src="https://github.com/Aeurias/NadeshikoSlimeVR/blob/main/R3%20Mini/Previews/R3Mini103450-2.png"  alt="R3Mini1034501" width=200px /><img  src="https://github.com/Aeurias/NadeshikoSlimeVR/blob/main/R3%20Mini/Previews/R3Mini103450-3.png"  alt="R3Mini1034501" width=200px />
+<img  src="https://github.com/Aeurias/NadeshikoSlimeVR/blob/main/R3%20Mini/Previews/R3Mini103450-1.png"  alt="R3Mini1034501" width=200px /> <img  src="https://github.com/Aeurias/NadeshikoSlimeVR/blob/main/R3%20Mini/Previews/R3Mini103450-2.png"  alt="R3Mini1034501" width=200px />&nbsp;&nbsp;&nbsp;&nbsp;<img  src="https://github.com/Aeurias/NadeshikoSlimeVR/blob/main/R3%20Mini/Previews/R3Mini103450-3.png"  alt="R3Mini1034501" width=200px />
 
   
 
@@ -101,7 +101,7 @@ The variants of the cases are:
 
 - [ ] R3Mini-503450-BASE.stl
 
-<img  src="https://github.com/Aeurias/NadeshikoSlimeVR/blob/main/R3%20Mini/Previews/R3Mini503450-1.png"  alt="R3Mini5034501" width=200px /><img  src="https://github.com/Aeurias/NadeshikoSlimeVR/blob/main/R3%20Mini/Previews/R3Mini503450-2.png"  alt="R3Mini5034501" width=200px /><img  src="https://github.com/Aeurias/NadeshikoSlimeVR/blob/main/R3%20Mini/Previews/R3Mini503450-3.png"  alt="R3Mini5034501" width=200px />
+<img  src="https://github.com/Aeurias/NadeshikoSlimeVR/blob/main/R3%20Mini/Previews/R3Mini503450-1.png"  alt="R3Mini5034501" width=200px /> <img  src="https://github.com/Aeurias/NadeshikoSlimeVR/blob/main/R3%20Mini/Previews/R3Mini503450-2.png"  alt="R3Mini5034501" width=200px />&nbsp;&nbsp;&nbsp;&nbsp;<img  src="https://github.com/Aeurias/NadeshikoSlimeVR/blob/main/R3%20Mini/Previews/R3Mini503450-3.png"  alt="R3Mini5034501" width=200px />
 
  <br/>
 
