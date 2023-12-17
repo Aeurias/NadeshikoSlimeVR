@@ -202,7 +202,9 @@ Steps
 - [ ] Polyimide tape to protect LiPo batteries from PCB and pins.
 
 - [ ] Connect battery.
-
+ 
+  
+   
   
 
 ### Flashing firmware
