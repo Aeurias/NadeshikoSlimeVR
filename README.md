@@ -51,8 +51,6 @@ The variants of the cases are:
 - [ ] R3Mini-503450-BASE.stl
 <img  src="https://github.com/Aeurias/NadeshikoSlimeVR/blob/main/R3%20Mini/Previews/R3Mini503450-1.png"  alt="R3Mini5034501"/>
 
-<img  src="https://github.com/Aeurias/NadeshikoSlimeVR/blob/main/R1/Previews/R1-PCB-Front.png"  alt="R1PCB"/>
-
 <br/>
 <br>
 
