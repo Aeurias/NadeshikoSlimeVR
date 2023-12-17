@@ -57,6 +57,8 @@ PCBs can be ordered from JLCPCB or Elecrow.
 
 *PCB Front/Back - Extension Tracker*
 
+These PCB's have the TP4056 charger on the back side to save on size, a JST 2mm 2-Pin connector can be added to make battery connections and swaps easier, an SK12D07VG 3-pin switch in 4, 5 or 6mm will be used to turn the tracker on or off, and a ZH 1.5mm 5-pin connector is used for AUX tracker extension communication with SCL and SDA in the same cable layout as the official tracker extension method to avoid crosstalk on long extension cables.
+
   
 
 ### Case
