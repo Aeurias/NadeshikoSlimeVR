@@ -73,11 +73,15 @@ All of these cases use JLCPCB/JLC3DP resin 3D printing guidelines and tolerances
 
   
 
-The cases and the tracker extension are 2 part:
+The cases and the tracker extension are 2 part
 
   
 
 A snap fitting top cover or main body with strap through holes exits on the side and have port holes, and a snap fitting base plate for the top cover with strap through holes on the bottom and PCB stand/aligners. For the tracker extension is case with an end cap to close it.
+
+50mm strap can be fitted to these, best one to use is the non-slip elastic strap kind and using plastic buckles in same size to make it easier to remove as included in the google sheet BOM. The strap has few bends through the case to stop any unnessary slop or shake when moving and keep it locked against the skin.
+
+A gentle curve has been added on the underside of the case matching that of arms, legs or hip, this is to reduce any digging into the skin with edges and increase contact area of the non-slip strap.
 
   
 
@@ -120,6 +124,8 @@ Rev 3. **503450 & 103450 LiPo's** - These cases use a smaller PCB design that ma
  <br/>
 
 **Tracker Extension** - The tracker extension is also three part, the main **CASE** and an **ENDCAP** and then the **PCB** to mount the BMI/BNO module and ZH 1.5mm 5 Pin connector, this also comes with 2 ways to mount the strap; same as the main case or right through it above the PCB.
+
+25mm hook and loop straps can be used with the extension case.
 
 <img  src="https://github.com/Aeurias/NadeshikoSlimeVR/blob/main/Tracker%20Extension/Previews/Extension-1.png"  alt="TrackerExtension" width=200px /> <img  src="https://github.com/Aeurias/NadeshikoSlimeVR/blob/main/Tracker%20Extension/Previews/Extension-2.png"  alt="TrackerExtension" width=180px /> <img  src="https://github.com/Aeurias/NadeshikoSlimeVR/blob/main/Tracker%20Extension/Previews/Extension-3.png"  alt="TrackerExtension" width=220px />
 
