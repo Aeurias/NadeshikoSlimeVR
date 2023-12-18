@@ -13,7 +13,7 @@
 
 Based off the [SlimeVR Official Component Guide](https://docs.slimevr.dev/diy/components-guide.html)
 
-These Slime's run on a Wemos D1 Mini with IMU of your choice that have module profile same as the SlimeVR BNO08Xs or the BMI160's, they use the TP4056 charger for the battery that can work with LiPo cells and 18650 cells.
+These Slime's run on a Wemos D1 Mini with IMU of your choice that have module profile same as the SlimeVR BNO08Xs or the BMI160's, they use the TP4056 charger for the battery that can work with 3.7V LiPo cells.
 
   
 
