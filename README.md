@@ -29,7 +29,7 @@ These Slime's run on a Wemos D1 Mini with IMU of your choice that have module pr
 
 -  [Assembly](#assembly)
 
--  [Flashing Firmware](#flashing-firmware)
+-  [Resources](#resources)
 
   
 
@@ -37,7 +37,7 @@ These Slime's run on a Wemos D1 Mini with IMU of your choice that have module pr
 
   
 
-**[The components needed have been all added to a sheet here with links to each item's page and total cost.](https://docs.google.com/spreadsheets/d/1Np8FZpWfbQaHiXM6Y5nCLdoeBbmQeeP_hg5ss5rDM44/edit?usp=sharing)**
+#### **[The components needed have been all added to a sheet here with links to each item's store page and total cost.](https://docs.google.com/spreadsheets/d/1Np8FZpWfbQaHiXM6Y5nCLdoeBbmQeeP_hg5ss5rDM44/edit?usp=sharing)**
 
   
 
@@ -165,52 +165,20 @@ Steps
 - [ ] Polyimide tape to protect LiPo batteries from PCB and pins.
 
 - [ ] Connect battery.
- 
+
+- [ ] Flash firmware using the SlimeVR DIY Documenation as guide. 
   
    
 <br>
 
-### Flashing firmware
 
   
 
-Make sure to install the Slime VR server with drivers first.
-
-If the Slime VR drivers aren't working for you:
+### Resources
 
   
 
-- [ ] Uninstall the drivers from device manager
-
-- [ ] Extract and install [CH340 driver](https://www.wemos.cc/en/latest/ch340_driver.html)
-
-- [ ] Flash the trackers
-
-  
-
-BMI160 Specific Instructions:
-
-  
-
-- [ ] Use this online [firmware flasher](https://slimevr-firmware.bscotch.ca/) with the latest version of main.
-
-- [ ] Orientation:
-
-  
-
-![BMI160Orientation](https://user-images.githubusercontent.com/98719680/227734508-38e85ab7-38b9-43e7-b7cb-f7d4d2efbc29.png)
-
-  
-
-- [ ] [BMI160 Calibration](https://github.com/SlimeVR/SlimeVR-Tracker-ESP?files=1#bmi160)
-
-  
-
-### Links
-
-  
-
-Resources:
+Links:
 
   
 
@@ -223,3 +191,15 @@ Resources:
   
 
 -  [SlimeVR Discord](https://discord.gg/SlimeVR)
+
+  
+
+-  [Online Firmware Flasher](https://slimevr-firmware.bscotch.ca/)
+
+  
+
+-  [CH340 driver](https://www.wemos.cc/en/latest/ch340_driver.html)
+
+  
+
+-  [BMI160 Calibration](https://github.com/SlimeVR/SlimeVR-Tracker-ESP?files=1#bmi160)
