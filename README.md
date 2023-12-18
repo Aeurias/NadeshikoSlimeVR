@@ -85,7 +85,7 @@ The variants of the cases are:
 
   
 
-**503450 & 103450 LiPo's** - These cases use the smaller PCB design that are overall lighter, cheaper to build and print. The LiPo batteries for these can be found for a lot less than the 18650 cells but with basically the same run time for a SlimeVR tracker use:
+Rev 3. **503450 & 103450 LiPo's** - These cases use a smaller PCB design that makes the whole tracker lighter, cheaper to build. The LiPo batteries for these can be found for a lot less than the 18650 cells but with basically the same runtime. The wall thickness tolerances are better also for resin printing.
 
   
 
@@ -124,53 +124,6 @@ The variants of the cases are:
 <img  src="https://github.com/Aeurias/NadeshikoSlimeVR/blob/main/TrackerExtension/Previews/Extension-1.png"  alt="TrackerExtension" width=200px /> <img  src="https://github.com/Aeurias/NadeshikoSlimeVR/blob/main/TrackerExtension/Previews/Extension-2.png"  alt="TrackerExtension" width=180px /> <img  src="https://github.com/Aeurias/NadeshikoSlimeVR/blob/main/TrackerExtension/Previews/Extension-3.png"  alt="TrackerExtension" width=220px />
 
 <br/>
-
-
-#### *Optional other/old variants:*
-
-  
-
-**103450 LiPo** - This similar to the current 103450, but was larger size and PCB was single sided for modules.
-
-  
-
-- [ ] R2Mini-103450-TOP.stl
-
-- [ ] R2Mini-103450-BASE.stl
-
-  
-
-**503450 LiPo** - Same as above but smaller battery size.
-
-  
-
-- [ ] R2Mini-503450-TOP.stl
-
-- [ ] R2Mini-503450-BASE.stl
-
-  
-
-**18650 Li-ion Cell** - This variant can utilize the 18650 battery cells and cell holder.
-
-  
-
-- [ ] R1-18650-TOP.stl
-
-- [ ] R1-18650-BASE.stl
-
-  
-
-**Thin/Long/Odd LiPo's** - This cases uses the same PCB as the 18650 but without the cell holder to allow thin LiPo to be installed.
-
-  
-
-- [ ] R1-LiPo-TOP.stl
-
-- [ ] R1-LiPo-BASE.stl
-
-  
-
-
 
 
 <br>
