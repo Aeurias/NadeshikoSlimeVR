@@ -149,11 +149,11 @@ Basic steps of assembly
 
 4. [ ] 1x 180K resistor and 2x 1N5817 diodes soldered in the correct orientation on the PCB.
 
-- - [ ] If using BMI160Bridge GND>SAO pads on the back of PCB.
+- - [ ] If using BMI160: Bridge GND>SAO pads on the back of PCB.
 
 6. [ ] Solder on a JST PH 2mm 2-Pin battery connector in correct polarity (optional but recommended).
 
-- - [ ] Check LiPo's battery connector matches the +/- polarity as on the PCB (Fix on the batteries connector if not!).
+- - [ ] Check LiPo's battery connector matches the +/- polarity as on the PCB! (Fix on the batteries connector if not!).
 
 7. [ ] Solder on a SK12D07VG 4/5/6mm slide switch.
 
