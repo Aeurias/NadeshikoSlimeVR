@@ -161,9 +161,9 @@ Basic steps of assembly
 
 9. [ ] Polyimide tape to protect LiPo batteries from PCB and pins (or something equivalent).
 
-10. [ ] Connect the battery.
+10. [ ] Connect the battery. Whilst switch in OFF position.
 
-11. [ ] Flash firmware using the SlimeVR DIY Documentation as guide.
+11. [ ] Flash firmware using the SlimeVR DIY Documentation as guide. Whilst switch in OFF position.
   
    
 <br>
