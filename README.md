@@ -53,7 +53,7 @@ PCBs can be ordered from JLCPCB or Elecrow.
 
   
 
-<img  src="https://github.com/Aeurias/NadeshikoSlimeVR/blob/main/Tracker%20Main//Previews/R3Mini-PCB-Front.png"  alt="R3MiniPCBFront" width=250px />&nbsp;&nbsp;<img  src="https://github.com/Aeurias/NadeshikoSlimeVR/blob/main/Tracker%20Main//Previews/R3Mini-PCB-Back.png"  alt="R3MiniPCBBack" width=260px />&nbsp;&nbsp;<img  src="https://github.com/Aeurias/NadeshikoSlimeVR/blob/main/Tracker%20Extension/Previews/Extension-PCB-Front.png"  alt="TrackerExtensionPCB" width=250px />
+<img  src="https://github.com/Aeurias/NadeshikoSlimeVR/blob/main/Misc/PCBFront.png"  alt="R3MiniPCBFront" width=250px />&nbsp;&nbsp;<img  src="https://github.com/Aeurias/NadeshikoSlimeVR/blob/main/Misc/PCBBack.png"  alt="R3MiniPCBBack" width=260px />&nbsp;&nbsp;<img  src="https://github.com/Aeurias/NadeshikoSlimeVR/blob/main/Tracker%20Extension/Previews/Extension-PCB-Front.png"  alt="TrackerExtensionPCB" width=250px />
 
 <p align="center">PCB Front/Back - Extension Tracker</p>
 
