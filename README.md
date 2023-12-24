@@ -11,7 +11,7 @@
 
   
 
-Based off the [SlimeVR Official Component Guide](https://docs.slimevr.dev/diy/components-guide.html)
+Based off the [SlimeVR Official Component Guide](https://docs.slimevr.dev/diy/components-guide.html).
 
 These Slime's run on a Wemos D1 Mini with IMU of your choice that have module profile same as the SlimeVR BNO08Xs or the BMI160's, they use the TP4056 charger for the battery that can work with 3.7V LiPo cells.
 
@@ -120,7 +120,7 @@ The variants of the cases are:
 
  <br/>
 
-- **Tracker Extension** - The tracker extension is also three part, the main case, an endcap and along with the PCB to mount the BMI/BNO module and ZH 1.5mm 5 Pin connector. 25mm hook and loop straps can be used with the extension case. The PCB is based of the [SlimeVR OSHWLab DIY Extension](https://oshwlab.com/eirenliel/slimevr-diy-tracker-extension) changes to make it easier for hand soldering and case fitment.
+- **Tracker Extension** - It is also three part, the main case, an endcap and along with the PCB to mount the BMI/BNO module and ZH 1.5mm 5 Pin connector. 25mm hook and loop straps can be used with the extension case. The PCB is based of the [SlimeVR OSHWLab DIY Extension](https://oshwlab.com/eirenliel/slimevr-diy-tracker-extension) changes to make it easier for hand soldering and case fitment.
 
 <div align="center"><img  src="https://github.com/Aeurias/NadeshikoSlimeVR/blob/main/Tracker%20Extension/Previews/Extension-1.png"  alt="TrackerExtension" width=200px /> <img  src="https://github.com/Aeurias/NadeshikoSlimeVR/blob/main/Tracker%20Extension/Previews/Extension-2.png"  alt="TrackerExtension" width=180px /> <img  src="https://github.com/Aeurias/NadeshikoSlimeVR/blob/main/Tracker%20Extension/Previews/Extension-3.png"  alt="TrackerExtension" width=220px /></div>
 
@@ -135,68 +135,74 @@ The variants of the cases are:
 
 ### Assembly
 
+Make sure all PCB's are cleaned with PCB contact cleaner or IPA. Whilst soldering use flux to make things easier, and always keep your solder iron's tip tinned with solder when not in use to protect from oxidation!
+
+
+Basic steps of assembly for the main trackers is:
+
   
 
-Basic steps of assembly
+- [ ] Solder a TP4056 to breakout PCB.
 
+- [ ] Solder a BMI/BNO08X module to the PCB.
+
+- [ ] Pins from D1 Mini packaging soldered to the D1 Mini, then set it through the holes on the PCB and solder on backside.
+
+- [ ] 1x 180K resistor and 2x 1N5817 diodes soldered in the correct orientation on the PCB.
+
+- - [ ] If using BMI160 modules: Bridge GND>SAO pads on the back of PCB.
+
+- [ ] Solder on a JST PH 2mm 2-Pin battery connector in correct polarity (optional but recommended).
+
+- [ ] Check LiPo's battery connector matches the +/- polarity as on the PCB! (Fix on the batteries connector if not!).
+
+- [ ] Solder on a SK12D07VG 4/5/6mm slide switch.
+
+- [ ] Then a ZH 1.5mm 5 Pin connector for communication with extension tracker (optional or use on ankle trackers for feet extensions).
+
+- [ ] Use Polyimide tape or equivalent to protect LiPo batteries from sharps, shorts and pins.
+
+- [ ] Connect the battery. Whilst switch in OFF position.
+
+- [ ] Whilst switch in OFF position. Flash firmware using the online firmware flasher or by following the SlimeVR firmware documentation.
   
 
-1. [ ] Solder a TP4056 to breakout PCB.
+Basic steps of assembly for the extension trackers:
+  
 
-2. [ ] Solder a BMI/BNO08X to the PCB.
+- [ ] Solder on a 0603 100nf capacitor to the PCB.
 
-3. [ ] Pins from D1 Mini packaging soldered to the D1 Mini, then set it through the holes on the PCB and solder on backside.
+- [ ] Then the ZH 1.5mm 5 Pin connector for communication with main tracker.
 
-4. [ ] 1x 180K resistor and 2x 1N5817 diodes soldered in the correct orientation on the PCB.
-
-- - [ ] If using BMI160: Bridge GND>SAO pads on the back of PCB.
-
-6. [ ] Solder on a JST PH 2mm 2-Pin battery connector in correct polarity (optional but recommended).
-
-7. [ ] Check LiPo's battery connector matches the +/- polarity as on the PCB! (Fix on the batteries connector if not!).
-
-8. [ ] Solder on a SK12D07VG 4/5/6mm slide switch.
-
-9. [ ] Then a ZH 1.5mm 5 Pin connector for communication with extension tracker (optional/use on ankle main tracker for feet extensions).
-
-10. [ ] Polyimide tape to protect LiPo batteries from PCB and pins (or something equivalent).
-
-11. [ ] Connect the battery. Whilst switch in OFF position.
-
-12. [ ] Flash firmware using the SlimeVR DIY Documentation as guide. Whilst switch in OFF position.
+- [ ] Solder a BMI/BNO08X module to the PCB.
   
    
 <br>
 
 
-  
 
 ### Resources
 
-  
 
 Useful Links:
 
-  
-
--  [SlimeVR Documentation)](https://docs.slimevr.dev/)
-
-  
-
--  [Github Repository SlimeVR](https://github.com/SlimeVR/)
-
-  
-
--  [SlimeVR Discord](https://discord.gg/SlimeVR)
-
-  
 
 -  [Online Firmware Flasher](https://slimevr-firmware.bscotch.ca/)
 
-  
+
+-  [SlimeVR Documentation](https://docs.slimevr.dev/)
+
+
+-  [IMU Rotation](https://docs.slimevr.dev/firmware/configuring-project.html#adjust-imu-board-rotation)
+
 
 -  [CH340 driver](https://www.wemos.cc/en/latest/ch340_driver.html)
 
-  
 
 -  [BMI160 Calibration](https://github.com/SlimeVR/SlimeVR-Tracker-ESP?files=1#bmi160)
+
+
+-  [Github SlimeVR](https://github.com/SlimeVR/)
+
+
+-  [Discord SlimeVR](https://discord.gg/SlimeVR)
