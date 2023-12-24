@@ -98,7 +98,7 @@ The variants of the cases are:
 
 
 
-<img  src="https://github.com/Aeurias/NadeshikoSlimeVR/blob/main/Misc/readmepreview1.png"  alt="R3Mini1034501"/>
+<div align="center"><img  src="https://github.com/Aeurias/NadeshikoSlimeVR/blob/main/Misc/readmepreview1.png"  alt="R3Mini1034501"/></div>
 
 <div align="center">7.03x2.74x5.23cm</div>
 
@@ -114,7 +114,7 @@ The variants of the cases are:
 
 
 
-<img  src="https://github.com/Aeurias/NadeshikoSlimeVR/blob/main/Misc/readmepreview2.png"  alt="R3Mini5034501"/>
+<div align="center"><img  src="https://github.com/Aeurias/NadeshikoSlimeVR/blob/main/Misc/readmepreview2.png"  alt="R3Mini5034501"/></div>
 
 <div align="center">7.03x2.11x5.23cm </div>
 
@@ -122,7 +122,7 @@ The variants of the cases are:
 
 - **Tracker Extension** - The tracker extension is also three part, the main case, an endcap and along with the PCB to mount the BMI/BNO module and ZH 1.5mm 5 Pin connector. 25mm hook and loop straps can be used with the extension case. The PCB is based of the [SlimeVR OSHWLab DIY Extension](https://oshwlab.com/eirenliel/slimevr-diy-tracker-extension).
 
-<img  src="https://github.com/Aeurias/NadeshikoSlimeVR/blob/main/Tracker%20Extension/Previews/Extension-1.png"  alt="TrackerExtension" width=200px /> <img  src="https://github.com/Aeurias/NadeshikoSlimeVR/blob/main/Tracker%20Extension/Previews/Extension-2.png"  alt="TrackerExtension" width=180px /> <img  src="https://github.com/Aeurias/NadeshikoSlimeVR/blob/main/Tracker%20Extension/Previews/Extension-3.png"  alt="TrackerExtension" width=220px />
+<div align="center"><img  src="https://github.com/Aeurias/NadeshikoSlimeVR/blob/main/Tracker%20Extension/Previews/Extension-1.png"  alt="TrackerExtension" width=200px /> <img  src="https://github.com/Aeurias/NadeshikoSlimeVR/blob/main/Tracker%20Extension/Previews/Extension-2.png"  alt="TrackerExtension" width=180px /> <img  src="https://github.com/Aeurias/NadeshikoSlimeVR/blob/main/Tracker%20Extension/Previews/Extension-3.png"  alt="TrackerExtension" width=220px /></div>
 
 <div align="center">3.80×1.10×3.19 cm</div>
 
@@ -153,17 +153,17 @@ Basic steps of assembly
 
 6. [ ] Solder on a JST PH 2mm 2-Pin battery connector in correct polarity (optional but recommended).
 
-- - [ ] Check LiPo's battery connector matches the +/- polarity as on the PCB! (Fix on the batteries connector if not!).
+7. [ ] Check LiPo's battery connector matches the +/- polarity as on the PCB! (Fix on the batteries connector if not!).
 
-7. [ ] Solder on a SK12D07VG 4/5/6mm slide switch.
+8. [ ] Solder on a SK12D07VG 4/5/6mm slide switch.
 
-8. [ ] Then a ZH 1.5mm 5 Pin connector for communication with extension tracker (optional/use on ankle main tracker for feet extensions).
+9. [ ] Then a ZH 1.5mm 5 Pin connector for communication with extension tracker (optional/use on ankle main tracker for feet extensions).
 
-9. [ ] Polyimide tape to protect LiPo batteries from PCB and pins (or something equivalent).
+10. [ ] Polyimide tape to protect LiPo batteries from PCB and pins (or something equivalent).
 
-10. [ ] Connect the battery. Whilst switch in OFF position.
+11. [ ] Connect the battery. Whilst switch in OFF position.
 
-11. [ ] Flash firmware using the SlimeVR DIY Documentation as guide. Whilst switch in OFF position.
+12. [ ] Flash firmware using the SlimeVR DIY Documentation as guide. Whilst switch in OFF position.
   
    
 <br>
