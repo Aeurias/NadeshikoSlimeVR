@@ -21,11 +21,11 @@ These Slime's run on a Wemos D1 Mini with IMU of your choice that have module pr
 
   
 
--  [Components](#components)
-
 -  [PCB](#pcb)
 
 -  [Case](#case)
+
+-  [Components](#components)
 
 -  [Assembly](#assembly)
 
@@ -33,14 +33,8 @@ These Slime's run on a Wemos D1 Mini with IMU of your choice that have module pr
 
 -  [Resources](#resources)
 
-  
 
-### Components
-
-  
-
-#### **[The components needed have been all added to a sheet here with links to each item's store page and total cost.](https://docs.google.com/spreadsheets/d/1Np8FZpWfbQaHiXM6Y5nCLdoeBbmQeeP_hg5ss5rDM44/edit?usp=sharing)**
-
+<br/>
   
 
 ### PCB
@@ -132,6 +126,14 @@ The variants of the cases are:
 
 <br/>
 
+
+
+### Components
+
+
+#### **[The components needed have been all added to a sheet here with links to each item's store page and total cost.](https://docs.google.com/spreadsheets/d/1Np8FZpWfbQaHiXM6Y5nCLdoeBbmQeeP_hg5ss5rDM44/edit?usp=sharing)**
+
+<div align="center"><img  src="https://github.com/Aeurias/NadeshikoSlimeVR/blob/main/Misc/MockModulesRender.png"  alt="Componenents" width=200px /> </div>
 
 <br>
 
