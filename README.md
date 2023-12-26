@@ -137,7 +137,7 @@ The variants of the cases are:
 
 <br>
 
-  
+
 
 ### Assembly
 
@@ -223,3 +223,6 @@ Useful Links:
 
 
 -  [Discord SlimeVR](https://discord.gg/SlimeVR)
+
+
+<div align="center"><img  src="https://github.com/Aeurias/NadeshikoSlimeVR/blob/main/Misc/PlacementExample.png"  alt="TrackerPlacement"/></div>
