@@ -29,6 +29,8 @@ These Slime's run on a Wemos D1 Mini with IMU of your choice that have module pr
 
 -  [Assembly](#assembly)
 
+-  [Alternative IMUs](#IMU)
+
 -  [Resources](#resources)
 
   
@@ -177,6 +179,17 @@ Basic steps of assembly for the extension trackers:
 - [ ] Solder a BMI/BNO08X module to the PCB.
   
    
+<br>
+
+
+
+### IMU
+
+
+LGA14 footprint BMI-160 alternatives such as the BMI-270, BMI360, LSM6, ICM42688, BHI360 etc. can be done with the [LSM6DSV Module by Kounocom](https://github.com/kounocom/LSM6DSV-Module) or by solder work on cheap Aliexpress GY-BMI-160 modules with your desired IC.
+This requires you to use a [mini hot plate](https://www.aliexpress.com/w/wholesale-solder-mini-hot-plate.html?g=y&SearchText=solder+mini+hot+plate&sortType=total_tranpro_desc) instead of hot air for soldering to prevent the IMU from being melted. Begin by placing solder on the module's IMU pads using your soldering iron, clean with IPA, add some fresh flux on the pads and put your replacement IMU on using the hot plate.
+
+
 <br>
 
 
