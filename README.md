@@ -133,7 +133,7 @@ The variants of the cases are:
 
 #### **[The components needed have been all added to a sheet here with links to each item's store page and total cost.](https://docs.google.com/spreadsheets/d/1Np8FZpWfbQaHiXM6Y5nCLdoeBbmQeeP_hg5ss5rDM44/edit?usp=sharing)**
 
-<div align="center"><img  src="https://github.com/Aeurias/NadeshikoSlimeVR/blob/main/Misc/MockModulesRender.png"  alt="Componenents" width=200px /> </div>
+<div align="center"><img  src="https://github.com/Aeurias/NadeshikoSlimeVR/blob/main/Misc/render4.png"  alt="Componenents"/> </div>
 
 <br>
 
