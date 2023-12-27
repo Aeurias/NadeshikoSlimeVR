@@ -134,14 +134,15 @@ The components needed have been all added to a Google sheet here with links to e
 
 Make sure all PCB's are clean before soldering, can use PCB cleaner or isopropyl alcohol both before and after soldering. The before is to be sure the pads are clean of any oils or films if you are unsure. The after is to remove the flux, which some are acidic and will attack the solder joint over time. Whilst soldering use flux to make things easier, and always keep your solder iron's tip tinned with solder when not in use to protect from oxidation! 
 
+When using header pins, longer end of the pins point upwards toward the component and the shorter end goes into the PCB. Clip off any excess.
+
 
 Basic steps of assembly for the main trackers is:
-
   
 
-- [ ] Solder a TP4056 to the breakout PCB.
-- [ ] Solder a BMI/BNO08X module to the PCB.
-- [ ] Pins from D1 Mini packaging soldered to the D1 Mini, then set it through the holes on the PCB and solder on backside.
+- [ ] Solder a TP4056 flush to the breakout PCB.
+- [ ] Solder BMI/BNO08X module to the PCB with header pins or flush.
+- [ ] Solder D1 Mini with included header pins.
 - [ ] 1x 180K resistor and 2x 1N5817 diodes soldered in the correct orientation on the PCB.
 - - [ ] If using BMI160 modules: Bridge GND>SAO pads on the back of PCB.
 - [ ] Solder on a JST PH 2mm 2-Pin battery connector in correct polarity (optional but recommended).
@@ -156,9 +157,9 @@ Basic steps of assembly for the main trackers is:
 Basic steps of assembly for the extension trackers:
   
 
-- [ ] Solder on a 0603 100nf capacitor to the PCB.
+- [ ] Solder on a 0603 100nf capacitor to the extension PCB.
 - [ ] Then the ZH 1.5mm 5 Pin connector for communication with main tracker.
-- [ ] Solder a BMI/BNO08X module to the PCB.
+- [ ] Solder a BMI/BNO08X module flush to the extension PCB.
   
    
 <br>
