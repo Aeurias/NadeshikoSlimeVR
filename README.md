@@ -158,10 +158,10 @@ Basic steps of assembly for the main trackers is:
 - [ ] Solder D1 Mini with included header pins.
 - [ ] 1x 180K resistor and 2x 1N5817 diodes soldered in the correct orientation on the PCB.
 - - [ ] If using BMI160 modules: Bridge GND>SAO pads on the back of PCB.
-- [ ] Solder on a JST PH 2mm 2-Pin battery connector in correct polarity (optional but recommended).
-- [ ] Check LiPo's battery connector matches the +/- polarity as on the PCB (Fix on the battery connectors if not).
+- [ ] Solder on a JST PH 2mm 2-Pin header for battery in correct polarity (optional but recommended).
+- [ ] Check LiPo's battery JST plug matches the +/- polarity as on the PCB's Header (Fix on the battery plug if not).
 - [ ] Solder on a SK12D07VG 4/5/6mm slide switch.
-- [ ] Then a ZH 1.5mm 5 Pin connector for communication with extension tracker (optional or use on ankle trackers for feet extensions).
+- [ ] Then a ZH 1.5mm 5 Pin header for communication with extension tracker (optional or use on ankle trackers for feet extensions).
 - [ ] Use Polyimide tape or equivalent to protect LiPo batteries from sharps, shorts and pins.
 - [ ] Connect the battery. Whilst switch in OFF position.
 - [ ] Whilst switch in OFF position. Flash firmware using the online firmware flasher or by following the SlimeVR firmware documentation.
@@ -171,7 +171,7 @@ Basic steps of assembly for the extension trackers:
   
 
 - [ ] Solder on a 0603 100nf capacitor to the extension PCB.
-- [ ] Then the ZH 1.5mm 5 Pin connector for communication with main tracker.
+- [ ] Then the ZH 1.5mm 5 Pin header for communication with main tracker.
 - [ ] Solder a BMI/BNO08X module flush to the extension PCB.
   
    
