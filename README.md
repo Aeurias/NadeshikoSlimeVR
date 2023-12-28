@@ -15,6 +15,20 @@ Based off the [SlimeVR Official Component Guide](https://docs.slimevr.dev/diy/co
 
 @Nadeshiko Slime's run on a Wemos D1 Mini with IMU IC of your choice that have module profile same as the SlimeVR BNO085's or the BMI160's, they use the TP4056 charger for 3.7V LiPo batteries.
 
+- Easy & cheap to build.
+- No wires needed to be soldered.
+- Lightweight & smooth clean looks.
+- 40mm or 50mm strap width supported.
+- Detailed component purchase list.
+<br/> 
+
+#### WIP
+ 
+- Multi port charging dock.
+- Photographed assembly instructions.
+
+
+
   
 
 ## Index
