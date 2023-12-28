@@ -20,7 +20,6 @@ Based off the [SlimeVR Official Component Guide](https://docs.slimevr.dev/diy/co
 - Lightweight & smooth clean looks.
 - 40mm or 50mm strap width supported.
 - Detailed component purchase list.
-<br/> 
 
 #### WIP
  
