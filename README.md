@@ -13,7 +13,7 @@
 
 Based off the [SlimeVR Official Component Guide](https://docs.slimevr.dev/diy/components-guide.html).
 
-@Nadeshiko Slime's run on a Wemos D1 Mini with IMU IC of your choice that have module profile same as the SlimeVR BNO085's or the BMI160's, they use the TP4056 charger for 3.7V LiPo batteries.
+@Nadeshiko Slimes run on a Wemos D1 Mini with IMU IC of your choice that have module profile same as the SlimeVR BNO085's or the BMI160's, they use the TP4056 lithium charger module for 3.7V LiPo batteries.
 
 - Easy & cheap to build.
 - No wires needed to be soldered.
@@ -67,7 +67,7 @@ PCBs can be ordered from [Elecrow](https://www.elecrow.com/pcb-manufacturing.htm
 
   
 
-The trackers case can house a 3.7v LiPo in sizes 503450 or smaller, to 103450 or smaller which has similar runtime to 18650 Li-ion cells but are cheaper.
+The trackers case depending on the variant, can house a 3.7v LiPo in sizes 503450 or smaller, or 103450 or smaller which has similar runtime to 18650 Li-ion cells but are cheaper.
 
   
 
@@ -147,7 +147,7 @@ The components needed have been all added to a Google sheet here with links to e
 
 Make sure all PCB's are clean before soldering, can use PCB cleaner or isopropyl alcohol both before and after soldering. The before is to be sure the pads are clean of any oils or films if you are unsure. The after is to remove the flux, which some are acidic and will attack the solder joint over time. Whilst soldering use flux to make things easier, and always keep your solder iron's tip tinned with solder when not in use to protect from oxidation! 
 
-When using header pins, longer end of the pins point upwards toward the component and the shorter end goes into the PCB. Clip off any excess.
+When using module header pins, longer end of the pins point upwards toward the component and the shorter end goes into the PCB. Can clip off any excess.
 
 
 Basic steps of assembly for the main trackers is:
@@ -158,7 +158,7 @@ Basic steps of assembly for the main trackers is:
 - [ ] Solder D1 Mini with included header pins.
 - [ ] 1x 180K resistor and 2x 1N5817 diodes soldered in the correct orientation on the PCB.
 - - [ ] If using BMI160 modules: Bridge GND>SAO pads on the back of PCB.
-- [ ] Solder on a JST PH 2mm 2-Pin header for battery in correct polarity (optional but recommended).
+- [ ] (Optional but recommended) Solder on a JST PH 2mm 2-Pin header for battery in correct polarity!
 - [ ] Check LiPo's battery JST plug matches the +/- polarity as on the PCB's Header (Fix on the battery plug if not).
 - [ ] Solder on a SK12D07VG 4/5/6mm slide switch.
 - [ ] Then a ZH 1.5mm 5 Pin header for communication with extension tracker (optional or use on ankle trackers for feet extensions).
