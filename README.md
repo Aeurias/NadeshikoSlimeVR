@@ -13,7 +13,7 @@
 
 Based off the [SlimeVR Official Component Guide](https://docs.slimevr.dev/diy/components-guide.html).
 
-@Nadeshiko Slimes run on a Wemos D1 Mini with IMU IC of your choice that have module profile same as the SlimeVR BNO085's or the BMI160's, they use the TP4056 lithium charger module for 3.7V LiPo batteries.
+@Nadeshiko's Slimes run on a Wemos D1 Mini with IMU IC of your choice that have module profile same as the SlimeVR BNO085's or the BMI160's, they use the TP4056 lithium charger module for 3.7V LiPo batteries.
 
 - Easy & cheap to build.
 - No wires needed to be soldered.
