@@ -93,9 +93,9 @@ The variants of the cases are:
 
 - **103450 LiPo:**  Allows 3.7V LiPo cells up to 10mm thick. Cell dimensions advised are 10x34x50mm or less. *It's the one I recommend, as this has the best runtime for its size and the cells' lower cost per Wh compared to other LiPo sizes.*
 
-- [ ] [103450-TOP.stl]()
+- [ ] [103450-TOP.stl](https://github.com/Aeurias/NadeshikoSlimeVR/blob/main/Tracker%20Main/3D%20Print%20STL/SlimeVRNadeshikoR3Mini103450-TOP.stl)
 
-- [ ] [103450-BASE.stl]()
+- [ ] [103450-BASE.stl](https://github.com/Aeurias/NadeshikoSlimeVR/blob/main/Tracker%20Main/3D%20Print%20STL/SlimeVRNadeshikoR3Mini103450-BASE.stl)
 
 
 
@@ -109,9 +109,9 @@ The variants of the cases are:
 
 -  **503450 LiPo:**  This one allows a 5mm-thick 503450 or thinner LiPo cell. Cell dimensions advised are 5x34x50mm or less. *LiPo's for this size are in high demand, so it may be difficult to find good prices.*
 
-- [ ] [503450-TOP.stl]()
+- [ ] [503450-TOP.stl](https://github.com/Aeurias/NadeshikoSlimeVR/blob/main/Tracker%20Main/3D%20Print%20STL/SlimeVRNadeshikoR3Mini503450-TOP.stl)
 
-- [ ] [503450-BASE.stl]()
+- [ ] [503450-BASE.stl](https://github.com/Aeurias/NadeshikoSlimeVR/blob/main/Tracker%20Main/3D%20Print%20STL/SlimeVRNadeshikoR3Mini503450-BASE.stl)
 
 
 
