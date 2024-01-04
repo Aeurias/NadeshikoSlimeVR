@@ -114,7 +114,7 @@ The files for the extension are:
 
 - [ ] [BODY.stl](https://github.com/Aeurias/NadeshikoSlimeVR/blob/main/Tracker%20Extension/3D%20Print%20STL/SlimeVRNadeshikoExtension-BODY.stl)
 
-- [ ] [ENDCAP.stl](https://github.com/Aeurias/NadeshikoSlimeVR/blob/main/Tracker%20Extension/3D%20Print%20STL/SlimeVR Nadeshiko Extension-ENDCAP.stl)
+- [ ] [ENDCAP.stl](https://github.com/Aeurias/NadeshikoSlimeVR/blob/main/Tracker%20Extension/3D%20Print%20STL/SlimeVRNadeshikoExtension-ENDCAP.stl)
 
 <div align="center"><img  src="https://github.com/Aeurias/NadeshikoSlimeVR/blob/main/Tracker%20Extension/Previews/Extension-1.png"  alt="TrackerExtension" width=200px /> <img  src="https://github.com/Aeurias/NadeshikoSlimeVR/blob/main/Tracker%20Extension/Previews/Extension-2.png"  alt="TrackerExtension" width=180px /> <img  src="https://github.com/Aeurias/NadeshikoSlimeVR/blob/main/Tracker%20Extension/Previews/Extension-3.png"  alt="TrackerExtension" width=220px /></div>
 
