@@ -225,7 +225,7 @@ If the solder does not go all the way through, add some on the top side too:
 #### Step 3 -  Clip off the excess from the resistor and diodes and keep it aside for later use.
 <img  src="https://github.com/Aeurias/NadeshikoSlimeVR/blob/main/Misc/Assembly/Step-3-ResDio-2/1.jpg"  alt="1"/>
 Use these excess to make flush mounting the TP4056 easier
-<img  src="https://github.com/Aeurias/NadeshikoSlimeVR/blob/main/Msc/Assembly/Step-3-ResDio-2/2.jpg"  alt="2"/>
+<img  src="https://github.com/Aeurias/NadeshikoSlimeVR/blob/main/Misc/Assembly/Step-3-ResDio-2/2.jpg"  alt="2"/>
 
 #### Step 4 -  Next we solder on the TP4056 flush to the PCB
 Use the excess from the previous step and bend them over the TP4056 and the PCB so it stays in place and solder:
