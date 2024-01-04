@@ -90,11 +90,10 @@ A gentle curve has been added on the underside of the case, matching that of arm
 
 The files for the case are:
 
-- **103450 LiPo:**  
 
-- [ ] [103450-TOP.stl](https://github.com/Aeurias/NadeshikoSlimeVR/blob/main/Tracker%20Main/3D%20Print%20STL/SlimeVRNadeshikoR3Mini103450-TOP.stl)
+- [ ] [TOP.stl](https://github.com/Aeurias/NadeshikoSlimeVR/blob/main/Tracker%20Main/3D%20Print%20STL/SlimeVRNadeshiko-TOP.stl)
 
-- [ ] [103450-BASE.stl](https://github.com/Aeurias/NadeshikoSlimeVR/blob/main/Tracker%20Main/3D%20Print%20STL/SlimeVRNadeshikoR3Mini103450-BASE.stl)
+- [ ] [BASE.stl](https://github.com/Aeurias/NadeshikoSlimeVR/blob/main/Tracker%20Main/3D%20Print%20STL/SlimeVRNadeshiko-BASE.stl)
 
 
 
@@ -109,6 +108,13 @@ The files for the case are:
  <br/>
 
 - **Tracker Extension:** It also has three parts: the main case, an endcap, and the PCB to mount the BMI/BNO module and ZH 1.5mm 5 Pin connector. 25mm hook and loop straps can be used with the extension case. The PCB is based on the [SlimeVR OSHWLab DIY Extension](https://oshwlab.com/eirenliel/slimevr-diy-tracker-extension) changes to make it easier for hand soldering and case fitment. 
+
+The files for the extension are:
+
+
+- [ ] [BODY.stl](https://github.com/Aeurias/NadeshikoSlimeVR/blob/main/Tracker%20Extension/3D%20Print%20STL/SlimeVRNadeshikoExtension-BODY.stl)
+
+- [ ] [ENDCAP.stl](https://github.com/Aeurias/NadeshikoSlimeVR/blob/main/Tracker%20Extension/3D%20Print%20STL/SlimeVR Nadeshiko Extension-ENDCAP.stl)
 
 <div align="center"><img  src="https://github.com/Aeurias/NadeshikoSlimeVR/blob/main/Tracker%20Extension/Previews/Extension-1.png"  alt="TrackerExtension" width=200px /> <img  src="https://github.com/Aeurias/NadeshikoSlimeVR/blob/main/Tracker%20Extension/Previews/Extension-2.png"  alt="TrackerExtension" width=180px /> <img  src="https://github.com/Aeurias/NadeshikoSlimeVR/blob/main/Tracker%20Extension/Previews/Extension-3.png"  alt="TrackerExtension" width=220px /></div>
 
