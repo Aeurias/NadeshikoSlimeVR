@@ -21,8 +21,6 @@ Based off the [SlimeVR Official Component Guide](https://docs.slimevr.dev/diy/co
 - 40mm or 50mm strap width is supported.
 - Detailed component purchase list.
 - Wall-mountable charging dock.
-
-#### WIP
 - Photographed assembly instructions.
 
 
