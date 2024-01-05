@@ -427,11 +427,11 @@ Ordering the PCB and 3D Prints is easy. Head to the [releases](https://github.co
 
 For PCB ordering, head over to  [JLCPCB](https://cart.jlcpcb.com/quote/) and upload the gerber .zip files. Use the settings below on the order page:
  
-<img  src="https://github.com/Aeurias/NadeshikoSlimeVR/tree/main/Tracker%20Main/PCB%20Gerber/OrderingPCB.png"  alt="Ordering"/>
+<img  src="https://github.com/Aeurias/NadeshikoSlimeVR/blob/main/Tracker%20Main/PCB%20Gerber/OrderingPCB.png"  alt="Ordering"/>
 
 For 3D Print case ordering, head over to [JLC3DP](https://jlc3dp.com/3d-printing-quote) and upload the .stl files for each model, including the tops/body and bases/endcaps etc. Once case comes in two parts, so make sure you upload both halfs. Then use the settings below on the order page:
  
-<img  src="https://github.com/Aeurias/NadeshikoSlimeVR/tree/main/Tracker%20Main/3D%20Print%20STL/OrderingCases.png"  alt="Ordering"/>
+<img  src="https://github.com/Aeurias/NadeshikoSlimeVR/blob/main/Tracker%20Main/3D%20Print%20STL/OrderingCases.png"  alt="Ordering"/>
 
 
  
