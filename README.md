@@ -416,6 +416,9 @@ Mount the D1 Mini, clamp it secure and solder the pins:
 Shown below is the ankle tracker with the foot extension and their IMU rotation:
  
 <img  src="https://github.com/Aeurias/NadeshikoSlimeVR/blob/main/Misc/Assembly/Step-11-Firmware/onlinefirmware.png"  alt="2"/>
+ 
+After firmware flashing is complete, you can then place into the 3D printed cases.
+<img  src="https://github.com/Aeurias/NadeshikoSlimeVR/blob/main/Misc/cases8111X.jpg"  alt="cases"/>
 
 <br>
  
