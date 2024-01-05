@@ -338,7 +338,7 @@ Begin by snapping the correct length of the header pins for the side with the ho
  
 <img  src="https://github.com/Aeurias/NadeshikoSlimeVR/blob/main/Misc/Assembly/Step-7-BMI-BNO/2.jpg"  alt="2"/>
  
-Place it on the PCB with the short side down, and long side upwards towards the IMU module:
+Place it on the PCB with the short side down, and long side upwards towards the IMU module, or adjust to even length bothsides:
  
 <img  src="https://github.com/Aeurias/NadeshikoSlimeVR/blob/main/Misc/Assembly/Step-7-BMI-BNO/3.jpg"  alt="3"/>
  
