@@ -140,8 +140,6 @@ If you would like to use the BMI-270, they can be purchased from [KOUNO](https:/
 
 While soldering, use flux to make things easier, keep your solder iron's tip tinned with solder when not in use to protect from oxidation. Make sure to clean the PCBs after soldering. You can use PCB cleaner or isopropyl alcohol. This is to remove the flux, which some are acidic and will attack the solder joint over time. 
 
-When using module header pins, the longer end of the pins points upwards towards the component, and the shorter end goes into the breakout PCB.
-
 
 The basic steps of assembly for the main trackers are:
 
@@ -153,7 +151,7 @@ The basic steps of assembly for the main trackers are:
 - [ ] Solder on a SK12D07VG slide switch.
 - [ ] (Optional/Ankle trackers for foot extensions) Solder on a ZH 1.5mm 5 Pin header for communication with an extension tracker.
 - [ ] Solder the BMI/BNO08X module to the PCB with header pins or flush.
-- [ ] Solder on a D1 Mini with included header pins.
+- [ ] Solder on a D1 Mini with included header pins, adjust them if needed.
 - [ ] Use polyimide tape or equivalent on header pins and the LiPo battery to protect it from puncture, and shorts.
 - [ ] Check LiPo's battery JST plug matches the +/- polarity as on the PCB's header (Fix the battery plug if not).
 - [ ] Connect the LiPo battery with the power switch in the OFF position.
@@ -239,18 +237,18 @@ If the solder does not go all the way through, add some on the top side too:
  
 <img  src="https://github.com/Aeurias/NadeshikoSlimeVR/blob/main/Misc/Assembly/Step-3-ResDio-2/1.jpg"  alt="1"/>
  
-Use these excess to make flush mounting the TP4056 easier
+Use these excess to make flush mounting the TP4056 easier if unexperienced with flush mount soldering.
  
 <img  src="https://github.com/Aeurias/NadeshikoSlimeVR/blob/main/Misc/Assembly/Step-3-ResDio-2/2.jpg"  alt="2"/>
  
 
 #### Step 4 -  Next we solder on the TP4056 flush to the PCB
  
-Use the excess from the previous step and bend them over the TP4056 and the PCB so it stays in place and solder:
+If you are experienced with soldering, you can skip using the excess from the previous step and bend them over the TP4056 and the PCB so it stays in place and solder:
  
 <img  src="https://github.com/Aeurias/NadeshikoSlimeVR/blob/main/Misc/Assembly/Step-4-TP4056/1.jpg"  alt="1"/>
  
-Here's how the back side should look:
+Here's how the back side should look when using the pins:
  
 <img  src="https://github.com/Aeurias/NadeshikoSlimeVR/blob/main/Misc/Assembly/Step-4-TP4056/2.jpg"  alt="2"/>
  
@@ -258,13 +256,16 @@ Then do the same thing on all the other pads of the TP4056:
  
 <img  src="https://github.com/Aeurias/NadeshikoSlimeVR/blob/main/Misc/Assembly/Step-4-TP4056/3.jpg"  alt="3"/>
  
-<img  src="https://github.com/Aeurias/NadeshikoSlimeVR/blob/main/Misc/Assembly/Step-4-TP4056/4.jpg"  alt="4"/>
  
 Clip off the excess from each pad so it's nice and neat:
  
 <img  src="https://github.com/Aeurias/NadeshikoSlimeVR/blob/main/Misc/Assembly/Step-4-TP4056/5.jpg"  alt="5"/>
  
 <img  src="https://github.com/Aeurias/NadeshikoSlimeVR/blob/main/Misc/Assembly/Step-4-TP4056/6.jpg"  alt="6"/>
+
+If you know how to flush solder and get good connection, then you can skip on using the excess pins.
+
+<img  src="https://github.com/Aeurias/NadeshikoSlimeVR/blob/main/Misc/Assembly/Step-4-TP4056/0.jpg"  alt="0"/>
 
  
 #### Step 5 -  We now add a JST 2-Pin for the battery connection.
@@ -381,7 +382,7 @@ Solder the IMU module in place:
  
 <img  src="https://github.com/Aeurias/NadeshikoSlimeVR/blob/main/Misc/Assembly/Step-8-D1Mini/1.jpg"  alt="1"/>
  
-Again small pins into the PCB and clamp it secure just like the IMU module:
+Small pins into the PCB or adjust them to be even length both sides, and clamp it secure just like the IMU module:
  
 <img  src="https://github.com/Aeurias/NadeshikoSlimeVR/blob/main/Misc/Assembly/Step-8-D1Mini/2mono.jpg"  alt="2"/>
  
