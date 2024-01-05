@@ -128,6 +128,8 @@ The files for the extension are:
 The components needed have all been added to a Google sheet here with links to each item's store page and total estimated cost.
 -  #### [Components BOM Sheet](https://docs.google.com/spreadsheets/d/1Np8FZpWfbQaHiXM6Y5nCLdoeBbmQeeP_hg5ss5rDM44/edit?usp=sharing)
 
+If you would like to use the BMI-270, they can be purchased from [KOUNO](https://store.kouno.xyz/products/bmi270-breakout-board).
+
 <div align="center"><a  name="logo"  href="https://docs.google.com/spreadsheets/d/1Np8FZpWfbQaHiXM6Y5nCLdoeBbmQeeP_hg5ss5rDM44/edit?usp=sharing"><img  src="https://github.com/Aeurias/NadeshikoSlimeVR/blob/main/Misc/render4.png"  alt="Components"></a></div>
 
 <br>
