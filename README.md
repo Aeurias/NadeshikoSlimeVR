@@ -295,10 +295,7 @@ Next we will do the power switch, clamp it secure for soldering by the edge case
  
 Solder it in place just like the previous step:
 <img  src="https://github.com/Aeurias/NadeshikoSlimeVR/blob/main/Misc/Assembly/Step-6-5Pin-Switch/9.jpg"  alt="9"/>
- 
-Once those are all soldered, give everything a quick clean to remove excess flux for the next step:
-<img  src="https://github.com/Aeurias/NadeshikoSlimeVR/blob/main/Misc/Assembly/Step-6-5Pin-Switch/10.jpg"  alt="10"/>
-<img  src="https://github.com/Aeurias/NadeshikoSlimeVR/blob/main/Misc/Assembly/Step-6-5Pin-Switch/11.jpg"  alt="11"/>
+
 
  
 #### Step 7 -  The IMU module will now go on with its header pins.
