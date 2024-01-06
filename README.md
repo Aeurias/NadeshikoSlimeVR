@@ -206,13 +206,10 @@ Useful Links:
 
  
 #### Step 1 - We will begin with the resistor and diodes and then the TP4056 Module.
- 
 <img  src="https://github.com/Aeurias/NadeshikoSlimeVR/blob/main/Misc/Assembly/Step1-ResDio-Bend/2.jpg"  alt="1"/>
  
 First bend the resistor and diodes like this to make it fit the breakout PCB.
- 
 <img  src="https://github.com/Aeurias/NadeshikoSlimeVR/blob/main/Misc/Assembly/Step1-ResDio-Bend/3.jpg"  alt="2"/>
- 
 <img  src="https://github.com/Aeurias/NadeshikoSlimeVR/blob/main/Misc/Assembly/Step1-ResDio-Bend/4.jpg"  alt="3"/>
  
 
@@ -221,201 +218,150 @@ First bend the resistor and diodes like this to make it fit the breakout PCB.
 <img  src="https://github.com/Aeurias/NadeshikoSlimeVR/blob/main/Misc/Assembly/Step-2-ResDio-1/1.jpg"  alt="1"/>
  
 If they do not stay in place, secure them down with some tape:
- 
 <img  src="https://github.com/Aeurias/NadeshikoSlimeVR/blob/main/Misc/Assembly/Step-2-ResDio-1/2.jpg"  alt="2"/>
  
 While they are nice and level with the PCB, solder them down:
- 
 <img  src="https://github.com/Aeurias/NadeshikoSlimeVR/blob/main/Misc/Assembly/Step-2-ResDio-1/3.jpg"  alt="3"/>
  
-If the solder does not go all the way through, add some on the top side too:
- 
+If the solder does not go all the way through, you may add some on the top side too:
 <img  src="https://github.com/Aeurias/NadeshikoSlimeVR/blob/main/Misc/Assembly/Step-2-ResDio-1/4.jpg"  alt="4"/>
 
  
-#### Step 3 -  Clip off the excess from the resistor and diodes and keep it aside for later use.
- 
+#### Step 3 -  Clip off the excess from the resistor and diodes.
 <img  src="https://github.com/Aeurias/NadeshikoSlimeVR/blob/main/Misc/Assembly/Step-3-ResDio-2/1.jpg"  alt="1"/>
  
-Use these excess to make flush mounting the TP4056 easier if unexperienced with flush mount soldering.
- 
+You can use these excess to make flush mounting the TP4056 easier if unexperienced with flush mount soldering.
 <img  src="https://github.com/Aeurias/NadeshikoSlimeVR/blob/main/Misc/Assembly/Step-3-ResDio-2/2.jpg"  alt="2"/>
  
 
 #### Step 4 -  Next we solder on the TP4056 flush to the PCB
  
-If you are experienced with soldering, you can skip using the excess from the previous step and bend them over the TP4056 and the PCB so it stays in place and solder:
- 
+If you are experienced with soldering, you can skip using the excess from the previous step; bend the excess over the TP4056 and the PCB holes so it stays in place and solder:
 <img  src="https://github.com/Aeurias/NadeshikoSlimeVR/blob/main/Misc/Assembly/Step-4-TP4056/1.jpg"  alt="1"/>
  
-Here's how the back side should look when using the pins:
- 
+Here's how the back side should look when using the pins for help:
 <img  src="https://github.com/Aeurias/NadeshikoSlimeVR/blob/main/Misc/Assembly/Step-4-TP4056/2.jpg"  alt="2"/>
  
-Then do the same thing on all the other pads of the TP4056:
- 
+Then do the same thing on all the other pads of the TP4056, 6 in total:
 <img  src="https://github.com/Aeurias/NadeshikoSlimeVR/blob/main/Misc/Assembly/Step-4-TP4056/3.jpg"  alt="3"/>
  
  
-Clip off the excess from each pad so it's nice and neat:
+Clip off the excess from all 6 points so it's nice and neat:
  
 <img  src="https://github.com/Aeurias/NadeshikoSlimeVR/blob/main/Misc/Assembly/Step-4-TP4056/5.jpg"  alt="5"/>
- 
 <img  src="https://github.com/Aeurias/NadeshikoSlimeVR/blob/main/Misc/Assembly/Step-4-TP4056/6.jpg"  alt="6"/>
 
 If you know how to flush solder and get good connection, then you can skip on using the excess pins.
-
 <img  src="https://github.com/Aeurias/NadeshikoSlimeVR/blob/main/Misc/Assembly/Step-4-TP4056/0.jpg"  alt="0"/>
 
  
 #### Step 5 -  We now add a JST 2-Pin for the battery connection.
  
 <img  src="https://github.com/Aeurias/NadeshikoSlimeVR/blob/main/Misc/Assembly/Step-5-2Pin/1.jpg"  alt="1"/>
- 
+
 First place it in the correct position and orientation as shown on the PCB:
- 
 <img  src="https://github.com/Aeurias/NadeshikoSlimeVR/blob/main/Misc/Assembly/Step-5-2Pin/2mono.jpg"  alt="2"/>
  
 Then keep it in place with a helper:
- 
 <img  src="https://github.com/Aeurias/NadeshikoSlimeVR/blob/main/Misc/Assembly/Step-5-2Pin/3mono.jpg"  alt="3"/>
- 
 <img  src="https://github.com/Aeurias/NadeshikoSlimeVR/blob/main/Misc/Assembly/Step-5-2Pin/4mono.jpg"  alt="4"/>
  
 And solder both of the pins on the backside of the PCB:
- 
 <img  src="https://github.com/Aeurias/NadeshikoSlimeVR/blob/main/Misc/Assembly/Step-5-2Pin/5.jpg"  alt="5"/>
  
 The solder should penetrate through to the other side:
- 
 <img  src="https://github.com/Aeurias/NadeshikoSlimeVR/blob/main/Misc/Assembly/Step-5-2Pin/6.jpg"  alt="6"/>
 
  
 #### Step 6 -  We now do the power switch and optionally a ZH 5 pin header for communication with an extension tracker.
- 
 <img  src="https://github.com/Aeurias/NadeshikoSlimeVR/blob/main/Misc/Assembly/Step-6-5Pin-Switch/1.jpg"  alt="1"/>
- 
 <img  src="https://github.com/Aeurias/NadeshikoSlimeVR/blob/main/Misc/Assembly/Step-6-5Pin-Switch/2mono.jpg"  alt="2"/>
  
 OPTIONAL: If a 5 pin is needed on the tracker for extension communication, then clamp it down like this so its level with the PCB:
- 
 <img  src="https://github.com/Aeurias/NadeshikoSlimeVR/blob/main/Misc/Assembly/Step-6-5Pin-Switch/3mono.jpg"  alt="3"/>
- 
 <img  src="https://github.com/Aeurias/NadeshikoSlimeVR/blob/main/Misc/Assembly/Step-6-5Pin-Switch/4mono.jpg"  alt="4"/>
  
   
 
 #### OPTIONAL: Solder the pins on the backside of the PCB similar just like the 2 pin connector:
- 
 <img  src="https://github.com/Aeurias/NadeshikoSlimeVR/blob/main/Misc/Assembly/Step-6-5Pin-Switch/5.jpg"  alt="5"/>
  
 Again the solder should penetrate through to the top side like such:
- 
 <img  src="https://github.com/Aeurias/NadeshikoSlimeVR/blob/main/Misc/Assembly/Step-6-5Pin-Switch/6mono.jpg"  alt="6"/>
  
 Next we will do the power switch, clamp it secure for soldering by the edge case grounding pin:
- 
 <img  src="https://github.com/Aeurias/NadeshikoSlimeVR/blob/main/Misc/Assembly/Step-6-5Pin-Switch/7mono.jpg"  alt="7"/>
- 
 <img  src="https://github.com/Aeurias/NadeshikoSlimeVR/blob/main/Misc/Assembly/Step-6-5Pin-Switch/8mono.jpg"  alt="8"/>
  
 Solder it in place just like the previous step:
- 
 <img  src="https://github.com/Aeurias/NadeshikoSlimeVR/blob/main/Misc/Assembly/Step-6-5Pin-Switch/9.jpg"  alt="9"/>
  
 Once those are all soldered, give everything a quick clean to remove excess flux for the next step:
- 
 <img  src="https://github.com/Aeurias/NadeshikoSlimeVR/blob/main/Misc/Assembly/Step-6-5Pin-Switch/10.jpg"  alt="10"/>
- 
 <img  src="https://github.com/Aeurias/NadeshikoSlimeVR/blob/main/Misc/Assembly/Step-6-5Pin-Switch/11.jpg"  alt="11"/>
 
  
 #### Step 7 -  The IMU module will now go on with its header pins.
- 
 <img  src="https://github.com/Aeurias/NadeshikoSlimeVR/blob/main/Misc/Assembly/Step-7-BMI-BNO/1.jpg"  alt="1"/>
  
 Begin by snapping the correct length of the header pins for the side with the holes on the PCB.
- 
 <img  src="https://github.com/Aeurias/NadeshikoSlimeVR/blob/main/Misc/Assembly/Step-7-BMI-BNO/2.jpg"  alt="2"/>
  
 Place it on the PCB with the short side down, and long side upwards towards the IMU module, or adjust to even length bothsides:
- 
 <img  src="https://github.com/Aeurias/NadeshikoSlimeVR/blob/main/Misc/Assembly/Step-7-BMI-BNO/3.jpg"  alt="3"/>
- 
 <img  src="https://github.com/Aeurias/NadeshikoSlimeVR/blob/main/Misc/Assembly/Step-7-BMI-BNO/4mono.jpg"  alt="4"/>
  
 Secure it in place with a helper ensuring that it header pin is level with the PCB and straight:
- 
 <img  src="https://github.com/Aeurias/NadeshikoSlimeVR/blob/main/Misc/Assembly/Step-7-BMI-BNO/5mono.jpg"  alt="5"/>
- 
 <img  src="https://github.com/Aeurias/NadeshikoSlimeVR/blob/main/Misc/Assembly/Step-7-BMI-BNO/6mono.jpg"  alt="6"/>
  
 Solder the visible pins to secure it, and then finish solder the rest that were under the clamp:
- 
 <img  src="https://github.com/Aeurias/NadeshikoSlimeVR/blob/main/Misc/Assembly/Step-7-BMI-BNO/7.jpg"  alt="7"/>
- 
 <img  src="https://github.com/Aeurias/NadeshikoSlimeVR/blob/main/Misc/Assembly/Step-7-BMI-BNO/8.jpg"  alt="8"/>
  
-Next we will solder the IMU module to the header pins
- 
- 
+Next we will solder the IMU module itself to the header pins
 For the module to be level, you can use the excess header pins to level the module:
- 
 <img  src="https://github.com/Aeurias/NadeshikoSlimeVR/blob/main/Misc/Assembly/Step-7-BMI-BNO/9mono.jpg"  alt="9"/>
  
 You can also remove the pins easily from the excess header to get better and even leveling:
- 
 <img  src="https://github.com/Aeurias/NadeshikoSlimeVR/blob/main/Misc/Assembly/Step-7-BMI-BNO/10mono.jpg"  alt="10"/>
  
 Secure the IMU module in place with a helper, ensuring the module is level:
- 
 <img  src="https://github.com/Aeurias/NadeshikoSlimeVR/blob/main/Misc/Assembly/Step-7-BMI-BNO/11mono.jpg"  alt="11"/>
- 
 <img  src="https://github.com/Aeurias/NadeshikoSlimeVR/blob/main/Misc/Assembly/Step-7-BMI-BNO/12mono.jpg"  alt="12"/>
  
 Solder the IMU module in place:
- 
 <img  src="https://github.com/Aeurias/NadeshikoSlimeVR/blob/main/Misc/Assembly/Step-7-BMI-BNO/13.jpg"  alt="13"/>
 
 
 #### Step 8 -  Next we will do the D1 Mini and it's header pins.
- 
 <img  src="https://github.com/Aeurias/NadeshikoSlimeVR/blob/main/Misc/Assembly/Step-8-D1Mini/1.jpg"  alt="1"/>
  
 Small pins into the PCB or adjust them to be even length both sides, and clamp it secure just like the IMU module:
- 
 <img  src="https://github.com/Aeurias/NadeshikoSlimeVR/blob/main/Misc/Assembly/Step-8-D1Mini/2mono.jpg"  alt="2"/>
  
 Solder the accessable pins first, then remove the clamp and do the rest:
- 
 <img  src="https://github.com/Aeurias/NadeshikoSlimeVR/blob/main/Misc/Assembly/Step-8-D1Mini/3.jpg"  alt="3"/>
  
 You may also tape down the header pins if you are unable to clamp them:
- 
 <img  src="https://github.com/Aeurias/NadeshikoSlimeVR/blob/main/Misc/Assembly/Step-8-D1Mini/4.jpg"  alt="4"/>
- 
 <img  src="https://github.com/Aeurias/NadeshikoSlimeVR/blob/main/Misc/Assembly/Step-8-D1Mini/5.jpg"  alt="5"/>
+
 Mount the D1 Mini, clamp it secure and solder the pins:
- 
 <img  src="https://github.com/Aeurias/NadeshikoSlimeVR/blob/main/Misc/Assembly/Step-8-D1Mini/7.jpg"  alt="7"/>
 
 #### Step 9 -  Clean the board again to remove flux for the last time
- 
 <img  src="https://github.com/Aeurias/NadeshikoSlimeVR/blob/main/Misc/Assembly/Step-9-Cleaned/1.jpg"  alt="1"/>
- 
 <img  src="https://github.com/Aeurias/NadeshikoSlimeVR/blob/main/Misc/Assembly/Step-9-Cleaned/2.jpg"  alt="2"/>
 
 #### Step 10 -  Tape off the pins and add a layer to the battery to protect it from puncture.
 <img  src="https://github.com/Aeurias/NadeshikoSlimeVR/blob/main/Misc/Assembly/Step-10-Tape/1.jpg"  alt="1"/>
- 
 <img  src="https://github.com/Aeurias/NadeshikoSlimeVR/blob/main/Misc/Assembly/Step-10-Tape/3.jpg"  alt="3"/>
 
 #### Step 11 -  Flash the firmware, the light will turn from blinking to solid for a moment when done.
- 
 <img  src="https://github.com/Aeurias/NadeshikoSlimeVR/blob/main/Misc/Assembly/Step-11-Firmware/1.gif"  alt="1"/>
  
 Shown below is the ankle tracker with the foot extension and their IMU rotation:
- 
 <img  src="https://github.com/Aeurias/NadeshikoSlimeVR/blob/main/Misc/Assembly/Step-11-Firmware/onlinefirmware.png"  alt="2"/>
  
 After firmware flashing is complete, you can then place into the 3D printed cases.
