@@ -208,7 +208,7 @@ Useful Links:
 #### Step 1 - We will begin with the resistor and diodes and then the TP4056 Module.
 <img  src="https://github.com/Aeurias/NadeshikoSlimeVR/blob/main/Misc/Assembly/Step1-ResDio-Bend/2.jpg"  alt="1"/>
  
-First bend the resistor and diodes like this to make it fit the breakout PCB.
+First bend the resistor and diodes like this to make it fit the breakout PCB:
 <img  src="https://github.com/Aeurias/NadeshikoSlimeVR/blob/main/Misc/Assembly/Step1-ResDio-Bend/3.jpg"  alt="2"/>
 <img  src="https://github.com/Aeurias/NadeshikoSlimeVR/blob/main/Misc/Assembly/Step1-ResDio-Bend/4.jpg"  alt="3"/>
  
@@ -216,11 +216,11 @@ First bend the resistor and diodes like this to make it fit the breakout PCB.
 #### Step 2 -  Place the resistor and diodes on the PCB.
 <img  src="https://github.com/Aeurias/NadeshikoSlimeVR/blob/main/Misc/Assembly/Step-2-ResDio-1/1.jpg"  alt="1"/>
  
-If they do not stay in place, secure them down with some tape:
+If they do not stay in place, secure them down with some polyimide tape:
 <img  src="https://github.com/Aeurias/NadeshikoSlimeVR/blob/main/Misc/Assembly/Step-2-ResDio-1/2.jpg"  alt="2"/>
  
 While they are level with the PCB, solder them down:
-<img  src="https://github.com/Aeurias/NadeshikoSlimeVR/blob/main/Misc/Assembly/Step-2-ResDio-1/3.jpg"  alt="3"/>:
+<img  src="https://github.com/Aeurias/NadeshikoSlimeVR/blob/main/Misc/Assembly/Step-2-ResDio-1/3.jpg"  alt="3"/>
 <img  src="https://github.com/Aeurias/NadeshikoSlimeVR/blob/main/Misc/Assembly/Step-2-ResDio-1/4.jpg"  alt="4"/>
 
  
