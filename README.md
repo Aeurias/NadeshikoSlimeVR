@@ -214,16 +214,13 @@ First bend the resistor and diodes like this to make it fit the breakout PCB.
  
 
 #### Step 2 -  Place the resistor and diodes on the PCB.
- 
 <img  src="https://github.com/Aeurias/NadeshikoSlimeVR/blob/main/Misc/Assembly/Step-2-ResDio-1/1.jpg"  alt="1"/>
  
 If they do not stay in place, secure them down with some tape:
 <img  src="https://github.com/Aeurias/NadeshikoSlimeVR/blob/main/Misc/Assembly/Step-2-ResDio-1/2.jpg"  alt="2"/>
  
-While they are nice and level with the PCB, solder them down:
-<img  src="https://github.com/Aeurias/NadeshikoSlimeVR/blob/main/Misc/Assembly/Step-2-ResDio-1/3.jpg"  alt="3"/>
- 
-If the solder does not go all the way through, you may add some on the top side too:
+While they are level with the PCB, solder them down:
+<img  src="https://github.com/Aeurias/NadeshikoSlimeVR/blob/main/Misc/Assembly/Step-2-ResDio-1/3.jpg"  alt="3"/>:
 <img  src="https://github.com/Aeurias/NadeshikoSlimeVR/blob/main/Misc/Assembly/Step-2-ResDio-1/4.jpg"  alt="4"/>
 
  
@@ -235,19 +232,18 @@ You can use these excess to make flush mounting the TP4056 easier if unexperienc
  
 
 #### Step 4 -  Next we solder on the TP4056 flush to the PCB on the backside.
- 
-If you are experienced with soldering, you can skip using the excess from the previous step; bend the excess over the TP4056 and the PCB holes so it stays in place and solder:
+<img  src="https://github.com/Aeurias/NadeshikoSlimeVR/blob/main/Misc/Assembly/Step-4-TP4056/00.jpg"  alt="00"/>
+
+If you are experienced with soldering, you can skip using the excess from the previous step; if not bend the excess over the TP4056 and the PCB holes so it stays in place and solder, this helps solder flow into the hole:
 <img  src="https://github.com/Aeurias/NadeshikoSlimeVR/blob/main/Misc/Assembly/Step-4-TP4056/1.jpg"  alt="1"/>
  
-Here's how the topside of the breakout PCB should look when using the pins for help:
+Here's how the topside of the breakout PCB should look when using the excess for help:
 <img  src="https://github.com/Aeurias/NadeshikoSlimeVR/blob/main/Misc/Assembly/Step-4-TP4056/2.jpg"  alt="2"/>
  
 Then do the same thing on all the other pads of the TP4056, 6 in total:
 <img  src="https://github.com/Aeurias/NadeshikoSlimeVR/blob/main/Misc/Assembly/Step-4-TP4056/3.jpg"  alt="3"/>
  
- 
 Clip off the excess from all 6 points so it's nice and neat:
- 
 <img  src="https://github.com/Aeurias/NadeshikoSlimeVR/blob/main/Misc/Assembly/Step-4-TP4056/5.jpg"  alt="5"/>
 <img  src="https://github.com/Aeurias/NadeshikoSlimeVR/blob/main/Misc/Assembly/Step-4-TP4056/6.jpg"  alt="6"/>
 
@@ -256,7 +252,6 @@ If you know how to flush solder and get good connection, then you can skip on us
 
  
 #### Step 5 -  We now add a JST 2-Pin for the battery connection.
- 
 <img  src="https://github.com/Aeurias/NadeshikoSlimeVR/blob/main/Misc/Assembly/Step-5-2Pin/1.jpg"  alt="1"/>
 
 First place it in the correct position and orientation as shown on the PCB:
@@ -304,14 +299,13 @@ Solder it in place just like the previous step:
 Begin by snapping the correct length of the header pins for the side with the holes on the PCB.
 <img  src="https://github.com/Aeurias/NadeshikoSlimeVR/blob/main/Misc/Assembly/Step-7-BMI-BNO/2.jpg"  alt="2"/>
 
-The repositioning of the plastic spacer can be easily done by hand on a flat surface, have them even like this:
+The repositioning of the plastic spacer can be easily done by hand on a flat surface, best to have them even like this for good battery clearance in the cases:
 <img  src="https://github.com/Aeurias/NadeshikoSlimeVR/blob/main/Misc/Assembly/Step-7-BMI-BNO/0.jpg"  alt="0"/>
  
-Place it on the PCB with the short side down, and long side upwards towards the IMU module, or adjust to even length bothsides to free up space for battery:
+Place it on the PCB:
 <img  src="https://github.com/Aeurias/NadeshikoSlimeVR/blob/main/Misc/Assembly/Step-7-BMI-BNO/3.jpg"  alt="3"/>
-<img  src="https://github.com/Aeurias/NadeshikoSlimeVR/blob/main/Misc/Assembly/Step-7-BMI-BNO/4mono.jpg"  alt="4"/>
  
-Secure it in place with a helper ensuring the header pin is level with the PCB and not crooked:
+Secure it in place with a helper ensuring the header pin is level with the PCB and not angled:
 <img  src="https://github.com/Aeurias/NadeshikoSlimeVR/blob/main/Misc/Assembly/Step-7-BMI-BNO/5mono.jpg"  alt="5"/>
 <img  src="https://github.com/Aeurias/NadeshikoSlimeVR/blob/main/Misc/Assembly/Step-7-BMI-BNO/6mono.jpg"  alt="6"/>
  
@@ -319,18 +313,17 @@ Solder the visible pins to secure it, and then finish soldering the rest that we
 <img  src="https://github.com/Aeurias/NadeshikoSlimeVR/blob/main/Misc/Assembly/Step-7-BMI-BNO/7.jpg"  alt="7"/>
 <img  src="https://github.com/Aeurias/NadeshikoSlimeVR/blob/main/Misc/Assembly/Step-7-BMI-BNO/8.jpg"  alt="8"/>
  
-Next we will solder the IMU module itself to the header pins
-For the module to be level, you can use the excess header pins as a guide to level the module with the PCB:
+Next we will solder the IMU module itself to the header pins. For the module to be level, you can use the excess header pins as a guide to level the module with the PCB:
 <img  src="https://github.com/Aeurias/NadeshikoSlimeVR/blob/main/Misc/Assembly/Step-7-BMI-BNO/9mono.jpg"  alt="9"/>
  
 You can also remove the pins easily from the excess header to get better and even leveling:
 <img  src="https://github.com/Aeurias/NadeshikoSlimeVR/blob/main/Misc/Assembly/Step-7-BMI-BNO/10mono.jpg"  alt="10"/>
  
-Secure the IMU module in place with a helper, ensuring the module is level:
+Then secure the module in place with a helper, ensuring it is level with the PCB:
 <img  src="https://github.com/Aeurias/NadeshikoSlimeVR/blob/main/Misc/Assembly/Step-7-BMI-BNO/11mono.jpg"  alt="11"/>
 <img  src="https://github.com/Aeurias/NadeshikoSlimeVR/blob/main/Misc/Assembly/Step-7-BMI-BNO/12mono.jpg"  alt="12"/>
  
-Solder the IMU module in place:
+Solder the IMU module to the header pins:
 <img  src="https://github.com/Aeurias/NadeshikoSlimeVR/blob/main/Misc/Assembly/Step-7-BMI-BNO/13.jpg"  alt="13"/>
 
 
@@ -339,19 +332,21 @@ Solder the IMU module in place:
 
 Again repositioning of the plastic spacer can be easily done by hand on a flat surface, have them even both sides like this to help battery clearance:
 <img  src="https://github.com/Aeurias/NadeshikoSlimeVR/blob/main/Misc/Assembly/Step-7-BMI-BNO/0.jpg"  alt="0"/>
- 
-Small pins into the PCB or adjust them to be even length both sides to free up more space for battery in case, and clamp it secure just like the IMU module:
-<img  src="https://github.com/Aeurias/NadeshikoSlimeVR/blob/main/Misc/Assembly/Step-8-D1Mini/2mono.jpg"  alt="2"/>
- 
-Solder the accessable pins first, then remove the clamp and do the rest:
-<img  src="https://github.com/Aeurias/NadeshikoSlimeVR/blob/main/Misc/Assembly/Step-8-D1Mini/3.jpg"  alt="3"/>
- 
-You may also tape down the header pins if you are unable to clamp them, make sure its flat and not angled:
-<img  src="https://github.com/Aeurias/NadeshikoSlimeVR/blob/main/Misc/Assembly/Step-8-D1Mini/4.jpg"  alt="4"/>
-<img  src="https://github.com/Aeurias/NadeshikoSlimeVR/blob/main/Misc/Assembly/Step-8-D1Mini/5.jpg"  alt="5"/>
 
-Mount the D1 Mini, clamp it secure and solder the pins, like the IMU module:
-<img  src="https://github.com/Aeurias/NadeshikoSlimeVR/blob/main/Misc/Assembly/Step-8-D1Mini/7.jpg"  alt="7"/>
+Place the header pins on the PCB and then the D1 Mini. Clamp down the D1 securing the header pins:
+<img  src="https://github.com/Aeurias/NadeshikoSlimeVR/blob/main/Misc/Assembly/Step-8-D1Mini/2.jpg"  alt="2"/>
+
+Flip to the backside as this will be soldered first:
+<img  src="https://github.com/Aeurias/NadeshikoSlimeVR/blob/main/Misc/Assembly/Step-8-D1Mini/3.jpg"  alt="3"/>
+
+Solder the D1 Mini header pins on the backside of the PCB:
+<img  src="https://github.com/Aeurias/NadeshikoSlimeVR/blob/main/Misc/Assembly/Step-8-D1Mini/4.jpg"  alt="4"/>
+
+Finish step by soldering the D1 Mini to the header pins, making sure not to overheat the header pin's black plastic:
+<img  src="https://github.com/Aeurias/NadeshikoSlimeVR/blob/main/Misc/Assembly/Step-8-D1Mini/5.jpg"  alt="5"/>
+ 
+
+
 
 #### Step 9 -  Clean the board to remove flux, use PCB cleaner or 99% isopropyl alcohol
 <img  src="https://github.com/Aeurias/NadeshikoSlimeVR/blob/main/Misc/Assembly/Step-9-Cleaned/1.jpg"  alt="1"/>
@@ -369,7 +364,7 @@ Depending on the IMU module used, you may need to ground some pads if using an e
 <img  src="https://github.com/Aeurias/NadeshikoSlimeVR/blob/main/Misc/Assembly/Step-11-Firmware/onlinefirmware.png"  alt="2"/>
 
  
-After firmware flashing is complete, you can then place into the 3D printed cases.
+After firmware flashing is complete, you can tape the battery to the PCB and/or place into the 3D printed cases.
 <img  src="https://github.com/Aeurias/NadeshikoSlimeVR/blob/main/Misc/cases8111X.jpg"  alt="cases"/>
 
 <br>
