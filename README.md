@@ -304,20 +304,20 @@ Solder it in place just like the previous step:
 Begin by snapping the correct length of the header pins for the side with the holes on the PCB.
 <img  src="https://github.com/Aeurias/NadeshikoSlimeVR/blob/main/Misc/Assembly/Step-7-BMI-BNO/2.jpg"  alt="2"/>
  
-Place it on the PCB with the short side down, and long side upwards towards the IMU module, or adjust to even length bothsides:
+Place it on the PCB with the short side down, and long side upwards towards the IMU module, or adjust to even length bothsides to free up space for battery:
 <img  src="https://github.com/Aeurias/NadeshikoSlimeVR/blob/main/Misc/Assembly/Step-7-BMI-BNO/3.jpg"  alt="3"/>
 <img  src="https://github.com/Aeurias/NadeshikoSlimeVR/blob/main/Misc/Assembly/Step-7-BMI-BNO/4mono.jpg"  alt="4"/>
  
-Secure it in place with a helper ensuring that it header pin is level with the PCB and straight:
+Secure it in place with a helper ensuring the header pin is level with the PCB and not crooked:
 <img  src="https://github.com/Aeurias/NadeshikoSlimeVR/blob/main/Misc/Assembly/Step-7-BMI-BNO/5mono.jpg"  alt="5"/>
 <img  src="https://github.com/Aeurias/NadeshikoSlimeVR/blob/main/Misc/Assembly/Step-7-BMI-BNO/6mono.jpg"  alt="6"/>
  
-Solder the visible pins to secure it, and then finish solder the rest that were under the clamp:
+Solder the visible pins to secure it, and then finish soldering the rest that were under the clamp:
 <img  src="https://github.com/Aeurias/NadeshikoSlimeVR/blob/main/Misc/Assembly/Step-7-BMI-BNO/7.jpg"  alt="7"/>
 <img  src="https://github.com/Aeurias/NadeshikoSlimeVR/blob/main/Misc/Assembly/Step-7-BMI-BNO/8.jpg"  alt="8"/>
  
 Next we will solder the IMU module itself to the header pins
-For the module to be level, you can use the excess header pins to level the module:
+For the module to be level, you can use the excess header pins as a guide to level the module with the PCB:
 <img  src="https://github.com/Aeurias/NadeshikoSlimeVR/blob/main/Misc/Assembly/Step-7-BMI-BNO/9mono.jpg"  alt="9"/>
  
 You can also remove the pins easily from the excess header to get better and even leveling:
@@ -334,32 +334,34 @@ Solder the IMU module in place:
 #### Step 8 -  Next we will do the D1 Mini and it's header pins.
 <img  src="https://github.com/Aeurias/NadeshikoSlimeVR/blob/main/Misc/Assembly/Step-8-D1Mini/1.jpg"  alt="1"/>
  
-Small pins into the PCB or adjust them to be even length both sides, and clamp it secure just like the IMU module:
+Small pins into the PCB or adjust them to be even length both sides to free up more space for battery in case, and clamp it secure just like the IMU module:
 <img  src="https://github.com/Aeurias/NadeshikoSlimeVR/blob/main/Misc/Assembly/Step-8-D1Mini/2mono.jpg"  alt="2"/>
  
 Solder the accessable pins first, then remove the clamp and do the rest:
 <img  src="https://github.com/Aeurias/NadeshikoSlimeVR/blob/main/Misc/Assembly/Step-8-D1Mini/3.jpg"  alt="3"/>
  
-You may also tape down the header pins if you are unable to clamp them:
+You may also tape down the header pins if you are unable to clamp them, make sure its flat and not angled:
 <img  src="https://github.com/Aeurias/NadeshikoSlimeVR/blob/main/Misc/Assembly/Step-8-D1Mini/4.jpg"  alt="4"/>
 <img  src="https://github.com/Aeurias/NadeshikoSlimeVR/blob/main/Misc/Assembly/Step-8-D1Mini/5.jpg"  alt="5"/>
 
-Mount the D1 Mini, clamp it secure and solder the pins:
+Mount the D1 Mini, clamp it secure and solder the pins, like the IMU module:
 <img  src="https://github.com/Aeurias/NadeshikoSlimeVR/blob/main/Misc/Assembly/Step-8-D1Mini/7.jpg"  alt="7"/>
 
-#### Step 9 -  Clean the board again to remove flux for the last time
+#### Step 9 -  Clean the board to remove flux, use PCB cleaner or 99% isopropyl alcohol
 <img  src="https://github.com/Aeurias/NadeshikoSlimeVR/blob/main/Misc/Assembly/Step-9-Cleaned/1.jpg"  alt="1"/>
 <img  src="https://github.com/Aeurias/NadeshikoSlimeVR/blob/main/Misc/Assembly/Step-9-Cleaned/2.jpg"  alt="2"/>
 
-#### Step 10 -  Tape off the pins and add a layer to the battery to protect it from puncture.
+#### Step 10 -  Tape off the pins and add a layer to the battery to protect it from puncture and wear.
 <img  src="https://github.com/Aeurias/NadeshikoSlimeVR/blob/main/Misc/Assembly/Step-10-Tape/1.jpg"  alt="1"/>
 <img  src="https://github.com/Aeurias/NadeshikoSlimeVR/blob/main/Misc/Assembly/Step-10-Tape/3.jpg"  alt="3"/>
 
-#### Step 11 -  Flash the firmware, the light will turn from blinking to solid for a moment when done.
+#### Step 11 -  Flash the firmware, the light will turn from blinking to solid for a moment when complete.
 <img  src="https://github.com/Aeurias/NadeshikoSlimeVR/blob/main/Misc/Assembly/Step-11-Firmware/1.gif"  alt="1"/>
  
-Shown below is the ankle tracker with the foot extension and their IMU rotation:
+Shown below is the ankle tracker with the foot extension and their IMU rotation.
+Depending on the IMU module used, you may need to ground some pads if using an extension tracker.
 <img  src="https://github.com/Aeurias/NadeshikoSlimeVR/blob/main/Misc/Assembly/Step-11-Firmware/onlinefirmware.png"  alt="2"/>
+
  
 After firmware flashing is complete, you can then place into the 3D printed cases.
 <img  src="https://github.com/Aeurias/NadeshikoSlimeVR/blob/main/Misc/cases8111X.jpg"  alt="cases"/>
