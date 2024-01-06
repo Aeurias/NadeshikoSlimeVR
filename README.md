@@ -234,12 +234,12 @@ You can use these excess to make flush mounting the TP4056 easier if unexperienc
 <img  src="https://github.com/Aeurias/NadeshikoSlimeVR/blob/main/Misc/Assembly/Step-3-ResDio-2/2.jpg"  alt="2"/>
  
 
-#### Step 4 -  Next we solder on the TP4056 flush to the PCB
+#### Step 4 -  Next we solder on the TP4056 flush to the PCB on the backside.
  
 If you are experienced with soldering, you can skip using the excess from the previous step; bend the excess over the TP4056 and the PCB holes so it stays in place and solder:
 <img  src="https://github.com/Aeurias/NadeshikoSlimeVR/blob/main/Misc/Assembly/Step-4-TP4056/1.jpg"  alt="1"/>
  
-Here's how the back side should look when using the pins for help:
+Here's how the topside of the breakout PCB should look when using the pins for help:
 <img  src="https://github.com/Aeurias/NadeshikoSlimeVR/blob/main/Misc/Assembly/Step-4-TP4056/2.jpg"  alt="2"/>
  
 Then do the same thing on all the other pads of the TP4056, 6 in total:
