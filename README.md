@@ -303,6 +303,9 @@ Solder it in place just like the previous step:
  
 Begin by snapping the correct length of the header pins for the side with the holes on the PCB.
 <img  src="https://github.com/Aeurias/NadeshikoSlimeVR/blob/main/Misc/Assembly/Step-7-BMI-BNO/2.jpg"  alt="2"/>
+
+The repositioning of the plastic spacer can be easily done by hand on a flat surface, have them even like this:
+<img  src="https://github.com/Aeurias/NadeshikoSlimeVR/blob/main/Misc/Assembly/Step-7-BMI-BNO/0.jpg"  alt="0"/>
  
 Place it on the PCB with the short side down, and long side upwards towards the IMU module, or adjust to even length bothsides to free up space for battery:
 <img  src="https://github.com/Aeurias/NadeshikoSlimeVR/blob/main/Misc/Assembly/Step-7-BMI-BNO/3.jpg"  alt="3"/>
@@ -333,6 +336,9 @@ Solder the IMU module in place:
 
 #### Step 8 -  Next we will do the D1 Mini and it's header pins.
 <img  src="https://github.com/Aeurias/NadeshikoSlimeVR/blob/main/Misc/Assembly/Step-8-D1Mini/1.jpg"  alt="1"/>
+
+Again repositioning of the plastic spacer can be easily done by hand on a flat surface, have them even both sides like this to help battery clearance:
+<img  src="https://github.com/Aeurias/NadeshikoSlimeVR/blob/main/Misc/Assembly/Step-7-BMI-BNO/0.jpg"  alt="0"/>
  
 Small pins into the PCB or adjust them to be even length both sides to free up more space for battery in case, and clamp it secure just like the IMU module:
 <img  src="https://github.com/Aeurias/NadeshikoSlimeVR/blob/main/Misc/Assembly/Step-8-D1Mini/2mono.jpg"  alt="2"/>
