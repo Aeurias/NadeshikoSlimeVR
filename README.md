@@ -98,7 +98,7 @@ The files for the case are:
 
 <div align="center"><img  src="https://github.com/Aeurias/NadeshikoSlimeVR/blob/main/Misc/readmepreview1.png"  alt="R3Mini1034501"/></div>
 
-<div align="center">7.03x2.74x5.23cm</div>
+<div align="center">7.0x3.09x5.3cm</div>
 
 <br/>
 
@@ -117,7 +117,7 @@ The files for the extension are:
 
 <div align="center"><img  src="https://github.com/Aeurias/NadeshikoSlimeVR/blob/main/Tracker%20Extension/Previews/Extension-1.png"  alt="TrackerExtension" width=200px /> <img  src="https://github.com/Aeurias/NadeshikoSlimeVR/blob/main/Tracker%20Extension/Previews/Extension-2.png"  alt="TrackerExtension" width=180px /> <img  src="https://github.com/Aeurias/NadeshikoSlimeVR/blob/main/Tracker%20Extension/Previews/Extension-3.png"  alt="TrackerExtension" width=220px /></div>
 
-<div align="center">3.80×1.10×3.19 cm</div>
+<div align="center">3.80×1.20×3.48 cm</div>
 
 <br/>
 
