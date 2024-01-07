@@ -359,9 +359,8 @@ Finish step by soldering the D1 Mini to the header pins, making sure not to over
 #### Step 11 -  Flash the firmware, the light will turn from blinking to solid for a moment when complete.
 <img  src="https://github.com/Aeurias/NadeshikoSlimeVR/blob/main/Misc/Assembly/Step-11-Firmware/1.gif"  alt="1"/>
  
-Shown below is the ankle tracker with the foot extension and their IMU rotation.
 Depending on the IMU module used, you may need to ground some pads if using an extension tracker.
-<img  src="https://github.com/Aeurias/NadeshikoSlimeVR/blob/main/Misc/Assembly/Step-11-Firmware/onlinefirmware.png"  alt="2"/>
+
 
  
 After firmware flashing is complete, you can tape the battery to the PCB and/or place into the 3D printed cases.
