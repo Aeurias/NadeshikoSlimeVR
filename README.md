@@ -270,7 +270,7 @@ And solder both of the pins on the backside of the PCB quickly, to not overheat 
 <img  src="https://github.com/Aeurias/NadeshikoSlimeVR/blob/main/Misc/Assembly/Step-6-5Pin-Switch/1.jpg"  alt="1"/>
 <img  src="https://github.com/Aeurias/NadeshikoSlimeVR/blob/main/Misc/Assembly/Step-6-5Pin-Switch/2mono.jpg"  alt="2"/>
  
-OPTIONAL: If a 5 pin is needed on the tracker for extension communication, then clamp it down like this so its level with the PCB:
+OPTIONAL: If a 5 pin is needed on the tracker for extension communication, then clamp it down like this so its flush with the PCB:
 <img  src="https://github.com/Aeurias/NadeshikoSlimeVR/blob/main/Misc/Assembly/Step-6-5Pin-Switch/3mono.jpg"  alt="3"/>
 <img  src="https://github.com/Aeurias/NadeshikoSlimeVR/blob/main/Misc/Assembly/Step-6-5Pin-Switch/4mono.jpg"  alt="4"/>
  
@@ -296,25 +296,17 @@ Begin by snapping the correct length of the header pins for the side with the ho
 The repositioning of the plastic spacer can be easily done by hand on a flat surface, best to have them even like this for good battery clearance in the cases:
 <img  src="https://github.com/Aeurias/NadeshikoSlimeVR/blob/main/Misc/Assembly/Step-7-BMI-BNO/0.jpg"  alt="0"/>
  
-Place it on the PCB:
-<img  src="https://github.com/Aeurias/NadeshikoSlimeVR/blob/main/Misc/Assembly/Step-7-BMI-BNO/3.jpg"  alt="3"/>
+Place it on the PCB with the excess next to it, as we will use this temporarily to keep the IMU level:
+<img  src="https://github.com/Aeurias/NadeshikoSlimeVR/blob/main/Misc/Assembly/Step-7-BMI-BNO/4.jpg"  alt="4"/>
+
+Next we place the IMU on top to have a surface to clamp the header pin down on:
+<img  src="https://github.com/Aeurias/NadeshikoSlimeVR/blob/main/Misc/Assembly/Step-7-BMI-BNO/5.jpg"  alt="5"/>
+<img  src="https://github.com/Aeurias/NadeshikoSlimeVR/blob/main/Misc/Assembly/Step-7-BMI-BNO/6.jpg"  alt="6"/>
  
-Secure it in place with a helper ensuring the header pin is level with the PCB and not angled:
-<img  src="https://github.com/Aeurias/NadeshikoSlimeVR/blob/main/Misc/Assembly/Step-7-BMI-BNO/5mono.jpg"  alt="5"/>
-<img  src="https://github.com/Aeurias/NadeshikoSlimeVR/blob/main/Misc/Assembly/Step-7-BMI-BNO/6mono.jpg"  alt="6"/>
- 
-Solder the visible pins to secure it, and then finish soldering the rest that were under the clamp:
+Flip everything over to the backside and solder all the header pins to the breakout PCB: 
 <img  src="https://github.com/Aeurias/NadeshikoSlimeVR/blob/main/Misc/Assembly/Step-7-BMI-BNO/7.jpg"  alt="7"/>
-<img  src="https://github.com/Aeurias/NadeshikoSlimeVR/blob/main/Misc/Assembly/Step-7-BMI-BNO/8.jpg"  alt="8"/>
  
-Next we will solder the IMU module itself to the header pins. For the module to be level, you can use the excess header pins as a guide to level the module with the PCB:
-<img  src="https://github.com/Aeurias/NadeshikoSlimeVR/blob/main/Misc/Assembly/Step-7-BMI-BNO/9mono.jpg"  alt="9"/>
- 
-You can also remove the pins easily from the excess header to get better and even leveling:
-<img  src="https://github.com/Aeurias/NadeshikoSlimeVR/blob/main/Misc/Assembly/Step-7-BMI-BNO/10mono.jpg"  alt="10"/>
- 
-Then secure the module in place with a helper, ensuring it is level with the PCB:
-<img  src="https://github.com/Aeurias/NadeshikoSlimeVR/blob/main/Misc/Assembly/Step-7-BMI-BNO/11mono.jpg"  alt="11"/>
+Next we will solder the IMU module itself to the header pins. For the module to be level, you can continue using the excess header pins as a guide to level the module with the PCB:
 <img  src="https://github.com/Aeurias/NadeshikoSlimeVR/blob/main/Misc/Assembly/Step-7-BMI-BNO/12mono.jpg"  alt="12"/>
  
 Solder the IMU module to the header pins:
@@ -353,7 +345,6 @@ Finish step by soldering the D1 Mini to the header pins, making sure not to over
 #### Step 11 -  Flash the firmware, the light will turn from blinking to solid for a moment when complete.
 <img  src="https://github.com/Aeurias/NadeshikoSlimeVR/blob/main/Misc/Assembly/Step-11-Firmware/1.gif"  alt="1"/>
  
-Depending on the IMU module used, you may need to ground some pads if using an extension tracker.
 
 
  
