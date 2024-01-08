@@ -274,9 +274,7 @@ OPTIONAL: If a 5 pin is needed on the tracker for extension communication, then 
 <img  src="https://github.com/Aeurias/NadeshikoSlimeVR/blob/main/Misc/Assembly/Step-6-5Pin-Switch/3mono.jpg"  alt="3"/>
 <img  src="https://github.com/Aeurias/NadeshikoSlimeVR/blob/main/Misc/Assembly/Step-6-5Pin-Switch/4mono.jpg"  alt="4"/>
  
-  
-
-#### OPTIONAL: Solder the pins on the backside of the PCB similar to the JST 2 pin, stop soldering after the pin is wetted enough to not melt the plastic housing:
+OPTIONAL: Solder the pins on the backside of the PCB similar to the JST 2 pin, stop soldering after the pin is wetted enough to not melt the plastic housing:
 <img  src="https://github.com/Aeurias/NadeshikoSlimeVR/blob/main/Misc/Assembly/Step-6-5Pin-Switch/5.jpg"  alt="5"/>
 <img  src="https://github.com/Aeurias/NadeshikoSlimeVR/blob/main/Misc/Assembly/Step-6-5Pin-Switch/6mono.jpg"  alt="6"/>
  
