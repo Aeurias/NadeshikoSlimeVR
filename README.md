@@ -32,11 +32,12 @@ Based off the [SlimeVR Official Component Guide](https://docs.slimevr.dev/diy/co
 - [PCB](#pcb)
 - [Case](#case)
 - [Components](#components)
-- [Assembly](#assembly)
+- [Basic Assembly Guide](#assembly)
 - [Alternative IMUs](#imu)
 - [Resources](#resources)
-- [Detailed Assembly](#detailed-assembly)
+- [Detailed Assembly Guide](#detailed-assembly)
 - [How to order PCB/3DPrints](#ordering)
+- [Support](#support)
 
 
 <br/>
@@ -261,11 +262,8 @@ Then keep it in place with a helper:
 <img  src="https://github.com/Aeurias/NadeshikoSlimeVR/blob/main/Misc/Assembly/Step-5-2Pin/3mono.jpg"  alt="3"/>
 <img  src="https://github.com/Aeurias/NadeshikoSlimeVR/blob/main/Misc/Assembly/Step-5-2Pin/4mono.jpg"  alt="4"/>
  
-And solder both of the pins on the backside of the PCB:
+And solder both of the pins on the backside of the PCB quickly, to not overheat the housing:
 <img  src="https://github.com/Aeurias/NadeshikoSlimeVR/blob/main/Misc/Assembly/Step-5-2Pin/5.jpg"  alt="5"/>
- 
-The solder should penetrate through to the other side:
-<img  src="https://github.com/Aeurias/NadeshikoSlimeVR/blob/main/Misc/Assembly/Step-5-2Pin/6.jpg"  alt="6"/>
 
  
 #### Step 6 -  We now do the power switch and optionally a ZH 5 pin header for communication with an extension tracker.
@@ -278,10 +276,8 @@ OPTIONAL: If a 5 pin is needed on the tracker for extension communication, then 
  
   
 
-#### OPTIONAL: Solder the pins on the backside of the PCB similar just like the 2 pin connector:
+#### OPTIONAL: Solder the pins on the backside of the PCB similar to the JST 2 pin, stop soldering after the pin is wetted enough to not melt the plastic housing:
 <img  src="https://github.com/Aeurias/NadeshikoSlimeVR/blob/main/Misc/Assembly/Step-6-5Pin-Switch/5.jpg"  alt="5"/>
- 
-Again the solder should penetrate through to the top side like such:
 <img  src="https://github.com/Aeurias/NadeshikoSlimeVR/blob/main/Misc/Assembly/Step-6-5Pin-Switch/6mono.jpg"  alt="6"/>
  
 Next we will do the power switch, clamp it secure for soldering by the edge case grounding pin:
@@ -372,15 +368,26 @@ After firmware flashing is complete, you can tape the battery to the PCB and/or 
 
 ## Ordering
 
+### PCB
 Ordering the PCB and 3D Prints is easy. Head to the [releases](https://github.com/Aeurias/NadeshikoSlimeVR/releases) section and download the 3D print .stl files, and the PCB Gerber .zip files.
 
 For PCB ordering, head over to  [JLCPCB](https://cart.jlcpcb.com/quote/) and upload the gerber .zip files. Use the settings below on the order page:
  
 <img  src="https://github.com/Aeurias/NadeshikoSlimeVR/blob/main/Tracker%20Main/PCB%20Gerber/OrderingPCB.png"  alt="Ordering"/>
 
+They can also be ordered from [Elecrow](https://www.elecrow.com/pcb-manufacturing.html), [PCBGOGO](https://www.pcbgogo.com/pcb-fabrication-quote.html), [NextPCB](https://www.nextpcb.com/pcb-quote#/pcb-quote) or your preferred PCB manufacturer.
+ 
+ 
+### Cases
 For 3D Print case ordering, head over to [JLC3DP](https://jlc3dp.com/3d-printing-quote) and upload the .stl files for each model, including the tops/body and bases/endcaps etc. One case comes in two parts, so make sure you upload both halfs. Then use the settings below on the order page and set the quanity of each part to the number of trackers you are building:
  
 <img  src="https://github.com/Aeurias/NadeshikoSlimeVR/blob/main/Tracker%20Main/3D%20Print%20STL/OrderingCases.png"  alt="Ordering"/>
 
+Cases can also be ordered from [Elecrow](https://www.elecrow.com/3d-printing-service.html) or your preferred 3D print services.
 
+<br>
+
+## Support
+Feel free to open an issue if you have any questions or to share some pictures! :3
  
+You may also DM me on Discord: [@aeurias](https://discord.com/users/240905316013703169), or add on VRChat: [Nadeshiko ~](https://vrchat.com/home/user/usr_f6e358a4-a938-46eb-bfb2-4fee10bd21e5).
