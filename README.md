@@ -20,7 +20,7 @@ Based off the [SlimeVR Official Component Guide](https://docs.slimevr.dev/diy/co
 - Lightweight and smooth, clean looks.
 - 40mm or 50mm strap width is supported.
 - Detailed component purchase list.
-- Wall-mountable charging dock.
+- Wall-mountable charging dock (WIP).
 - Photographed assembly instructions.
 
 
@@ -309,7 +309,7 @@ Flip everything over to the backside and solder all the header pins to the break
 Next we will solder the IMU module itself to the header pins. For the module to be level, you can continue using the excess header pins as a guide to level the module with the PCB:
 <img  src="https://github.com/Aeurias/NadeshikoSlimeVR/blob/main/Misc/Assembly/Step-7-BMI-BNO/12mono.jpg"  alt="12"/>
  
-Solder the IMU module to the header pins and remove the temporary guide:
+Solder the IMU module to the header pins and remove the temporary excess header pins:
 <img  src="https://github.com/Aeurias/NadeshikoSlimeVR/blob/main/Misc/Assembly/Step-7-BMI-BNO/13.jpg"  alt="13"/>
 
 
@@ -343,7 +343,10 @@ Finish step by soldering the D1 Mini to the header pins, making sure not to over
 <img  src="https://github.com/Aeurias/NadeshikoSlimeVR/blob/main/Misc/Assembly/Step-10-Tape/3.jpg"  alt="3"/>
 
 #### Step 11 -  Flash the firmware, the light will turn from blinking to solid for a moment when complete.
+For more accurate SlimeVR dashboard battery percentage/voltage readout set BATTERY_SHIELD_RESISTANCE to 153K.
 <img  src="https://github.com/Aeurias/NadeshikoSlimeVR/blob/main/Misc/Assembly/Step-11-Firmware/1.gif"  alt="1"/>
+
+
  
 
 
