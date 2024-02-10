@@ -13,7 +13,7 @@
 
 Based off the [SlimeVR Official Component Guide](https://docs.slimevr.dev/diy/components-guide.html).
 
-@Nadeshiko's Slimes run on a [Wemos D1 Mini](https://www.wemos.cc/en/latest/d1/d1_mini_3.1.0.html) with an IMU IC of your choice that has the same module profile as the [SlimeVR BNO085](https://shop.slimevr.dev/products/slimevr-imu-module-bno085)'s or the [GY-BMI160](https://www.aliexpress.com/w/wholesale-GY%2525252dBMI160.html)'s. They use the [TP4056 lithium charger](https://www.aliexpress.com/w/wholesale-tp4056.html) module for 3.7V LiPo batteries.
+@Nadeshiko's Slimes run on a [Wemos D1 Mini](https://www.wemos.cc/en/latest/d1/d1_mini_3.1.0.html) with an IMU IC of your choice that has the same module profile as the [SlimeVR BNO085](https://shop.slimevr.dev/products/slimevr-imu-module-bno085)'s, the [BMI160](https://www.aliexpress.com/w/wholesale-GY%2525252dBMI160.html) or [BMI-270](https://store.kouno.xyz/products/bmi270-breakout-board)'s. They use the [TP4056 lithium charger](https://www.aliexpress.com/w/wholesale-tp4056.html) module for 3.7V LiPo batteries.
 
 - Easy and cheap to build.
 - No wires needed to be soldered.
@@ -107,7 +107,7 @@ The files for the case are:
 
  <br/>
 
-- **Tracker Extension:** It also has three parts: the main case, an endcap, and the PCB to mount the BMI/BNO module and ZH 1.5mm 5 Pin connector. 25mm hook and loop straps can be used with the extension case. The PCB is based on the [SlimeVR OSHWLab DIY Extension](https://oshwlab.com/eirenliel/slimevr-diy-tracker-extension) changes to make it easier for hand soldering and case fitment. 
+**Tracker Extension:** It also has three parts: the main case, an endcap, and the PCB to mount the BMI/BNO module and ZH 1.5mm 5-Pin connector. 25mm hook and loop straps can be used with the extension case. The PCB is based on the [SlimeVR OSHWLab DIY Extension](https://oshwlab.com/eirenliel/slimevr-diy-tracker-extension) changes to make it easier for hand soldering and case fitment. 
 
 The files for the extension are:
 
@@ -129,7 +129,8 @@ The files for the extension are:
 The components needed have all been added to a Google sheet here with links to each item's store page and total estimated cost.
 -  #### [Components BOM Sheet](https://docs.google.com/spreadsheets/d/1Np8FZpWfbQaHiXM6Y5nCLdoeBbmQeeP_hg5ss5rDM44/edit?usp=sharing)
 
-If you would like to use the BMI-270, they can be purchased from [KOUNO](https://store.kouno.xyz/products/bmi270-breakout-board).
+BNO-085 modules can be purchased directly from [SlimeVR](https://shop.slimevr.dev/products/slimevr-imu-module-bno085).
+If you would like to use the BMI-270 or the experimental LSM6DSV, they can be purchased from [KOUNO](https://store.kouno.xyz/).
 
 <div align="center"><a  name="logo"  href="https://docs.google.com/spreadsheets/d/1Np8FZpWfbQaHiXM6Y5nCLdoeBbmQeeP_hg5ss5rDM44/edit?usp=sharing"><img  src="https://github.com/Aeurias/NadeshikoSlimeVR/blob/main/Misc/render4.png"  alt="Components"></a></div>
 
@@ -150,7 +151,7 @@ The basic steps of assembly for the main trackers are:
 - [ ] Solder a TP4056 flush to the backside of the breakout PCB, using the clipped excess pins from previous step to make this step easier.
 - [ ] Solder on a JST PH 2mm 2-Pin header for the battery.
 - [ ] Solder on a SK12D07VG slide switch.
-- [ ] (Optional/Ankle trackers for foot extensions) Solder on a ZH 1.5mm 5 Pin header for communication with an extension tracker.
+- [ ] (Optional/Ankle trackers for foot extensions) Solder on a ZH 1.5mm 5-Pin header for communication with an extension tracker.
 - [ ] Solder the BMI/BNO08X module to the PCB with header pins or flush.
 - [ ] Solder on a D1 Mini with included header pins, adjust them if needed.
 - [ ] Use polyimide tape or equivalent on header pins and the LiPo battery to protect it from puncture, and shorts.
@@ -163,7 +164,7 @@ The basic steps of assembly for the extension trackers:
   
 
 - [ ] Solder on a 100nf capacitor to the extension PCB.
-- [ ] Then the ZH 1.5mm 5 pin header for communication with the main tracker.
+- [ ] Then the ZH 1.5mm 5-pin header for communication with the main tracker.
 - [ ] Solder a BMI/BNO08X module flush to the extension PCB.
   
    
@@ -235,7 +236,7 @@ You can use these excess to make flush mounting the TP4056 easier if unexperienc
 #### Step 4 -  Next we solder on the TP4056 flush to the PCB on the backside.
 <img  src="https://github.com/Aeurias/NadeshikoSlimeVR/blob/main/Misc/Assembly/Step-4-TP4056/00.jpg"  alt="00"/>
 
-If you are experienced with soldering, you can skip using the excess from the previous step; if not bend the excess over the TP4056 and the PCB holes so it stays in place and solder, this helps solder flow into the hole:
+If experienced with soldering, you can skip using the excess from the previous step and flush solder; If not, then bend the excess through the TP4056 and the PCB holes so it stays in place and solder, this helps solder flow into the hole, good if you are unsure flush soldering is making good connections:
 <img  src="https://github.com/Aeurias/NadeshikoSlimeVR/blob/main/Misc/Assembly/Step-4-TP4056/1.jpg"  alt="1"/>
  
 Here's how the topside of the breakout PCB should look when using the excess for help:
@@ -248,14 +249,14 @@ Clip off the excess from all 6 points so it's nice and neat:
 <img  src="https://github.com/Aeurias/NadeshikoSlimeVR/blob/main/Misc/Assembly/Step-4-TP4056/5.jpg"  alt="5"/>
 <img  src="https://github.com/Aeurias/NadeshikoSlimeVR/blob/main/Misc/Assembly/Step-4-TP4056/6.jpg"  alt="6"/>
 
-If you know how to flush solder and get good connection, then you can skip on using the excess pins.
+Again, if you know how to flush solder and get good connection, then you can skip on using the excess pins.
 <img  src="https://github.com/Aeurias/NadeshikoSlimeVR/blob/main/Misc/Assembly/Step-4-TP4056/0.jpg"  alt="0"/>
 
  
 #### Step 5 -  We now add a JST 2-Pin for the battery connection.
 <img  src="https://github.com/Aeurias/NadeshikoSlimeVR/blob/main/Misc/Assembly/Step-5-2Pin/1.jpg"  alt="1"/>
 
-First place it in the correct position and orientation as shown on the PCB:
+First, place it in the correct position and orientation as shown on the PCB:
 <img  src="https://github.com/Aeurias/NadeshikoSlimeVR/blob/main/Misc/Assembly/Step-5-2Pin/2mono.jpg"  alt="2"/>
  
 Then keep it in place with a helper:
@@ -266,15 +267,15 @@ And solder both of the pins on the backside of the PCB quickly, to not overheat 
 <img  src="https://github.com/Aeurias/NadeshikoSlimeVR/blob/main/Misc/Assembly/Step-5-2Pin/5.jpg"  alt="5"/>
 
  
-#### Step 6 -  We now do the power switch and optionally a ZH 5 pin header for communication with an extension tracker.
+#### Step 6 -  We now do the power switch and optionally a ZH 1.5mm 5-pin header for communication with an extension tracker.
 <img  src="https://github.com/Aeurias/NadeshikoSlimeVR/blob/main/Misc/Assembly/Step-6-5Pin-Switch/1.jpg"  alt="1"/>
 <img  src="https://github.com/Aeurias/NadeshikoSlimeVR/blob/main/Misc/Assembly/Step-6-5Pin-Switch/2mono.jpg"  alt="2"/>
  
-OPTIONAL: If a 5 pin is needed on the tracker for extension communication, then clamp it down like this so its flush with the PCB:
+OPTIONAL: If a 5-pin is needed on the tracker for extension communication, then clamp it down like this so its flush with the PCB:
 <img  src="https://github.com/Aeurias/NadeshikoSlimeVR/blob/main/Misc/Assembly/Step-6-5Pin-Switch/3mono.jpg"  alt="3"/>
 <img  src="https://github.com/Aeurias/NadeshikoSlimeVR/blob/main/Misc/Assembly/Step-6-5Pin-Switch/4mono.jpg"  alt="4"/>
  
-OPTIONAL: Solder the pins on the backside of the PCB similar to the JST 2 pin, stop soldering after the pin is wetted enough to not melt the plastic housing:
+OPTIONAL: Solder the pins on the backside of the PCB similar to the JST 2-pin, stop soldering after the pin is wetted enough to not melt the plastic housing:
 <img  src="https://github.com/Aeurias/NadeshikoSlimeVR/blob/main/Misc/Assembly/Step-6-5Pin-Switch/5.jpg"  alt="5"/>
 <img  src="https://github.com/Aeurias/NadeshikoSlimeVR/blob/main/Misc/Assembly/Step-6-5Pin-Switch/6mono.jpg"  alt="6"/>
  
@@ -343,7 +344,7 @@ Finish step by soldering the D1 Mini to the header pins, making sure not to over
 <img  src="https://github.com/Aeurias/NadeshikoSlimeVR/blob/main/Misc/Assembly/Step-10-Tape/3.jpg"  alt="3"/>
 
 #### Step 11 -  Flash the firmware, the light will turn from blinking to solid for a moment when complete.
-For more accurate SlimeVR dashboard battery percentage/voltage readout set BATTERY_SHIELD_RESISTANCE to 153K.
+For more accurate SlimeVR dashboard battery percentage/voltage readout for @Nadeshiko Slimes, set BATTERY_SHIELD_RESISTANCE to ~166K.
 <img  src="https://github.com/Aeurias/NadeshikoSlimeVR/blob/main/Misc/Assembly/Step-11-Firmware/1.gif"  alt="1"/>
 
 
@@ -371,7 +372,7 @@ They can also be ordered from [Elecrow](https://www.elecrow.com/pcb-manufacturin
  
  
 ### Cases
-For 3D Print case ordering, head over to [JLC3DP](https://jlc3dp.com/3d-printing-quote) and upload the .stl files for each model, including the top/body and base/end cap etc. One case comes in two parts, so make sure you upload both halves. Then use the settings below on the order page and set the quantity of each part to the number of trackers you are building:
+For 3D Print case ordering, head over to [JLC3DP](https://jlc3dp.com/3d-printing-quote) and upload the .stl files for each model, including the top/body and base/end cap etc. One case comes in two parts, so make sure you upload both halves. Then use the settings below on the order page and set the quantity of each part to the number of trackers you are building. The available SLA material and prices will vary, as the model has been designed to be used with any of the SLA resins, any of the cheapest option will be good enough for the trackers, 
  
 <img  src="https://github.com/Aeurias/NadeshikoSlimeVR/blob/main/Tracker%20Main/3D%20Print%20STL/OrderingCases.png"  alt="Ordering"/>
 
