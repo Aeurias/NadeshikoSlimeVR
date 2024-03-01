@@ -197,8 +197,6 @@ Useful Links:
 - [SlimeVR Github](https://github.com/SlimeVR/)
 - [SlimeVR Discord](https://discord.gg/SlimeVR)
 
-<div align="center"><img  src="https://github.com/Aeurias/NadeshikoSlimeVR/blob/main/Misc/PlacementExample.png"  alt="TrackerPlacement"/></div>
-
 
  
 <br>
