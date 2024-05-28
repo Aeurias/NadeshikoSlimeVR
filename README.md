@@ -338,6 +338,7 @@ Finish step by soldering the D1 Mini to the header pins, making sure not to over
 <img  src="https://github.com/Aeurias/NadeshikoSlimeVR/blob/main/Misc/Assembly/Step-9-Cleaned/2.jpg"  alt="2"/>
 
 #### Step 10 -  Tape off the pins and add a layer to the battery to protect it from puncture and wear.
+It may be best to add a sheet of plastic below the battery to protect it further. Such as plastic from a bottle.
 <img  src="https://github.com/Aeurias/NadeshikoSlimeVR/blob/main/Misc/Assembly/Step-10-Tape/1.jpg"  alt="1"/>
 <img  src="https://github.com/Aeurias/NadeshikoSlimeVR/blob/main/Misc/Assembly/Step-10-Tape/3.jpg"  alt="3"/>
 
