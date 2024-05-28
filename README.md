@@ -1,10 +1,5 @@
-
 <h1 align="center">
-
 <a  name="logo"  href="Misc/logo.png"><img  src="https://github.com/Aeurias/NadeshikoSlimeVR/blob/main/Misc/logo.png"  alt="@Nadeshiko's SlimeVR"></a>
-
-<br>
-
 @Nadeshiko's SlimeVR
 
 </h1>
@@ -22,9 +17,6 @@ Based off the [SlimeVR Official Component Guide](https://docs.slimevr.dev/diy/co
 - Detailed component purchase list.
 - Wall-mountable charging dock (WIP).
 - Photographed assembly instructions.
-
-
-
   
 
 ## Index
