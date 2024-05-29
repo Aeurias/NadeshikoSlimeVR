@@ -10,7 +10,8 @@
 > [!IMPORTANT]
 > For the regular, WEMOS D1 Mini variant please view the main branch [Here!](https://github.com/Aeurias/NadeshikoSlimeVR/)
 
-These are one of the smallest possible module based SlimeVR trackers possible, almost as small as extension trackers! There is however a drawback with this compared to the regular @Nadeshiko SlimeVR's or any built with D1 Mini's, the WiFI performance is much weaker on the ESP32-C3 Supermini, so can probably only be used with a router setup in the same room as the trackers. The PCB does have a slot to let WiFi RF pass through without hinderance just like with the my other slimes, but not sure how helpful that will be tho for this scale. We'll see after some tests!
+
+These are one of the smallest possible module based SlimeVR trackers possible, similar to [Gorbit99's Tiny Slime](https://github.com/gorbit99/tiny-slime), almost as small as extension trackers! There is however a drawback with this compared to the regular @Nadeshiko SlimeVR's or any built with D1 Mini's, the WiFI performance is much weaker on the ESP32-C3 Supermini, so can probably only be used with a router setup in the same room as the trackers. The PCB does have a slot to let WiFi RF pass through without hinderance just like with the my other slimes, but not sure how helpful that will be tho for this scale. We'll see after some tests!
 
 Due to how small these are, there is no option to connect an extension tracker, as that will only increase the overall size and cost of a whole tracker set. So these can basically be used as chubby extension instead lol
 
@@ -111,35 +112,28 @@ The component cost should come out to around £5/$7 per tracker without case, an
 
 ## Assembly
 
-> [!WARNING]  
-> Content below has yet to be updated for the ESP32-C3 Supermini variant!
-
-While soldering, use flux to make things easier, keep your solder iron's tip tinned with solder when not in use to protect from oxidation. Make sure to clean the PCBs after soldering. You can use PCB cleaner or isopropyl alcohol. This is to remove the flux, which some are acidic and will attack the solder joint over time. 
+While soldering, use flux to make things easier, keep your solder iron's tip tinned with solder when not in use to protect from oxidation. Make sure to clean the PCBs after soldering. You can use PCB cleaner or isopropyl alcohol. This is to remove the flux, which some are acidic and will attack the solder joint over time.
 
 
 The basic steps of assembly for the main trackers are:
 
 
-- [ ] 1x 180K resistor and 2x 1N5817 diodes soldered in the correct orientation on the PCB.
-- [ ] Clip off the excess pins of the diodes and resistor and keep it aside for soldering the TP4056.
-- [ ] Solder a TP4056 flush to the backside of the breakout PCB, using the clipped excess pins from previous step to make this step easier.
-- [ ] Solder on a JST PH 2mm 2-Pin header for the battery.
+- [ ] 2x 1206 100K resistor and 2x 1N5822 diodes soldered in the correct orientation on the PCB.
+- [ ] Solder a unprotected TP4056 flush to the PCB.
 - [ ] Solder on a SK12D07VG slide switch.
-- [ ] (Optional/Ankle trackers for foot extensions) Solder on a ZH 1.5mm 5-Pin header for communication with an extension tracker.
-- [ ] Solder the BMI/BNO08X module to the PCB with header pins or flush.
-- [ ] Solder on a D1 Mini with included header pins, adjust them if needed.
-- [ ] Use polyimide tape or equivalent on header pins and the LiPo battery to protect it from puncture, and shorts.
-- [ ] Check LiPo's battery JST plug matches the +/- polarity as on the PCB's header (Fix the battery plug if not).
-- [ ] Connect the LiPo battery with the power switch in the OFF position.
-- [ ] Power switch still in the OFF position: flash firmware using the online firmware flasher or by following the SlimeVR firmware documentation.
-  
+- [ ] OPTIONAL: Solder on a JST PH 2mm 2-Pin header for the battery.
+- [ ] Solder the BMI-270 module to the PCB.
+- [ ] Solder on a ESP32-C3 SuperMini module flush to the PCB.
+- [ ] OPTIONAL: Use polyimide tape or equivalent on sharp corners and the LiPo battery to protect it from puncture.
+- [ ] OPTIONAL: If using JST PH 2mm 2-pin header. Check battery JST plug matches the +/- polarity as on the PCB (Fix the battery plug if not).
+- [ ] Connect or solder on the LiPo battery with the power switch in the OFF position.
 
-The basic steps of assembly for the extension trackers:
-  
+Flashing:
 
-- [ ] Solder on a 100nf capacitor to the extension PCB.
-- [ ] Then the ZH 1.5mm 5-pin header for communication with the main tracker.
-- [ ] Solder a BMI/BNO08X module flush to the extension PCB.
+- [ ] Power switch still in the OFF position; Flash firmware using the online firmware flasher.
+- [ ] When flashing, you want to choose BOARD_LOLIN_C3_MINI.
+- [ ] In Advanced options, change SDA Pin to "6", SCL Pin to "7", and LED Pin to "8".
+
   
    
 <br>
