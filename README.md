@@ -1,24 +1,25 @@
 <h1 align="center">
-<a  name="logo"  href="Misc/logo.png"><img  src="https://github.com/Aeurias/NadeshikoSlimeVR/blob/main/Misc/logo.png"  alt="@Nadeshiko's SlimeVR"></a>
-@Nadeshiko's SlimeVR
+<a  name="logo"  href="Misc/logo.png"><img  src="https://github.com/Aeurias/NadeshikoSlimeVR/blob/ESP32-C3-Supermini/Tracker%20Supermini/Previews/logo.png"  alt="@Nadeshiko's Mini SlimeVR"></a>
+@Nadeshiko's Mini SlimeVR
 
 </h1>
 
-  
+> [!CAUTION]
+> This is highly experimental, untested hardware and in design process at the moment!
 
-Based off the [SlimeVR Official Component Guide](https://docs.slimevr.dev/diy/components-guide.html).
+> [!IMPORTANT]
+> For the regular, WEMOS D1 Mini variant please view the main branch [Here!](https://github.com/Aeurias/NadeshikoSlimeVR/)
 
-@Nadeshiko's Slimes run on a [Wemos D1 Mini](https://www.wemos.cc/en/latest/d1/d1_mini_3.1.0.html) with an IMU IC of your choice that has the same module profile as the [SlimeVR BNO085](https://shop.slimevr.dev/products/slimevr-imu-module-bno085)'s, the [BMI160](https://www.aliexpress.com/w/wholesale-GY%2525252dBMI160.html) or [Meia's BMI-270](https://store.kouno.xyz/products/bmi270-breakout-board)'s. They use the [TP4056 lithium charger](https://www.aliexpress.com/w/wholesale-tp4056.html) module for 3.7V LiPo batteries.
+
+@Nadeshiko's Mini Slimes run on a [ESP32-C3 Supermini](https://www.aliexpress.com/item/1005005877531694.html) with an IMU IC of your choice that has the same module profile as the [BMI160](https://www.aliexpress.com/w/wholesale-GY%2525252dBMI160.html) or [Meia's BMI-270](https://store.kouno.xyz/products/bmi270-breakout-board)'s. They use the [TP4056 Unprotected lithium charger](https://www.aliexpress.com/item/1005005468881238.html) module for 3.7V LiPo batteries in sizes less than 20mm wide and 40mm length.
 
 - Easy and cheap to build.
 - No wires needed to be soldered.
-- Lightweight and smooth, clean looks.
-- 40mm or 50mm strap width is supported.
-- Detailed component purchase list.
-- Photographed assembly instructions.
+- Lightweight and smooth, clean case looks. (WIP)
+- 25mm strap width is supported.
+- Detailed component purchase list. (WIP)
+- Photographed assembly instructions. (WIP)
 
-> [!IMPORTANT]
-> For the smaller, ESP32-C3 Supermini variant please view this branch: [Coming Soon!](https://github.com/Aeurias/NadeshikoSlimeVR/)
   
 
 ## Index
@@ -36,13 +37,14 @@ Based off the [SlimeVR Official Component Guide](https://docs.slimevr.dev/diy/co
 
 <br/>
 
+
 ## PCB
 
   
 
-The main PCB lets every component be soldered on without any wire connections between the modules. This includes the diodes and resistors for battery sense and charge protection. The TP4056 charger is on the back side to save on size and cost; a JST 2mm 2-pin connector can be added to make battery connections easier; an SK12D07VG 3-pin switch will be used to turn the tracker on or off; and a ZH 1.5mm 5-pin connector is used for extension tracker communication with SCL and SDA in the same cable layout as the official tracker extension method to avoid crosstalk on long extension cables.
+The main PCB lets every component be soldered on without any wire connections between the modules. This includes the diodes and resistors for battery sense and charge protection. The ESP32-C3 Supermini is on the back side to save on size and cost; a JST 2mm 2-pin connector can be added to make battery connections easier; an SK12D07VG 3-pin switch will be used to turn the tracker on or off.
 
-The PCB's can also be used without a case, as there are built-in cutouts for straps to pass through.
+The PCB's can also be used without a case, as there are built-in cutouts for a 25mm strap to pass through.
 
   
 
@@ -50,9 +52,9 @@ PCBs can be ordered from [JLCPCB](https://cart.jlcpcb.com/quote/), [Elecrow](htt
 
   
 
-<img  src="https://github.com/Aeurias/NadeshikoSlimeVR/blob/main/Misc/PCBFront.png"  alt="R3MiniPCBFront" width=290px />&nbsp;&nbsp;&nbsp;&nbsp;<img  src="https://github.com/Aeurias/NadeshikoSlimeVR/blob/main/Misc/PCBBack.png"  alt="R3MiniPCBBack" width=290px />&nbsp;&nbsp;&nbsp;&nbsp;<img  src="https://github.com/Aeurias/NadeshikoSlimeVR/blob/main/Misc/Extension-PCB-Front.png"  alt="TrackerExtensionPCB" width=150px />
+<img  src="https://github.com/Aeurias/NadeshikoSlimeVR/blob/ESP32-C3-Supermini/Tracker%20Supermini/Previews/supermini0.png"  alt="Mini1" width=290px />&nbsp;&nbsp;&nbsp;&nbsp;<img  src="https://github.com/Aeurias/NadeshikoSlimeVR/blob/ESP32-C3-Supermini/Tracker%20Supermini/Previews/supermini1.png"  alt="Mini2" width=290px />
 
-<p align="center">PCB Front/Back - Extension Tracker</p>
+<p align="center">PCB Front/Back</p>
 
 <br/>
 
@@ -62,9 +64,10 @@ PCBs can be ordered from [JLCPCB](https://cart.jlcpcb.com/quote/), [Elecrow](htt
 
   
 
-The tracker case, can house a 3.7V LiPo in 103450 size or any up to 10mm thick. Cell dimensions advised are 10x34x50mm or less. These cells have a similar runtime to 18650 Li-ion cells but are cheaper.
+The tracker case, can house a 3.7V LiPo in 502040 size or any up to 10mm thick. Cell dimensions advised are 5x20x50mm or less.
 
-  
+> [!WARNING]
+> Content below has yet to be updated for the ESP32-C3 Supermini variant!
 
 The case has been designed according to [JLCPCB/JLC3DP resin 3D printing guideline](https://jlc3dp.com/help/article/212-3D-Printing-Design-Guideline). The case can be ordered from [JLC3DP](https://jlc3dp.com/3d-printing-quote) or [Elecrow](https://www.elecrow.com/3d-printing-service.html), and the resin to select on your order is up to you. I prefer the [**8111X**](https://jlc3dp.com/help/article/199-8111X---Photosensitive-Resin), [**CBY**](https://jlc3dp.com/help/article/437-CBY-Photosensitive-Resin), [**Black Resin**](https://jlc3dp.com/help/article/198-Black-Resin--Photosensitive-Resin), or equivalent.
 
@@ -120,6 +123,9 @@ The files for the extension are:
 
 ## Components
 
+> [!WARNING]  
+> Content below has yet to be updated for the ESP32-C3 Supermini variant!
+
 The components needed have all been added to a Google sheet here with links to each item's store page and total estimated cost.
 -  #### [Components BOM Sheet](https://docs.google.com/spreadsheets/d/1Np8FZpWfbQaHiXM6Y5nCLdoeBbmQeeP_hg5ss5rDM44/edit?usp=sharing)
 
@@ -133,6 +139,9 @@ If you would like to use the BMI-270 or the experimental LSM6DSV, they can be pu
 
 
 ## Assembly
+
+> [!WARNING]  
+> Content below has yet to be updated for the ESP32-C3 Supermini variant!
 
 While soldering, use flux to make things easier, keep your solder iron's tip tinned with solder when not in use to protect from oxidation. Make sure to clean the PCBs after soldering. You can use PCB cleaner or isopropyl alcohol. This is to remove the flux, which some are acidic and will attack the solder joint over time. 
 
@@ -179,6 +188,9 @@ This requires you to use a [mini hot plate](https://www.aliexpress.com/w/wholesa
 
 ## Resources
 
+> [!WARNING]  
+> Content below has yet to be updated for the ESP32-C3 Supermini variant!
+
 
 Useful Links:
 
@@ -197,6 +209,9 @@ Useful Links:
 
 
 ## Detailed-Assembly
+
+> [!WARNING]  
+> Content below has yet to be updated for the ESP32-C3 Supermini variant!
 
  
 #### Step 1 - We will begin with the resistor and diodes and then the TP4056 Module.
@@ -354,6 +369,9 @@ After firmware flashing is complete, you can tape the battery to the PCB and/or 
  
 
 ## Ordering
+
+> [!WARNING]  
+> Content below has yet to be updated for the ESP32-C3 Supermini variant!
 
 ### PCB
 Ordering the PCB and 3D Prints is easy. Head to the [releases](https://github.com/Aeurias/NadeshikoSlimeVR/releases) section and download the 3D print .stl files, and the PCB Gerber .zip files.
