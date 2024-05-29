@@ -1,5 +1,5 @@
 <h1 align="center">
-<a  name="logo"  href="Misc/logo.png"><img  src="https://github.com/Aeurias/NadeshikoSlimeVR/blob/ESP32-C3-Supermini/Tracker%20Supermini/Previews/logo.png"  alt="@Nadeshiko's Mini SlimeVR"></a>
+<a  name="logo"  href="Misc/logo.png"><img  src="https://github.com/Aeurias/NadeshikoSlimeVR/blob/ESP32-C3-Supermini/Tracker%20Supermini/Previews/logo1.png"  alt="@Nadeshiko's Mini SlimeVR"></a>
 @Nadeshiko's Mini SlimeVR
 
 </h1>
