@@ -103,7 +103,8 @@ The component cost should come out to around £5/$7 per tracker without case, an
 | 1206/3216 Resistors in 100K Ohm       |     2 |  0.01 | [AliExpress](https://www.aliexpress.com/item/1005006358156511.html)   |
 | 1N5822 SS34 DO214AC Diodes            |     2 |  0.02 | [AliExpress](https://www.aliexpress.com/item/1005002813143363.html)   |
 | Li-Po Battery in 502040 Size          |     1 |  0.72 | [AliExpress](https://www.aliexpress.com/item/1005006680680172.html)   |
-| 25mm Hook & Loop or Elastic Strap     |     1 |  0.20 | [AliExpress](https://www.aliexpress.com/item/1005006326126306.html)   |
+| 25mm Hook & Loop                      |     1 |  0.20 | [AliExpress](https://www.aliexpress.com/item/1005006326126306.html)   |
+| 25mm Elastic Strap & Buckles          |     1 |  0.20 | AliExpress                                                            |
 
 <br>
 
