@@ -89,7 +89,7 @@ The files for the case are: WIP
 
 ## Components
 
-The component cost should come out to around £3.60/$4.60 per tracker without case, and around ~£5/~$7 with cases (case still WIP).
+The component cost should come out to around £3.60/$4.60 per tracker without case, and around £5/$7 with cases (case still WIP).
 
 | Component                             |  QNTY | Link                                                                  |
 | ------------------------------------- | ----: | --------------------------------------------------------------------- |
