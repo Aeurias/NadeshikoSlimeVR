@@ -8,15 +8,17 @@
 
 Based off the [SlimeVR Official Component Guide](https://docs.slimevr.dev/diy/components-guide.html).
 
-@Nadeshiko's Slimes run on a [Wemos D1 Mini](https://www.wemos.cc/en/latest/d1/d1_mini_3.1.0.html) with an IMU IC of your choice that has the same module profile as the [SlimeVR BNO085](https://shop.slimevr.dev/products/slimevr-imu-module-bno085)'s, the [BMI160](https://www.aliexpress.com/w/wholesale-GY%2525252dBMI160.html) or [BMI-270](https://store.kouno.xyz/products/bmi270-breakout-board)'s. They use the [TP4056 lithium charger](https://www.aliexpress.com/w/wholesale-tp4056.html) module for 3.7V LiPo batteries.
+@Nadeshiko's Slimes run on a [Wemos D1 Mini](https://www.wemos.cc/en/latest/d1/d1_mini_3.1.0.html) with an IMU IC of your choice that has the same module profile as the [SlimeVR BNO085](https://shop.slimevr.dev/products/slimevr-imu-module-bno085)'s, the [BMI160](https://www.aliexpress.com/w/wholesale-GY%2525252dBMI160.html) or [Meia's BMI-270](https://store.kouno.xyz/products/bmi270-breakout-board)'s. They use the [TP4056 lithium charger](https://www.aliexpress.com/w/wholesale-tp4056.html) module for 3.7V LiPo batteries.
 
 - Easy and cheap to build.
 - No wires needed to be soldered.
 - Lightweight and smooth, clean looks.
 - 40mm or 50mm strap width is supported.
 - Detailed component purchase list.
-- Wall-mountable charging dock (WIP).
 - Photographed assembly instructions.
+
+> [!IMPORTANT]
+> For the smaller, ESP32-C3 Supermini variant please view this branch: [Coming Soon!](https://github.com/Aeurias/NadeshikoSlimeVR/)
   
 
 ## Index
