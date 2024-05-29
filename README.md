@@ -19,7 +19,7 @@ Due to how small these are, there is no option to connect an extension tracker, 
 
 
 
-- 30mm x 38mm PCB design - smol!
+- 25mm x 37mm PCB design - smol!
 - Easy and very cheap to build.
 - No wires needed to be soldered.
 - Lightweight and smooth, clean case looks. (WIP)
