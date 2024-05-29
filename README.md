@@ -89,6 +89,8 @@ The files for the case are: WIP
 
 ## Components
 
+The component cost should come out to around £3.60/$4.60 per tracker without case, and around ~£5/~$7 with cases (case still WIP).
+
 | Component                             |  QNTY | Link                                                                  |
 | ------------------------------------- | ----: | --------------------------------------------------------------------- |
 | @Nadeshiko Mini PCB                   |     1 | Elecrow or JLCPCB                                                     |
@@ -101,6 +103,7 @@ The files for the case are: WIP
 | 1N5822 SS34 DO214AC Diodes            |     2 | [AliExpress](https://www.aliexpress.com/item/1005002813143363.html)   |
 | Li-Po Battery in 502040 Size          |     1 | [AliExpress](https://www.aliexpress.com/item/1005006680680172.html)   |
 <br>
+
 
 
 
