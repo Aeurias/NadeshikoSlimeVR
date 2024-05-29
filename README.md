@@ -89,19 +89,20 @@ The files for the case are: WIP
 
 ## Components
 
-The component cost should come out to around £3.60/$4.60 per tracker without case, and around £5/$7 with cases (case still WIP).
+The component cost should come out to around £5/$7 per tracker without case, and around £7/$9 with cases (case still WIP).
 
-| Component                             |  QNTY | Link                                                                  |
-| ------------------------------------- | ----: | --------------------------------------------------------------------- |
-| @Nadeshiko Mini PCB                   |     1 | Elecrow or JLCPCB                                                     |
-| @Nadeshiko Mini Case                  |     1 | Elecrow or JLCPCB                                                     |
-| ESP32-C3 SuperMini                    |     1 | [AliExpress](https://www.aliexpress.com/item/1005005877531694.html)   |
-| BMI270 Module                         |     1 | [KOUNOLAB](https://store.kouno.xyz)                                   |
-| TP4056 Unprotected Charger            |     1 | [AliExpress](https://www.aliexpress.com/item/1005005468881238.html)   |
-| SK12D07VG Slide Switch in 4/5/6mm     |     1 | [AliExpress](https://www.aliexpress.com/item/1005005786809487.html)   |
-| 1206/3216 Resistors in 100K Ohm       |     2 | [AliExpress](https://www.aliexpress.com/item/1005006358156511.html)   |
-| 1N5822 SS34 DO214AC Diodes            |     2 | [AliExpress](https://www.aliexpress.com/item/1005002813143363.html)   |
-| Li-Po Battery in 502040 Size          |     1 | [AliExpress](https://www.aliexpress.com/item/1005006680680172.html)   |
+| Component                             |  QNTY |   £   | Link                                                                  |
+| ------------------------------------- | ----: | ----: | --------------------------------------------------------------------- |
+| @Nadeshiko Mini PCB                   |     1 |  0.39 | Elecrow or JLCPCB                                                     |
+| @Nadeshiko Mini Case                  |     1 |  WIP  | Elecrow or JLCPCB                                                     |
+| ESP32-C3 SuperMini                    |     1 |  1.62 | [AliExpress](https://www.aliexpress.com/item/1005005877531694.html)   |
+| BMI270 Module                         |     1 |  2.13 | [KOUNOLAB](https://store.kouno.xyz)                                   |
+| TP4056 Unprotected Charger            |     1 |  0.15 | [AliExpress](https://www.aliexpress.com/item/1005005468881238.html)   |
+| SK12D07VG Slide Switch in 4/5/6mm     |     1 |  0.04 | [AliExpress](https://www.aliexpress.com/item/1005005786809487.html)   |
+| 1206/3216 Resistors in 100K Ohm       |     2 |  0.01 | [AliExpress](https://www.aliexpress.com/item/1005006358156511.html)   |
+| 1N5822 SS34 DO214AC Diodes            |     2 |  0.02 | [AliExpress](https://www.aliexpress.com/item/1005002813143363.html)   |
+| Li-Po Battery in 502040 Size          |     1 |  0.72 | [AliExpress](https://www.aliexpress.com/item/1005006680680172.html)   |
+
 <br>
 
 
