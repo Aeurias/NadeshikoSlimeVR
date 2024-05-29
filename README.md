@@ -12,6 +12,8 @@
 
 These are one of the smallest possible module based SlimeVR trackers possible, almost as small as extension trackers! There is however a drawback with this compared to the regular @Nadeshiko SlimeVR's or any built with D1 Mini's, the WiFI performance is much weaker on the ESP32-C3 Supermini, so can probably only be used with a router setup in the same room as the trackers. The PCB does have a slot to let WiFi RF pass through without hinderance just like with the my other slimes, but not sure how helpful that will be tho for this scale. We'll see after some tests!
 
+Due to how small these are, there is no option to connect an extension tracker, as that will only increase the overall size and cost of a whole tracker set. So these can basically be used as chubby extension instead lol
+
 @Nadeshiko's Mini Slimes run on a [ESP32-C3 Supermini](https://www.aliexpress.com/item/1005005877531694.html) with an IMU IC of your choice that has the same module profile as the [BMI160](https://www.aliexpress.com/w/wholesale-GY%2525252dBMI160.html) or [Meia's BMI-270](https://store.kouno.xyz/products/bmi270-breakout-board)'s. They use the [TP4056 Unprotected lithium charger](https://www.aliexpress.com/item/1005005468881238.html) module for 3.7V LiPo batteries.
 
 
@@ -46,7 +48,7 @@ These are one of the smallest possible module based SlimeVR trackers possible, a
 
   
 
-The main PCB lets every component be soldered on without any wire connections between the modules. This includes the diodes and resistors for battery sense and charge protection. The ESP32-C3 Supermini is on the back side to save on size and cost; a JST 2mm 2-pin connector can be added to make battery connections easier; an SK12D07VG 3-pin switch will be used to turn the tracker on or off.
+The PCB lets every component be soldered on without any wire connections between the modules. This includes the diodes and resistors for battery sense and charge protection. The ESP32-C3 Supermini is on the back side to save on size and cost; a JST 2mm 2-pin connector can be added to make battery connections easier; an SK12D07VG 3-pin switch will be used to turn the tracker on or off.
 
 The PCB's can also be used without a case, as there are built-in cutouts for a 25mm strap to pass through.
 
@@ -75,51 +77,14 @@ The tracker case, can house a 3.7V LiPo in 502040 size or any up to 10mm thick. 
 
 The case has been designed according to [JLCPCB/JLC3DP resin 3D printing guideline](https://jlc3dp.com/help/article/212-3D-Printing-Design-Guideline). The case can be ordered from [JLC3DP](https://jlc3dp.com/3d-printing-quote) or [Elecrow](https://www.elecrow.com/3d-printing-service.html), and the resin to select on your order is up to you. I prefer the [**8111X**](https://jlc3dp.com/help/article/199-8111X---Photosensitive-Resin), [**CBY**](https://jlc3dp.com/help/article/437-CBY-Photosensitive-Resin), [**Black Resin**](https://jlc3dp.com/help/article/198-Black-Resin--Photosensitive-Resin), or equivalent.
 
-  
-
-The case and the tracker extension case are two part with snap-fitting closures, with added extra security once a strap is used.
-
-  
-
-It prints as two parts: a snap-fit main body with strap holes on the side, ports for the D1 Mini, an extension tracker connector, and the power switch. The other is the base plate with strap holes on the bottom, and PCB stand/aligners, and a port for the TP4056 charger.
-
-Up to a 50mm strap can be fitted to the main case; the best one to use is the non-slip elastic kind with plastic buckles in the same size to make it easier to remove, as listed in the Google Sheet BOM. The strap has a few bends through the case to stop any unnecessary slop and keep it locked against the skin.
-
-A gentle curve has been added on the underside of the case, matching that of arms, legs, or hip; this is to reduce any edges digging into the skin and also increase the contact area of the non-slip strap.
 
   
 
 The files for the case are:
 
 
-- [ ] [TOP.stl](https://github.com/Aeurias/NadeshikoSlimeVR/blob/main/Tracker%20Main/3D%20Print%20STL/SlimeVRNadeshiko-TOP.stl)
-
-- [ ] [BASE.stl](https://github.com/Aeurias/NadeshikoSlimeVR/blob/main/Tracker%20Main/3D%20Print%20STL/SlimeVRNadeshiko-BASE.stl)
-
-
-
-<div align="center"><img  src="https://github.com/Aeurias/NadeshikoSlimeVR/blob/main/Misc/readmepreview1.png"  alt="R3Mini1034501"/></div>
-
-<div align="center">7.0x3.09x5.3cm</div>
-
 <br/>
 
-
-
- <br/>
-
-**Tracker Extension:** It also has three parts: the main case, an endcap, and the PCB to mount the BMI/BNO module and ZH 1.5mm 5-Pin connector. 25mm hook and loop straps can be used with the extension case. The PCB is based on the [SlimeVR OSHWLab DIY Extension](https://oshwlab.com/eirenliel/slimevr-diy-tracker-extension) changes to make it easier for hand soldering and case fitment. 
-
-The files for the extension are:
-
-
-- [ ] [BODY.stl](https://github.com/Aeurias/NadeshikoSlimeVR/blob/main/Tracker%20Extension/3D%20Print%20STL/SlimeVRNadeshikoExtension-BODY.stl)
-
-- [ ] [ENDCAP.stl](https://github.com/Aeurias/NadeshikoSlimeVR/blob/main/Tracker%20Extension/3D%20Print%20STL/SlimeVRNadeshikoExtension-ENDCAP.stl)
-
-<div align="center"><img  src="https://github.com/Aeurias/NadeshikoSlimeVR/blob/main/Tracker%20Extension/Previews/Extension-1.png"  alt="TrackerExtension" width=200px /> <img  src="https://github.com/Aeurias/NadeshikoSlimeVR/blob/main/Tracker%20Extension/Previews/Extension-2.png"  alt="TrackerExtension" width=180px /> <img  src="https://github.com/Aeurias/NadeshikoSlimeVR/blob/main/Tracker%20Extension/Previews/Extension-3.png"  alt="TrackerExtension" width=220px /></div>
-
-<div align="center">3.80×1.20×3.48 cm</div>
 
 <br/>
 
@@ -127,17 +92,17 @@ The files for the extension are:
 
 ## Components
 
-> [!WARNING]  
-> Content below has yet to be updated for the ESP32-C3 Supermini variant!
-
-The components needed have all been added to a Google sheet here with links to each item's store page and total estimated cost.
--  #### [Components BOM Sheet](https://docs.google.com/spreadsheets/d/1Np8FZpWfbQaHiXM6Y5nCLdoeBbmQeeP_hg5ss5rDM44/edit?usp=sharing)
-
-BNO-085 modules can be purchased directly from [SlimeVR](https://shop.slimevr.dev/products/slimevr-imu-module-bno085).
-If you would like to use the BMI-270 or the experimental LSM6DSV, they can be purchased from [KOUNO](https://store.kouno.xyz/).
-
-<div align="center"><a  name="logo"  href="https://docs.google.com/spreadsheets/d/1Np8FZpWfbQaHiXM6Y5nCLdoeBbmQeeP_hg5ss5rDM44/edit?usp=sharing"><img  src="https://github.com/Aeurias/NadeshikoSlimeVR/blob/main/Misc/render4.png"  alt="Components"></a></div>
-
+| Component                             |  QNTY | Link                                                                  |
+| ------------------------------------- | ----: | --------------------------------------------------------------------- |
+| @Nadeshiko Mini PCB                   |     1 | Elecrow or JLCPCB                                                     |
+| @Nadeshiko Mini Case                  |     1 | Elecrow or JLCPCB                                                     |
+| ESP32-C3 SuperMini                    |     1 | [AliExpress](https://www.aliexpress.com/item/1005005877531694.html)   |
+| BMI270 Module                         |     1 | [KOUNOLAB](https://store.kouno.xyz)                                   |
+| TP4056 Unprotected Charger            |     1 | [AliExpress](https://www.aliexpress.com/item/1005005468881238.html)   |
+| SK12D07VG Slide Switch in 4/5/6mm     |     1 | [AliExpress](https://www.aliexpress.com/item/1005005786809487.html)   |
+| 1206/3216 Resistors in 100K Ohm       |     2 | [AliExpress](https://www.aliexpress.com/item/1005006358156511.html)   |
+| 1N5822 SS34 DO214AC Diodes            |     2 | [AliExpress](https://www.aliexpress.com/item/1005002813143363.html)   |
+| Li-Po Battery in 502040 Size          |     1 | [AliExpress](https://www.aliexpress.com/item/1005006680680172.html)   |
 <br>
 
 
