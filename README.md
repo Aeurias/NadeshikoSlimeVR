@@ -68,22 +68,19 @@ PCBs can be ordered from [JLCPCB](https://cart.jlcpcb.com/quote/), [Elecrow](htt
 
 ## Case
 
-  
-
-The tracker case, can house a 3.7V LiPo in 502040 size or any up to 10mm thick. Cell dimensions advised are 5x20x50mm or less.
-
 > [!WARNING]
 > Content below has yet to be updated for the ESP32-C3 Supermini variant!
+
+The tracker case, can house a 3.7V LiPo in 502040 size. Cell dimensions advised are 5x20x40mm or less.
+
 
 The case has been designed according to [JLCPCB/JLC3DP resin 3D printing guideline](https://jlc3dp.com/help/article/212-3D-Printing-Design-Guideline). The case can be ordered from [JLC3DP](https://jlc3dp.com/3d-printing-quote) or [Elecrow](https://www.elecrow.com/3d-printing-service.html), and the resin to select on your order is up to you. I prefer the [**8111X**](https://jlc3dp.com/help/article/199-8111X---Photosensitive-Resin), [**CBY**](https://jlc3dp.com/help/article/437-CBY-Photosensitive-Resin), [**Black Resin**](https://jlc3dp.com/help/article/198-Black-Resin--Photosensitive-Resin), or equivalent.
 
 
   
 
-The files for the case are:
+The files for the case are: WIP
 
-
-<br/>
 
 
 <br/>
