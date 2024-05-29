@@ -5,15 +5,19 @@
 </h1>
 
 > [!CAUTION]
-> This is highly experimental, untested hardware and in design process at the moment!
+> This is highly experimental, in design, writeup and testing process at the moment! Expect many changes to be made to this branch before finalized.
 
 > [!IMPORTANT]
 > For the regular, WEMOS D1 Mini variant please view the main branch [Here!](https://github.com/Aeurias/NadeshikoSlimeVR/)
 
+These are one of the smallest possible SlimeVR trackers possible, almost as small as extension trackers! There is however a drawback with this compared to the regular @Nadeshiko SlimeVR's or any built with D1 Mini's, the WiFI performance is much weaker on the ESP32-C3 Supermini, so can probably only be used with a router setup in the same room as the trackers. The PCB does have a slot to let WiFi RF pass through without hinderance just like with the my other slimes, but not sure how helpful that will be tho for this scale. We'll see after some tests!
 
-@Nadeshiko's Mini Slimes run on a [ESP32-C3 Supermini](https://www.aliexpress.com/item/1005005877531694.html) with an IMU IC of your choice that has the same module profile as the [BMI160](https://www.aliexpress.com/w/wholesale-GY%2525252dBMI160.html) or [Meia's BMI-270](https://store.kouno.xyz/products/bmi270-breakout-board)'s. They use the [TP4056 Unprotected lithium charger](https://www.aliexpress.com/item/1005005468881238.html) module for 3.7V LiPo batteries in sizes less than 20mm wide and 40mm length.
+@Nadeshiko's Mini Slimes run on a [ESP32-C3 Supermini](https://www.aliexpress.com/item/1005005877531694.html) with an IMU IC of your choice that has the same module profile as the [BMI160](https://www.aliexpress.com/w/wholesale-GY%2525252dBMI160.html) or [Meia's BMI-270](https://store.kouno.xyz/products/bmi270-breakout-board)'s. They use the [TP4056 Unprotected lithium charger](https://www.aliexpress.com/item/1005005468881238.html) module for 3.7V LiPo batteries.
 
-- Easy and cheap to build.
+
+
+- 30mm x 38mm PCB design - smol!
+- Easy and very cheap to build.
 - No wires needed to be soldered.
 - Lightweight and smooth, clean case looks. (WIP)
 - 25mm strap width is supported.
