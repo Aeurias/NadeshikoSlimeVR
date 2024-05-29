@@ -18,7 +18,7 @@ Based off the [SlimeVR Official Component Guide](https://docs.slimevr.dev/diy/co
 - Photographed assembly instructions.
 
 > [!IMPORTANT]
-> For the smaller, ESP32-C3 Supermini variant please view this branch: [Coming Soon!](https://github.com/Aeurias/NadeshikoSlimeVR/)
+> For the smaller, ESP32-C3 Supermini variant please view this branch: [WIP - @Nadeshiko's ESP32-C3-Supermini](https://github.com/Aeurias/NadeshikoSlimeVR/tree/ESP32-C3-Supermini)
   
 
 ## Index
