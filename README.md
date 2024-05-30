@@ -42,9 +42,6 @@ Due to how small these are, there is no option to connect an extension tracker, 
 - [Support](#support)
 
 
-<br/>
-
-
 ## PCB
 
   
@@ -63,9 +60,6 @@ PCBs can be ordered from [JLCPCB](https://cart.jlcpcb.com/quote/), [Elecrow](htt
 
 <p align="center">PCB Front/Back</p>
 
-<br/>
-
-
 
 ## Case
 
@@ -78,7 +72,6 @@ It prints as two parts: a snap-fit closure with strap holes on the side, ports f
 
 Up to a 25mm strap can be fitted to the case; the best one to use is the non-slip elastic kind with plastic buckles in the same size to make it easier to remove.
 
-  
 
 The files for the case are:
 
