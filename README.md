@@ -22,7 +22,7 @@ Due to how small these are, there is no option to connect an extension tracker, 
 - 25mm x 37mm PCB design - smol!
 - Easy and very cheap to build.
 - No wires needed to be soldered.
-- Lightweight and smooth, clean case looks. (WIP)
+- Lightweight and smooth, clean case looks.
 - 25mm strap width is supported.
 - Detailed component purchase list. (WIP)
 - Photographed assembly instructions. (WIP)
@@ -143,12 +143,12 @@ The basic steps of assembly for the main trackers are:
 Flashing:
 
 - [ ] Power switch still in the OFF position; Flash firmware using the online firmware flasher.
-- [ ] When flashing, you want to choose BOARD_LOLIN_C3_MINI.
-- [ ] In Advanced options, change SDA Pin to "6", SCL Pin to "7", and LED Pin to "8".
+- [ ] When flashing, you want to choose `BOARD_LOLIN_C3_MINI`.
+- [ ] In Advanced options, change SDA Pin to `"6"`, SCL Pin to `"7"`, and LED Pin to `"8"`.
 
   
    
-<br>
+<br>    
 
 <br>
 
