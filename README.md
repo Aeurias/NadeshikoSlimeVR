@@ -27,14 +27,14 @@ Based off the [SlimeVR Official Component Guide](https://docs.slimevr.dev/diy/co
 - [Case](#case)
 - [Components](#components)
 - [Basic Assembly Guide](#assembly)
-- [Alternative IMUs](#imu)
 - [Resources](#resources)
 - [Detailed Assembly Guide](#detailed-assembly)
 - [How to order PCB/3DPrints](#ordering)
 - [Support](#support)
 
 
-<br/>
+<br>
+
 
 ## PCB
 
@@ -54,7 +54,6 @@ PCBs can be ordered from [JLCPCB](https://cart.jlcpcb.com/quote/), [Elecrow](htt
 
 <p align="center">PCB Front/Back - Extension Tracker</p>
 
-<br/>
 
 
 
@@ -97,9 +96,9 @@ The files for the case are:
 
 <br/>
 
+<br/>
 
 
- <br/>
 
 **Tracker Extension:** It also has three parts: the main case, an endcap, and the PCB to mount the BMI/BNO module and ZH 1.5mm 5-Pin connector. 25mm hook and loop straps can be used with the extension case. The PCB is based on the [SlimeVR OSHWLab DIY Extension](https://oshwlab.com/eirenliel/slimevr-diy-tracker-extension) changes to make it easier for hand soldering and case fitment. 
 
@@ -114,8 +113,6 @@ The files for the extension are:
 
 <div align="center">3.80×1.20×3.48 cm</div>
 
-<br/>
-
 
 
 ## Components
@@ -124,11 +121,10 @@ The components needed have all been added to a Google sheet here with links to e
 -  #### [Components BOM Sheet](https://docs.google.com/spreadsheets/d/1Np8FZpWfbQaHiXM6Y5nCLdoeBbmQeeP_hg5ss5rDM44/edit?usp=sharing)
 
 BNO-085 modules can be purchased directly from [SlimeVR](https://shop.slimevr.dev/products/slimevr-imu-module-bno085).
-If you would like to use the BMI-270 or the experimental LSM6DSV, they can be purchased from [KOUNO](https://store.kouno.xyz/).
+If you would like to use the BMI-270, they can be purchased from [KOUNO](https://store.kouno.xyz/).
 
 <div align="center"><a  name="logo"  href="https://docs.google.com/spreadsheets/d/1Np8FZpWfbQaHiXM6Y5nCLdoeBbmQeeP_hg5ss5rDM44/edit?usp=sharing"><img  src="https://github.com/Aeurias/NadeshikoSlimeVR/blob/main/Misc/render4.png"  alt="Components"></a></div>
 
-<br>
 
 
 
@@ -164,19 +160,6 @@ The basic steps of assembly for the extension trackers:
    
 <br>
 
-
-
-## IMU
-
-
-LGA14 footprint BMI-160 alternatives such as the BMI-270, BMI360, LSM6, ICM42688, BHI360, etc. can be done with the [LSM6DSV Module by Kounocom](https://github.com/kounocom/LSM6DSV-Module) or by soldering work on cheap AliExpress GY-BMI-160 modules with your desired IC.
-This requires you to use a [mini hot plate](https://www.aliexpress.com/w/wholesale-solder-mini-hot-plate.html?g=y&SearchText=solder+mini+hot+plate&sortType=total_tranpro_desc) to prevent the IMU from being melted by other soldering methods, such as hot air. Begin by placing solder on the module's IMU pads using your soldering iron, cleaning with IPA, adding some fresh flux to the pads, and putting your replacement IMU on using the hot plate.
-
-
-<br>
-
-
-
 ## Resources
 
 
@@ -191,10 +174,7 @@ Useful Links:
 - [SlimeVR Github](https://github.com/SlimeVR/)
 - [SlimeVR Discord](https://discord.gg/SlimeVR)
 
-
- 
 <br>
-
 
 ## Detailed-Assembly
 
@@ -338,7 +318,7 @@ Finish step by soldering the D1 Mini to the header pins, making sure not to over
 <img  src="https://github.com/Aeurias/NadeshikoSlimeVR/blob/main/Misc/Assembly/Step-10-Tape/3.jpg"  alt="3"/>
 
 #### Step 11 -  Flash the firmware, the light will turn from blinking to solid for a moment when complete.
-For more accurate SlimeVR dashboard battery percentage/voltage readout for @Nadeshiko Slimes, set BATTERY_SHIELD_RESISTANCE to ~166K.
+For more accurate SlimeVR dashboard battery percentage/voltage readout for @Nadeshiko Slimes, set `BATTERY_SHIELD_RESISTANCE` to `168`K. 
 <img  src="https://github.com/Aeurias/NadeshikoSlimeVR/blob/main/Misc/Assembly/Step-11-Firmware/1.gif"  alt="1"/>
 
 
