@@ -174,7 +174,7 @@ Useful Links:
 > [!WARNING]  
 > Content below has yet to be updated for the ESP32-C3 Supermini variant!
 
- 
+<!---
 #### Step 1 - We will begin with the resistor and diodes and then the TP4056 Module.
 <img  src="https://github.com/Aeurias/NadeshikoSlimeVR/blob/main/Misc/Assembly/Step1-ResDio-Bend/2.jpg"  alt="1"/>
  
@@ -320,7 +320,7 @@ For more accurate SlimeVR dashboard battery percentage/voltage readout for @Nade
 
  
 
-
+-->
  
 After firmware flashing is complete, you can tape the battery to the PCB and/or place into the 3D printed cases.
 <img  src="https://github.com/Aeurias/NadeshikoSlimeVR/blob/main/Misc/cases8111X.jpg"  alt="cases"/>
