@@ -8,12 +8,17 @@
 > This is highly experimental, in design, writeup and testing process at the moment! Expect many changes to be made to this branch before finalized.
 
 > [!IMPORTANT]
-> For the regular, WEMOS D1 Mini variant please view the main branch [Here!](https://github.com/Aeurias/NadeshikoSlimeVR/)
+> For the regular, WEMOS D1 Mini variant please view the [main branch here!](https://github.com/Aeurias/NadeshikoSlimeVR/)
+
+> [!WARNING]  
+> Some sections below has yet to be updated for the ESP32-C3 Supermini variant!
 
 
-These are one of the smallest module based SlimeVR trackers possible, similar to [Gorbit99's Tiny Slime](https://github.com/gorbit99/tiny-slime), almost as small as extension trackers! There is however a drawback with this compared to the regular @Nadeshiko SlimeVR's or any built with WEMOS D1 Mini's, the WiFi performance is much weaker on the ESP32-C3 Supermini, so can probably only be used with a router setup in the same room as the trackers. The PCB does have a slot to let WiFi RF pass through without hinderance just like with the my other slimes, but not sure how helpful that will be tho for this scale. We'll see after some tests!
+These are one of the smallest WiFi module based SlimeVR trackers possible, similar to [Gorbit99's Tiny Slime](https://github.com/gorbit99/tiny-slime), as small as extension trackers! The idea was for these to be a replacement for wired extension trackers, whose cable can get in the way and are prone to damage, and be a more useable and comfortable size for tracking locations such as shoulders, lower arms, neck, or head.
 
-Due to how small these are, there is no option to connect an extension tracker, as that will only increase the overall size and cost of a whole tracker set. So these can basically be used as chubby extension instead lol
+There is however a drawback with this small size compared to the regular [@Nadeshiko SlimeVR's](https://github.com/Aeurias/NadeshikoSlimeVR/) or any built with ESP32 D1 Mini's; the WiFi performance is much weaker on the ESP32-C3 Supermini, to be used with a router setup in the same room as the trackers without wall interference.
+
+Due to how small these are, there is no option to connect an extension tracker, as that will only increase the overall size and cost of a whole tracker set.
 
 @Nadeshiko's Mini Slimes run on a [ESP32-C3 Supermini](https://www.aliexpress.com/item/1005005877531694.html) with an IMU IC of your choice that has the same module profile as the [BMI160](https://www.aliexpress.com/w/wholesale-GY%2525252dBMI160.html) or [Meia's BMI-270](https://store.kouno.xyz/products/bmi270-breakout-board)'s. They use the [TP4056 Unprotected lithium charger](https://www.aliexpress.com/item/1005005468881238.html) module for 3.7V LiPo batteries.
 
@@ -48,7 +53,9 @@ Due to how small these are, there is no option to connect an extension tracker, 
 
 The PCB lets every component be soldered on without any wire connections between the modules. This includes the diodes and resistors for battery sense and charge protection. The ESP32-C3 Supermini is on the back side to save on size and cost; a JST 2mm 2-pin connector can be added to make battery connections easier; an SK12D07VG 3-pin switch will be used to turn the tracker on or off.
 
-The caseless PCB's be used without a case, as there are built-in cutouts for a 25mm strap to pass through. Similar style to the WEMOS D1 Mini version, making sure it is still tough. This PCB will not fit in the case as it is a slightly larger design.
+The caseless PCB's is to be used without a case, as there are built-in cutouts for a 25mm strap to pass through. Similar style to the WEMOS D1 Mini version, this is designed making sure it is still tough to impacts. This PCB will not fit in the other PCB's case as it is a slightly larger design.
+
+ Both PCB designs have a slot to let WiFi RF pass through without hinderance just like with the my other slimes, but not sure how helpful that will be tho for this small scale. We'll see after some tests!
 
   
 
@@ -58,11 +65,11 @@ PCBs can be ordered from [JLCPCB](https://cart.jlcpcb.com/quote/), [Elecrow](htt
 
 <div align="center"><img  src="https://github.com/Aeurias/NadeshikoSlimeVR/blob/ESP32-C3-Supermini/Tracker%20Supermini/Previews/mini2.png"  alt="Mini1" width=290px />&nbsp;&nbsp;&nbsp;&nbsp;<img  src="https://github.com/Aeurias/NadeshikoSlimeVR/blob/ESP32-C3-Supermini/Tracker%20Supermini/Previews/mini1.png"  alt="Mini2" width=290px /></div>
 
-<p align="center">3D printed case variant PCB Front/Back</p>
+<p align="center">3D printed case variant PCB Front/Back - 25.2mm x 36.6mm</p>
 
 <div align="center"><img  src="https://github.com/Aeurias/NadeshikoSlimeVR/blob/ESP32-C3-Supermini/Tracker%20Supermini/Previews/minicaseless2.png"  alt="MiniCaseless1" width=310px />&nbsp;&nbsp;&nbsp;&nbsp;<img  src="https://github.com/Aeurias/NadeshikoSlimeVR/blob/ESP32-C3-Supermini/Tracker%20Supermini/Previews/minicaseless1.png"  alt="MiniCaseless2" width=310px /></div>
 
-<p align="center">Caseless PCB Front/Back with strap support built in</p>
+<p align="center">Caseless PCB Front/Back with strap support built in - 29.6mm x 38mm</p>
 
 
 ## Case
@@ -70,11 +77,11 @@ PCBs can be ordered from [JLCPCB](https://cart.jlcpcb.com/quote/), [Elecrow](htt
 The tracker case, can house a 3.7V LiPo in 502040 size comfortably. Cell dimensions advised are 6x20x40mm or less.
 
 
-The case has been designed according to [JLCPCB/JLC3DP resin 3D printing guideline](https://jlc3dp.com/help/article/212-3D-Printing-Design-Guideline). The case can be ordered from [JLC3DP](https://jlc3dp.com/3d-printing-quote) or [Elecrow](https://www.elecrow.com/3d-printing-service.html), and the resin to select on your order is up to you. I prefer the [**8111X**](https://jlc3dp.com/help/article/199-8111X---Photosensitive-Resin), [**CBY**](https://jlc3dp.com/help/article/437-CBY-Photosensitive-Resin), [**Black Resin**](https://jlc3dp.com/help/article/198-Black-Resin--Photosensitive-Resin), or equivalent.
+The case has been designed according to [JLCPCB/JLC3DP resin 3D printing guidelines](https://jlc3dp.com/help/article/212-3D-Printing-Design-Guideline). The case can be ordered from [JLC3DP](https://jlc3dp.com/3d-printing-quote) or [Elecrow](https://www.elecrow.com/3d-printing-service.html), and the resin to select on your order is up to you. I prefer the [**8111X**](https://jlc3dp.com/help/article/199-8111X---Photosensitive-Resin), [**CBY**](https://jlc3dp.com/help/article/437-CBY-Photosensitive-Resin), [**Black Resin**](https://jlc3dp.com/help/article/198-Black-Resin--Photosensitive-Resin), or equivalent low cost options..
 
-It prints as two parts: a snap-fit closure with strap holes on the side, ports for the TP4056 charger, ESP32-C3 and the power switch.
+It prints as two parts: a snap-fit closure with holes for strap, the TP4056 charger and ESP32-C3 USB ports, and the power switch.
 
-Up to a 25mm strap can be fitted to the case; the best one to use is the non-slip elastic kind with plastic buckles in the same size to make it easier to remove.
+25mm strap can be fitted to the case; the best one to use is the non-slip elastic kind with plastic buckles and tri-buckles in the same size to make it easier to remove, be more comfortable and adjustable    .
 
 
 The files for the case are:
@@ -87,7 +94,7 @@ The files for the case are:
 
 <div align="center"><img  src="https://github.com/Aeurias/NadeshikoSlimeVR/blob/ESP32-C3-Supermini/Tracker%20Supermini/Previews/Readme-Preview.png"  alt="MiniPreview"/></div>
 
-<div align="center">4.38×1.84×3.01 cm 6.62 cm³</div> 
+<div align="center">30.1mm x 43.8mm × 18.4mm - 6.62 cm³</div> 
 
 
 
@@ -97,18 +104,19 @@ The files for the case are:
 
 ## Components
 
-The component cost should come out to around £5/$7 per tracker without case, and around £7/$9 with cases.
+The component cost should come out to around £5.90/$7.55/€6.93 with cases per tracker.
+Quantity and prices listed below are per tracker expense and quantity used of each components. Some items are sold in pack size to build multiple trackers with. Prices here are listed without any shipping costs.
 
-| Component                             |  QNTY |   £   | Link                                                                  |
+| Components per SlimeVR Tracker        |  QTY  |   £   | Link                                                                  |
 | ------------------------------------- | ----: | ----: | --------------------------------------------------------------------- |
 | @Nadeshiko Mini PCB                   |     1 |  0.39 | JLCPCB or Elecrow                                                     |
 | @Nadeshiko Mini Case                  |     1 |  0.72 | JLCPCB or Elecrow                                                     |
-| ESP32-C3 SuperMini                    |     1 |  1.51 | [AliExpress](https://www.aliexpress.com/item/1005005877531694.html)   |
-| BMI270 Module                         |     1 |  2.13 | [KOUNOLAB](https://store.kouno.xyz)                                   |
-| TP4056 Unprotected Charger            |     1 |  0.15 | [AliExpress](https://www.aliexpress.com/item/1005005468881238.html)   |
+| ESP32-C3 SuperMini                    |     1 |  1.58 | [AliExpress](https://www.aliexpress.com/item/1005006391993583.html)   |
+| BMI270 IMU Module                     |     1 |  2.13 | [KOUNOLAB](https://store.kouno.xyz)                                   |
+| TP4056 Unprotected Charger Type-C     |     1 |  0.11 | [AliExpress](https://www.aliexpress.com/item/32646649119.html)        |
 | SK12D07VG Slide Switch in 3/4/5mm     |     1 |  0.04 | [AliExpress](https://www.aliexpress.com/item/1005005786809487.html)   |
-| 1206/3216 Resistors in 100K Ohm       |     2 |  0.01 | [AliExpress](https://www.aliexpress.com/item/1005006358156511.html)   |
-| 1N5822 SS34 DO214AC Diodes            |     2 |  0.02 | [AliExpress](https://www.aliexpress.com/item/1005002813143363.html)   |
+| 1206/3216 Resistors in 100K Ohm       |     2 |  0.01 | [AliExpress](https://www.aliexpress.com/item/32982307507.html)        |
+| SS34 DO214AC Diodes                   |     2 |  0.01 | [AliExpress](https://www.aliexpress.com/item/1005005707508759.html)   |
 | Li-Po Battery in 502040 Size          |     1 |  0.72 | [AliExpress](https://www.aliexpress.com/item/1005006680680172.html)   |
 | 25mm Hook & Loop                      |     1 |  0.20 | [AliExpress](https://www.aliexpress.com/item/1005006326126306.html)   |
 | or 25mm Elastic Strap & Buckles       |     1 |  0.20 | AliExpress                                                            |
@@ -133,13 +141,13 @@ The basic steps of assembly for the main trackers are:
 - [ ] Solder the BMI-270 module to the PCB.
 - [ ] Solder on a ESP32-C3 SuperMini module flush to the PCB.
 - [ ] OPTIONAL: Use polyimide tape or equivalent on sharp corners and the LiPo battery to protect it from puncture.
-- [ ] OPTIONAL: If using JST PH 2mm 2-pin header. Check battery JST plug matches the +/- polarity as on the PCB (Fix the battery plug if not).
-- [ ] Connect or solder on the LiPo battery with the power switch in the OFF position.
+- [ ] OPTIONAL: If using JST PH 2mm 2-pin header. Check battery JST plug polarity matches the +/- polarity as on the PCB (Fix the battery plug if not).
+- [ ] Connect or solder on the LiPo battery with the power switch in the OFF position in correct polarity.
 
 Flashing:
 
-- [ ] Power switch still in the OFF position; Flash firmware using the online firmware flasher.
-- [ ] When flashing, you want to choose `BOARD_LOLIN_C3_MINI`.
+- [ ] Power switch still in the OFF position; Flash firmware using the online firmware flasher for BMI-270.
+- [ ] When flashing, you want to choose `BOARD_LOLIN_C3_MINI` as the board.
 - [ ] In Advanced options, change SDA Pin to `"6"`, SCL Pin to `"7"`, and LED Pin to `"8"`.
 
   
@@ -151,9 +159,6 @@ Flashing:
 
 
 ## Resources
-
-> [!WARNING]  
-> Content below has yet to be updated for the ESP32-C3 Supermini variant!
 
 
 Useful Links:
@@ -308,7 +313,7 @@ Finish step by soldering the D1 Mini to the header pins, making sure not to over
 <img  src="https://github.com/Aeurias/NadeshikoSlimeVR/blob/main/Misc/Assembly/Step-8-D1Mini/5.jpg"  alt="5"/>
  
 
-
+-->
 
 #### Step 9 -  Clean the board to remove flux, use PCB cleaner or 99% isopropyl alcohol
 <img  src="https://github.com/Aeurias/NadeshikoSlimeVR/blob/main/Misc/Assembly/Step-9-Cleaned/1.jpg"  alt="1"/>
@@ -327,7 +332,7 @@ For more accurate SlimeVR dashboard battery percentage/voltage readout for @Nade
 
  
 
--->
+
  
 After firmware flashing is complete, you can tape the battery to the PCB and/or place into the 3D printed cases.
 <img  src="https://github.com/Aeurias/NadeshikoSlimeVR/blob/main/Misc/cases8111X.jpg"  alt="cases"/>
@@ -352,6 +357,10 @@ They can also be ordered from [Elecrow](https://www.elecrow.com/pcb-manufacturin
  
  
 ### Cases
+
+> [!WARNING]  
+> Content below has yet to be updated for the ESP32-C3 Supermini variant!
+
 For 3D Print case ordering, head over to [JLC3DP](https://jlc3dp.com/3d-printing-quote) and upload the .stl files for each model, including the top/body and base/end cap etc. One case comes in two parts, so make sure you upload both halves. Then use the settings below on the order page and set the quantity of each part to the number of trackers you are building. The available SLA material and prices will vary, as the model has been designed to be used with any of the SLA resins, any of the cheapest option will be good enough for the trackers, 
  
 <img  src="https://github.com/Aeurias/NadeshikoSlimeVR/blob/main/Tracker%20Main/3D%20Print%20STL/OrderingCases.png"  alt="Ordering"/>
