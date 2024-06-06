@@ -313,7 +313,7 @@ Finish step by soldering the D1 Mini to the header pins, making sure not to over
 <img  src="https://github.com/Aeurias/NadeshikoSlimeVR/blob/main/Misc/Assembly/Step-8-D1Mini/5.jpg"  alt="5"/>
  
 
--->
+
 
 #### Step 9 -  Clean the board to remove flux, use PCB cleaner or 99% isopropyl alcohol
 <img  src="https://github.com/Aeurias/NadeshikoSlimeVR/blob/main/Misc/Assembly/Step-9-Cleaned/1.jpg"  alt="1"/>
@@ -331,7 +331,7 @@ For more accurate SlimeVR dashboard battery percentage/voltage readout for @Nade
 
 
  
-
+-->
 
  
 After firmware flashing is complete, you can tape the battery to the PCB and/or place into the 3D printed cases.
