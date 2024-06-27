@@ -128,8 +128,7 @@ Quantity and prices listed below are per tracker expense and quantity used of ea
 
 ## Assembly
 
-While soldering, use flux to make things easier, keep your solder iron's tip tinned with solder when not in use to protect from oxidation. Make sure to clean the PCBs after soldering. You can use PCB cleaner or isopropyl alcohol. This is to remove the flux, which some are acidic and will attack the solder joint over time.
-
+Using a solder helping hand will make putting everything on the PCB much easier! While soldering, keep your solder iron's tip tinned with solder when not in use to protect from oxidation. Make sure to clean the PCBs from excess flux after soldering. You can use PCB cleaner or isopropyl alcohol.
 
 The basic steps of assembly for the main trackers are:
 
