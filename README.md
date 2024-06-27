@@ -111,7 +111,7 @@ Quantity and prices listed below are per tracker expense and quantity used of ea
 | ------------------------------------- | ----: | ----: | --------------------------------------------------------------------- |
 | @Nadeshiko Mini PCB                   |     1 |  0.39 | JLCPCB or Elecrow                                                     |
 | @Nadeshiko Mini Case                  |     1 |  0.72 | JLCPCB or Elecrow                                                     |
-| ESP32-C3 SuperMini                    |     1 |  1.58 | [AliExpress](https://www.aliexpress.com/item/1005006391993583.html)   |
+| ESP32-C3 SuperMini V1/V2              |     1 |  1.58 | [AliExpress](https://www.aliexpress.com/item/1005006391993583.html)   |
 | BMI270 IMU Module                     |     1 |  2.13 | [KOUNOLAB](https://store.kouno.xyz)                                   |
 | TP4056 Unprotected Charger Type-C     |     1 |  0.11 | [AliExpress](https://www.aliexpress.com/item/32646649119.html)        |
 | SK12D07VG Slide Switch in 3/4/5mm     |     1 |  0.04 | [AliExpress](https://www.aliexpress.com/item/1005005786809487.html)   |
@@ -133,15 +133,11 @@ While soldering, use flux to make things easier, keep your solder iron's tip tin
 
 The basic steps of assembly for the main trackers are:
 
-
-- [ ] 2x 1206 100K resistor and 2x 1N5822 diodes soldered in the correct orientation on the PCB.
-- [ ] Solder a unprotected TP4056 flush to the PCB.
+- [ ] 2x 1206 100K resistor and 2x SS34 diodes soldered in the correct orientation on the PCB.
+- [ ] Solder a unprotected TP4056 charger flush to the PCB.
 - [ ] Solder on a SK12D07VG slide switch.
-- [ ] OPTIONAL: Solder on a JST PH 2mm 2-Pin header for the battery.
-- [ ] Solder the BMI-270 module to the PCB.
-- [ ] Solder on a ESP32-C3 SuperMini module flush to the PCB.
-- [ ] OPTIONAL: Use polyimide tape or equivalent on sharp corners and the LiPo battery to protect it from puncture.
-- [ ] OPTIONAL: If using JST PH 2mm 2-pin header. Check battery JST plug polarity matches the +/- polarity as on the PCB (Fix the battery plug if not).
+- [ ] Solder the BMI-270 IMU module to the PCB.
+- [ ] Solder the ESP32-C3 SuperMini module flush to the PCB.
 - [ ] Connect or solder on the LiPo battery with the power switch in the OFF position in correct polarity.
 
 Flashing:
@@ -149,6 +145,10 @@ Flashing:
 - [ ] Power switch still in the OFF position; Flash firmware using the online firmware flasher for BMI-270.
 - [ ] When flashing, you want to choose `BOARD_LOLIN_C3_MINI` as the board.
 - [ ] In Advanced options, change SDA Pin to `"6"`, SCL Pin to `"7"`, and LED Pin to `"8"`.
+
+- [ ] OPTIONAL: Use polyimide tape or equivalent on sharp corners and the LiPo battery to protect it from puncture.
+- [ ] OPTIONAL: If using JST PH 2mm 2-pin header. Check battery plug polarity matches the +/- polarity as on the PCB.
+- [ ] OPTIONAL: If using V2 of ESP32-C3 SuperMini, connect an optional appropriate size antenna for a more reliable WiFi strength.
 
   
    
@@ -329,13 +329,12 @@ Finish step by soldering the D1 Mini to the header pins, making sure not to over
 For more accurate SlimeVR dashboard battery percentage/voltage readout for @Nadeshiko Slimes, set BATTERY_SHIELD_RESISTANCE to ~166K.
 <img  src="https://github.com/Aeurias/NadeshikoSlimeVR/blob/main/Misc/Assembly/Step-11-Firmware/1.gif"  alt="1"/>
 
-
- 
--->
-
  
 After firmware flashing is complete, you can tape the battery to the PCB and/or place into the 3D printed cases.
 <img  src="https://github.com/Aeurias/NadeshikoSlimeVR/blob/main/Misc/cases8111X.jpg"  alt="cases"/>
+ 
+
+-->
 
 <br>
  
@@ -363,7 +362,7 @@ They can also be ordered from [Elecrow](https://www.elecrow.com/pcb-manufacturin
 
 For 3D Print case ordering, head over to [JLC3DP](https://jlc3dp.com/3d-printing-quote) and upload the .stl files for each model, including the top/body and base/end cap etc. One case comes in two parts, so make sure you upload both halves. Then use the settings below on the order page and set the quantity of each part to the number of trackers you are building. The available SLA material and prices will vary, as the model has been designed to be used with any of the SLA resins, any of the cheapest option will be good enough for the trackers, 
  
-<img  src="https://github.com/Aeurias/NadeshikoSlimeVR/blob/main/Tracker%20Main/3D%20Print%20STL/OrderingCases.png"  alt="Ordering"/>
+<img  src="https://github.com/Aeurias/NadeshikoSlimeVR/blob/ESP32-C3-Supermini/Tracker%20Supermini/3D%20Print%20STL/OrderingCases.png"  alt="Ordering"/>
 
 Cases can also be ordered from [Elecrow](https://www.elecrow.com/3d-printing-service.html) or your preferred 3D print services.
 
