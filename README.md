@@ -66,7 +66,7 @@ PCBs can be ordered from [JLCPCB](https://cart.jlcpcb.com/quote/), [Elecrow](htt
 The tracker case, can house a 3.7V LiPo in 502040 (5x20x40mm) or 602535 (6x25x35mm) size comfortably. Max LiPo cell dimensions are 6x25x40mm or less with capacity around 500mah.
 
 
-The case has been designed according to [JLCPCB/JLC3DP resin 3D printing guidelines](https://jlc3dp.com/help/article/212-3D-Printing-Design-Guideline). The case can be ordered from [JLC3DP](https://jlc3dp.com/3d-printing-quote) or [Elecrow](https://www.elecrow.com/3d-printing-service.html), and the resin to select on your order is up to you. I prefer the [**8111X**](https://jlc3dp.com/help/article/199-8111X---Photosensitive-Resin), [**CBY**](https://jlc3dp.com/help/article/437-CBY-Photosensitive-Resin), [**Black Resin**](https://jlc3dp.com/help/article/198-Black-Resin--Photosensitive-Resin), or equivalent low cost options..
+The case has been designed according to [JLCPCB/JLC3DP resin 3D printing guidelines](https://jlc3dp.com/help/article/212-3D-Printing-Design-Guideline). The case can be ordered from [JLC3DP](https://jlc3dp.com/3d-printing-quote) or [Elecrow](https://www.elecrow.com/3d-printing-service.html), and the resin to select on your order is up to you. I prefer the [**9000R**](https://jlc3dp.com/help/article/195-9000R---Photosensitive-Resin), [**CBY**](https://jlc3dp.com/help/article/437-CBY-Photosensitive-Resin), [**Black Resin**](https://jlc3dp.com/help/article/198-Black-Resin--Photosensitive-Resin), or equivalent low cost options..
 
 It prints as two parts: a snap-fit closure with holes for strap, the TP4056 charger and ESP32-C3 USB ports, and the power switch.
 
