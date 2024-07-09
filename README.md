@@ -24,7 +24,7 @@ Due to how small these are, there is no option to connect an extension tracker, 
 
 
 
-- 25mm x 37mm PCB design - smol!
+- 2.6cm x 3.8cm PCB design - smol!
 - Easy and very cheap to build.
 - No wires needed to be soldered.
 - Lightweight and smooth, clean case looks.
@@ -60,38 +60,38 @@ PCBs can be ordered from [JLCPCB](https://cart.jlcpcb.com/quote/), [Elecrow](htt
 
   
 
-<div align="center"><img  src="https://github.com/Aeurias/NadeshikoSlimeVR/blob/ESP32-C3-Supermini/Tracker%20Supermini/Previews/mini2.png"  alt="Mini1" width=290px />&nbsp;&nbsp;&nbsp;&nbsp;<img  src="https://github.com/Aeurias/NadeshikoSlimeVR/blob/ESP32-C3-Supermini/Tracker%20Supermini/Previews/mini1.png"  alt="Mini2" width=290px /></div>
+<div align="center"><img  src="https://github.com/Aeurias/NadeshikoSlimeVR/blob/ESP32-C3-Supermini/Tracker%20Supermini/Previews/miniR4-2.png"  alt="Supermini Front" width=290px />&nbsp;&nbsp;&nbsp;&nbsp;<img  src="https://github.com/Aeurias/NadeshikoSlimeVR/blob/ESP32-C3-Supermini/Tracker%20Supermini/Previews/miniR4-1.png"  alt="Supermini Back" width=290px /></div>
 
-<p align="center">3D printed case variant PCB Front/Back - 25.2mm x 36.6mm</p>
+<p align="center">3D printed cased variant PCB Front/Back - 26mm x 38mm</p>
 
-<div align="center"><img  src="https://github.com/Aeurias/NadeshikoSlimeVR/blob/ESP32-C3-Supermini/Tracker%20Supermini/Previews/minicaseless2.png"  alt="MiniCaseless1" width=310px />&nbsp;&nbsp;&nbsp;&nbsp;<img  src="https://github.com/Aeurias/NadeshikoSlimeVR/blob/ESP32-C3-Supermini/Tracker%20Supermini/Previews/minicaseless1.png"  alt="MiniCaseless2" width=310px /></div>
+<div align="center"><img  src="https://github.com/Aeurias/NadeshikoSlimeVR/blob/ESP32-C3-Supermini/Tracker%20Supermini/Previews/minicaseless2.png"  alt="Caseless Front" width=310px />&nbsp;&nbsp;&nbsp;&nbsp;<img  src="https://github.com/Aeurias/NadeshikoSlimeVR/blob/ESP32-C3-Supermini/Tracker%20Supermini/Previews/minicaseless1.png"  alt="Caseless Back" width=310px /></div>
 
-<p align="center">Caseless PCB Front/Back with strap support built in - 29.6mm x 38mm</p>
+<p align="center">Caseless with strap support built-in Front/Back - 30mm x 38mm</p>
 
 
 ## Case
 
-The tracker case, can house a 3.7V LiPo in 502040 size comfortably. Cell dimensions advised are 6x20x40mm or less.
+The tracker case, can house a 3.7V LiPo in 502040 (5x20x40mm) or 602535 (6x25x35mm) size comfortably. Max LiPo cell dimensions are 6x25x40mm or less with capacity around 500mah.
 
 
 The case has been designed according to [JLCPCB/JLC3DP resin 3D printing guidelines](https://jlc3dp.com/help/article/212-3D-Printing-Design-Guideline). The case can be ordered from [JLC3DP](https://jlc3dp.com/3d-printing-quote) or [Elecrow](https://www.elecrow.com/3d-printing-service.html), and the resin to select on your order is up to you. I prefer the [**8111X**](https://jlc3dp.com/help/article/199-8111X---Photosensitive-Resin), [**CBY**](https://jlc3dp.com/help/article/437-CBY-Photosensitive-Resin), [**Black Resin**](https://jlc3dp.com/help/article/198-Black-Resin--Photosensitive-Resin), or equivalent low cost options..
 
 It prints as two parts: a snap-fit closure with holes for strap, the TP4056 charger and ESP32-C3 USB ports, and the power switch.
 
-25mm strap can be fitted to the case; the best one to use is the non-slip elastic kind with plastic buckles and tri-buckles in the same size to make it easier to remove, be more comfortable and adjustable    .
+25mm strap can be fitted to the case; the best one to use is the non-slip elastic kind with plastic buckles and tri-buckles in the same size to make it easier to remove, more comfortable and adjustable. Hook and Loop style of strap can also be used.
 
 
 The files for the case are:
 
 
-- [ ] [NadeshikoMini-TOP.stl](https://github.com/Aeurias/NadeshikoSlimeVR/blob/ESP32-C3-Supermini/Tracker%20Supermini/3D%20Print%20STL/NadeshikoMini-TOP.stl)
+- [ ] [NadeshikoSupermini-TOP.stl](https://github.com/Aeurias/NadeshikoSlimeVR/blob/ESP32-C3-Supermini/Tracker%20Supermini/3D%20Print%20STL/NadeshikoSupermini-TOP.stl)
 
-- [ ] [NadeshikoMini-BASE.stl](https://github.com/Aeurias/NadeshikoSlimeVR/blob/ESP32-C3-Supermini/Tracker%20Supermini/3D%20Print%20STL/NadeshikoMini-BASE.stl)
+- [ ] [NadeshikoSupermini-BASE.stl](https://github.com/Aeurias/NadeshikoSlimeVR/blob/ESP32-C3-Supermini/Tracker%20Supermini/3D%20Print%20STL/NadeshikoSupermini-BASE.stl)
 
 
 <div align="center"><img  src="https://github.com/Aeurias/NadeshikoSlimeVR/blob/ESP32-C3-Supermini/Tracker%20Supermini/Previews/Readme-Preview.png"  alt="MiniPreview"/></div>
 
-<div align="center">30.1mm x 43.8mm × 18.4mm - 6.62 cm³</div> 
+<div align="center">30.1mm x 43.8mm × 19.7mm - 7.02cm³</div> 
 
 
 
@@ -101,14 +101,16 @@ The files for the case are:
 
 ## Components
 
-The component cost should come out to around £5.90/$7.55/€6.93 with cases per tracker.
-Quantity and prices listed below are per tracker expense and quantity used of each components. Some items are sold in pack size to build multiple trackers with. Prices here are listed without any shipping costs.
+The component cost should come out to around £5.80/$7.5/€6.8 with cases per tracker.
+Quantity and prices listed below are per tracker expense and quantity used of each components.
+Some of the smaller items are sold in pack sizes of 10/50/100 etc. which can build multiple trackers with.
+Prices here are listed without any shipping costs or pack sizes, or taxes.
 
 | Components per SlimeVR Tracker        |  QTY  |   £   | Link                                                                  |
 | ------------------------------------- | ----: | ----: | --------------------------------------------------------------------- |
 | @Nadeshiko Mini PCB                   |     1 |  0.39 | JLCPCB or Elecrow                                                     |
-| @Nadeshiko Mini Case                  |     1 |  0.72 | JLCPCB or Elecrow                                                     |
-| ESP32-C3 SuperMini V1/V2              |     1 |  1.58 | [AliExpress](https://www.aliexpress.com/item/1005006391993583.html)   |
+| @Nadeshiko Mini Case                  |     1 |  0.55 | JLCPCB or Elecrow                                                     |
+| ESP32-C3 SuperMini V1/V2              |     1 |  1.59 | [AliExpress](https://www.aliexpress.com/item/1005006391993583.html)   |
 | BMI270 IMU Module                     |     1 |  2.13 | [KOUNOLAB](https://store.kouno.xyz)                                   |
 | TP4056 Unprotected Charger Type-C     |     1 |  0.11 | [AliExpress](https://www.aliexpress.com/item/32646649119.html)        |
 | SK12D07VG Slide Switch in 3/4/5mm     |     1 |  0.04 | [AliExpress](https://www.aliexpress.com/item/1005005786809487.html)   |
