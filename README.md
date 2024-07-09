@@ -50,10 +50,6 @@ Due to how small these are, there is no option to connect an extension tracker, 
 
 The PCB lets every component be soldered on without any wire connections between the modules. This includes the diodes and resistors for battery sense and charge protection. The ESP32-C3 Supermini is on the back side to save on size and cost; a JST 2mm 2-pin connector can be added to make battery connections easier; an SK12D07VG 3-pin switch will be used to turn the tracker on or off.
 
-The caseless PCB's is to be used without a case, as there are built-in cutouts for a 25mm strap to pass through. Similar style to the WEMOS D1 Mini version, this is designed making sure it is still tough to impacts. This PCB will not fit in the other PCB's case as it is a slightly larger design.
-
- Both PCB designs have a slot to let WiFi RF pass through without hinderance just like with the my other slimes, but not sure how helpful that will be tho for this small scale. We'll see after some tests!
-
   
 
 PCBs can be ordered from [JLCPCB](https://cart.jlcpcb.com/quote/), [Elecrow](https://www.elecrow.com/pcb-manufacturing.html), [PCBGOGO](https://www.pcbgogo.com/pcb-fabrication-quote.html), [NextPCB](https://www.nextpcb.com/pcb-quote#/pcb-quote) or your preferred low cost PCB manufacturer.
