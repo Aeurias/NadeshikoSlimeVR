@@ -38,7 +38,6 @@ Due to how small these are, there is no option to connect an extension tracker, 
 - [Case](#case)
 - [Components](#components)
 - [Basic Assembly Guide](#assembly)
-- [Alternative IMUs](#imu)
 - [Resources](#resources)
 - [Detailed Assembly Guide](#detailed-assembly)
 - [How to order PCB/3DPrints](#ordering)
