@@ -29,8 +29,6 @@ Due to how small these are, there is no option to connect an extension tracker, 
 - No wires needed to be soldered.
 - Lightweight and smooth, clean case looks.
 - 25mm strap width is supported.
-- Detailed component purchase list. (WIP)
-- Photographed assembly instructions. (WIP)
 
   
 
