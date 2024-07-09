@@ -340,7 +340,7 @@ Ordering the PCB and 3D Prints is easy. Head to the [releases](https://github.co
 
 For PCB ordering, head over to  [JLCPCB](https://cart.jlcpcb.com/quote/) and upload the gerber .zip files. Use the settings below on the order page:
  
-<img  src="https://github.com/Aeurias/NadeshikoSlimeVR/blob/main/Tracker%20Main/PCB%20Gerber/OrderingPCB.png"  alt="Ordering"/>
+<img  src="https://github.com/Aeurias/NadeshikoSlimeVR/blob/ESP32-C3-Supermini/Tracker%20Supermini/PCB%20Gerber/orderingPCB.png"  alt="Ordering"/>
 
 They can also be ordered from [Elecrow](https://www.elecrow.com/pcb-manufacturing.html), [PCBGOGO](https://www.pcbgogo.com/pcb-fabrication-quote.html), [NextPCB](https://www.nextpcb.com/pcb-quote#/pcb-quote) or your preferred PCB manufacturer.
  
