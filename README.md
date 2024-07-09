@@ -64,10 +64,6 @@ PCBs can be ordered from [JLCPCB](https://cart.jlcpcb.com/quote/), [Elecrow](htt
 
 <p align="center">3D printed cased variant PCB Front/Back - 26mm x 38mm</p>
 
-<div align="center"><img  src="https://github.com/Aeurias/NadeshikoSlimeVR/blob/ESP32-C3-Supermini/Tracker%20Supermini/Previews/minicaseless2.png"  alt="Caseless Front" width=310px />&nbsp;&nbsp;&nbsp;&nbsp;<img  src="https://github.com/Aeurias/NadeshikoSlimeVR/blob/ESP32-C3-Supermini/Tracker%20Supermini/Previews/minicaseless1.png"  alt="Caseless Back" width=310px /></div>
-
-<p align="center">Caseless with strap support built-in Front/Back - 30mm x 38mm</p>
-
 
 ## Case
 
