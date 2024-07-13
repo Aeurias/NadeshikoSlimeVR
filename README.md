@@ -58,7 +58,7 @@ PCBs can be ordered from [JLCPCB](https://cart.jlcpcb.com/quote/), [Elecrow](htt
 
 <div align="center"><img  src="https://github.com/Aeurias/NadeshikoSlimeVR/blob/ESP32-C3-Supermini/Tracker%20Supermini/Previews/miniR4-2.png"  alt="Supermini Front" width=290px />&nbsp;&nbsp;&nbsp;&nbsp;<img  src="https://github.com/Aeurias/NadeshikoSlimeVR/blob/ESP32-C3-Supermini/Tracker%20Supermini/Previews/miniR4-1.png"  alt="Supermini Back" width=290px /></div>
 
-<p align="center">3D printed cased variant PCB Front/Back - 26mm x 38mm</p>
+<p align="center">PCB Front/Back - 26mm x 38mm</p>
 
 
 ## Case
