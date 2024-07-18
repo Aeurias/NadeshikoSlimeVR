@@ -5,7 +5,7 @@
 </h1>
 
 > [!CAUTION]
-> This is highly experimental, in design, writeup and testing process at the moment! Expect many changes to be made to this branch before finalized.
+> This is experimental, in writeup and testing process at the moment! Expect many changes to be made to this branch before finalized.
 
 > [!IMPORTANT]
 > For the regular, WEMOS D1 Mini variant please view the [main branch here!](https://github.com/Aeurias/NadeshikoSlimeVR/)
@@ -63,7 +63,7 @@ PCBs can be ordered from [JLCPCB](https://cart.jlcpcb.com/quote/), [Elecrow](htt
 
 ## Case
 
-The tracker case, can house a 3.7V LiPo in 502040 (5x20x40mm) or 602535 (6x25x35mm) size comfortably. Max LiPo cell dimensions are 6x25x40mm or less with capacity around 500mah.
+The tracker case, can house a 3.7V LiPo in 502040 (5x20x40mm) or 602535 (6x25x35mm) size comfortably. Max LiPo cell dimensions are 6x25x40mm or less with capacity around 200-400mah.
 
 
 The case has been designed according to [JLCPCB/JLC3DP resin 3D printing guidelines](https://jlc3dp.com/help/article/212-3D-Printing-Design-Guideline). The case can be ordered from [JLC3DP](https://jlc3dp.com/3d-printing-quote) or [Elecrow](https://www.elecrow.com/3d-printing-service.html), and the resin to select on your order is up to you. I prefer the [**9000R**](https://jlc3dp.com/help/article/195-9000R---Photosensitive-Resin), [**CBY**](https://jlc3dp.com/help/article/437-CBY-Photosensitive-Resin), [**Black Resin**](https://jlc3dp.com/help/article/198-Black-Resin--Photosensitive-Resin), or equivalent low cost options..
@@ -100,17 +100,23 @@ Prices here are listed without any shipping costs or pack sizes, or taxes.
 
 | Components per SlimeVR Tracker        |  QTY  |   £   | Link                                                                  |
 | ------------------------------------- | ----: | ----: | --------------------------------------------------------------------- |
-| @Nadeshiko Mini PCB                   |     1 |  0.39 | JLCPCB or Elecrow                                                     |
-| @Nadeshiko Mini Case                  |     1 |  0.55 | JLCPCB or Elecrow                                                     |
+| @Nadeshiko Mini PCB                   |     1 |  0.39 | [JLCPCB](https://jlcpcb.com/)                                         |
+| @Nadeshiko Mini Case                  |     1 |  0.55 | [JLC3DP](https://jlc3dp.com/)                                         |
 | ESP32-C3 SuperMini V1/V2              |     1 |  1.59 | [AliExpress](https://www.aliexpress.com/item/1005006391993583.html)   |
 | BMI270 IMU Module                     |     1 |  2.13 | [KOUNOLAB](https://store.kouno.xyz)                                   |
 | TP4056 Unprotected Charger Type-C     |     1 |  0.11 | [AliExpress](https://www.aliexpress.com/item/32646649119.html)        |
 | SK12D07VG Slide Switch in 3/4/5mm     |     1 |  0.04 | [AliExpress](https://www.aliexpress.com/item/1005005786809487.html)   |
 | 1206/3216 Resistors in 100K Ohm       |     2 |  0.01 | [AliExpress](https://www.aliexpress.com/item/32982307507.html)        |
 | SS34 DO214AC Diodes                   |     2 |  0.01 | [AliExpress](https://www.aliexpress.com/item/1005005707508759.html)   |
-| Li-Po Battery in 502040 Size          |     1 |  0.72 | [AliExpress](https://www.aliexpress.com/item/1005006680680172.html)   |
-| 25mm Hook & Loop                      |     1 |  0.20 | [AliExpress](https://www.aliexpress.com/item/1005006326126306.html)   |
-| or 25mm Elastic Strap & Buckles       |     1 |  0.20 | AliExpress                                                            |
+| LiPo Battery 6x25x40mm or smaller     |     1 |  0.72 | [EHAO](https://www.aliexpress.com/w/wholesale-EHAO.html) or [XINJ](https://www.aliexpress.com/store/4885018/pages/all-items.html) @AliExpress |
+
+| Mounting Straps for Trackers          | Link                                                                  |
+| ------------------------------------- | --------------------------------------------------------------------- |
+| 25mm Hook & Loop                      | [AliExpress](https://www.aliexpress.com/item/1005006326126306.html)   |
+| 25mm Elastic Strap & Buckles          | [AliExpress](https://www.aliexpress.com/item/1005006096453678.html)   |
+| 25mm Tri Glide Adjustable Buckles     | [AliExpress](https://www.aliexpress.com/item/1005006144047161.html)   |
+| 25mm Release Buckles                  | [AliExpress](https://www.aliexpress.com/item/1005006082194146.html)   |
+
 
 <br>
 
