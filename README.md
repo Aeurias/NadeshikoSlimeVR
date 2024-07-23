@@ -108,7 +108,7 @@ Prices here are listed without any shipping costs or pack sizes, or taxes.
 | SK12D07VG Slide Switch in 3/4/5mm     |     1 |  0.04 | [AliExpress](https://www.aliexpress.com/item/1005005786809487.html)   |
 | 1206/3216 Resistors in 100K Ohm       |     2 |  0.01 | [AliExpress](https://www.aliexpress.com/item/32982307507.html)        |
 | SS34 DO214AC Diodes                   |     2 |  0.01 | [AliExpress](https://www.aliexpress.com/item/1005005707508759.html)   |
-| LiPo Battery 6x25x40mm or smaller     |     1 |  0.72 | [EHAO](https://www.aliexpress.com/w/wholesale-EHAO.html) or [XINJ](https://www.aliexpress.com/store/4885018/pages/all-items.html) @AliExpress |
+| LiPo Battery 6x25x40mm or smaller     |     1 |  0.72 | [EHAO](https://www.aliexpress.com/w/wholesale-EHAO.html) or [XINJ](https://www.aliexpress.com/store/4885018/pages/all-items.html) or [ROGRAPO](https://www.aliexpress.com/store/910326412/pages/all-items.html) @AliExpress |
 
 | Mounting Straps for Trackers          | Link                                                                  |
 | ------------------------------------- | --------------------------------------------------------------------- |
