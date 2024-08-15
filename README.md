@@ -148,6 +148,8 @@ The basic steps of assembly for the main trackers are:
 - [ ] Check LiPo's battery JST plug matches the +/- polarity as on the PCB's header (Fix the battery plug if not).
 - [ ] Connect the LiPo battery with the power switch in the OFF position.
 - [ ] Power switch still in the OFF position: flash firmware using the online firmware flasher or by following the SlimeVR firmware documentation.
+
+Depending on the IMU used you will need to bridge pads on the back of the PCB for I2C address, or selecting `IMU Address Swap` option in online firmware flasher, check [SlimeVR schematic documentation](https://docs.slimevr.dev/diy/tracker-schematics.html) for details.
   
 
 The basic steps of assembly for the extension trackers:
@@ -318,8 +320,9 @@ Finish step by soldering the D1 Mini to the header pins, making sure not to over
 <img  src="https://github.com/Aeurias/NadeshikoSlimeVR/blob/main/Misc/Assembly/Step-10-Tape/3.jpg"  alt="3"/>
 
 #### Step 11 -  Flash the firmware, the light will turn from blinking to solid for a moment when complete.
-For more accurate SlimeVR dashboard battery percentage/voltage readout for @Nadeshiko Slimes, set `BATTERY_SHIELD_RESISTANCE` to `168`K. 
 <img  src="https://github.com/Aeurias/NadeshikoSlimeVR/blob/main/Misc/Assembly/Step-11-Firmware/1.gif"  alt="1"/>
+
+Depending on the IMU used you will need to bridge pads on the back of the PCB for I2C address, or selecting `IMU Address Swap` option in online firmware flasher, check [SlimeVR schematic documentation](https://docs.slimevr.dev/diy/tracker-schematics.html) for details.
 
 
  
