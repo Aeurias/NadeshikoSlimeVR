@@ -5,7 +5,7 @@
 </h1>
 
 > [!CAUTION]
-> This is experimental, in writeup and testing process at the moment! Expect many changes to be made to this branch before finalized.
+> This is experimental, in writeup and testing process at the moment! Expect some changes to be made to this branch before finalized.
 
 > [!IMPORTANT]
 > For the regular, WEMOS D1 Mini variant please view the [main branch here!](https://github.com/Aeurias/NadeshikoSlimeVR/)
@@ -20,11 +20,11 @@ There is however a drawback with this small size compared to the regular [@Nades
 
 Due to how small these are, there is no option to connect an extension tracker, as that will only increase the overall size and cost of a whole tracker set.
 
-@Nadeshiko's Mini Slimes run on a [ESP32-C3 Supermini](https://www.aliexpress.com/item/1005005877531694.html) with an IMU IC of your choice that has the same module profile as the [BMI160](https://www.aliexpress.com/w/wholesale-GY%2525252dBMI160.html) or [Meia's BMI-270](https://store.kouno.xyz/products/bmi270-breakout-board)'s. They use the [TP4056 Unprotected lithium charger](https://www.aliexpress.com/item/1005005468881238.html) module for 3.7V LiPo batteries.
+@Nadeshiko's Mini Slimes run on a [ESP32-C3 Supermini](https://www.aliexpress.com/item/1005005877531694.html) with an IMU IC of your choice that has the same module profile as widely used SlimeVR IMU-module format like the [Mumo ICM-45686](https://shop.slimevr.dev/products/slimevr-mumo-breakout-module-v1-icm-45686-qmc6309)'s. They use the [TP4056 Unprotected lithium charger](https://www.aliexpress.com/item/1005005468881238.html) module for 3.7V LiPo batteries.
 
 
 
-- 2.6cm x 3.8cm PCB design - smol!
+- 2.6cm x 3.8cm PCB design.
 - Easy and very cheap to build.
 - No wires needed to be soldered.
 - Lightweight and smooth, clean case looks.
@@ -93,17 +93,18 @@ The files for the case are:
 
 ## Components
 
-The component cost should come out to around £5.80/$7.5/€6.8 with cases per tracker.
+The component cost should come out to around £6.00/$8.2/€6.95 with cases per tracker usind the LSM6DSR IMU's or £8.42/$11.4/€9,7 with the recommended ICM-45686 IMU's.
 Quantity and prices listed below are per tracker expense and quantity used of each components.
 Some of the smaller items are sold in pack sizes of 10/50/100 etc. which can build multiple trackers with.
-Prices here are listed without any shipping costs or pack sizes, or taxes.
+Prices here are listed without any shipping costs, or pack sizes, or taxes, and may not be latest.
 
 | Components per SlimeVR Tracker        |  QTY  |   £   | Link                                                                  |
 | ------------------------------------- | ----: | ----: | --------------------------------------------------------------------- |
 | @Nadeshiko Mini PCB                   |     1 |  0.39 | [JLCPCB](https://jlcpcb.com/)                                         |
 | @Nadeshiko Mini Case                  |     1 |  0.55 | [JLC3DP](https://jlc3dp.com/)                                         |
 | ESP32-C3 SuperMini V1/V2              |     1 |  1.59 | [AliExpress](https://www.aliexpress.com/item/1005006391993583.html)   |
-| BMI270 IMU Module                     |     1 |  2.13 | [KOUNOLAB](https://store.kouno.xyz)                                   |
+| SlimeVR Mumo ICM-45686 IMU Module     |     1 |  5.00 | [SlimeVR](https://shop.slimevr.dev/products/slimevr-mumo-breakout-module-v1-icm-45686-qmc6309)                                   |
+| ↳ or LSM6DSR IMU Module               |     1 |  2.59 | [Mofflab](https://moffshop.deyta.de/products/lsm6dsr)                 |
 | TP4056 Unprotected Charger Type-C     |     1 |  0.11 | [AliExpress](https://www.aliexpress.com/item/32646649119.html)        |
 | SK12D07VG Slide Switch in 3/4/5mm     |     1 |  0.04 | [AliExpress](https://www.aliexpress.com/item/1005005786809487.html)   |
 | 1206/3216 Resistors in 100K Ohm       |     2 |  0.01 | [AliExpress](https://www.aliexpress.com/item/32982307507.html)        |
@@ -160,17 +161,16 @@ Flashing:
 Useful Links:
 
 
+- [SlimeVR Documentation](https://docs.slimevr.dev/)
+- [SlimeVR Github](https://github.com/SlimeVR/)
+- [SlimeVR Discord](https://discord.gg/SlimeVR)
 - [Online Firmware Flasher](https://slimevr-firmware.bscotch.ca/)
+- [Online Firmware Flasher Alt](https://slimevr.shinebright.dev/)
 - [SlimeVR-Tracker-ESP](https://github.com/SlimeVR/SlimeVR-Tracker-ESP)
-- [Kouno SlimeVR-Tracker-ESP motion bias estimation](https://github.com/kounocom/SlimeVR-Tracker-ESP/tree/sfusion-tuned-mbe-dynamic-cal)
-- [l0ud SlimeVR-Tracker-ESP BMI270 sfusion](https://github.com/l0ud/SlimeVR-Tracker-ESP-BMI270/tree/sfusion)
 - [SlimeVR-Server](https://github.com/SlimeVR/SlimeVR-Server)
 - [CH340 Driver](https://www.wemos.cc/en/latest/ch340_driver.html)
 - [BMI Calibration](https://github.com/SlimeVR/SlimeVR-Tracker-ESP?files=1#bmi160)
 - [IMU Rotation](https://docs.slimevr.dev/firmware/configuring-project.html#adjust-imu-board-rotation)
-- [SlimeVR Documentation](https://docs.slimevr.dev/)
-- [SlimeVR Github](https://github.com/SlimeVR/)
-- [SlimeVR Discord](https://discord.gg/SlimeVR)
 
 
  
