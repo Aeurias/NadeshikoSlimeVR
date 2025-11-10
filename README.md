@@ -73,7 +73,7 @@ The files for the standard case are:
 
 - [ ] [NadeshikoSupermini-BASE.stl](https://github.com/Aeurias/NadeshikoSlimeVR/blob/ESP32-C3-Supermini/Tracker%20Supermini/3D%20Print%20STL/NadeshikoSupermini-BASE.stl)
 
-<div align="center"><img  src="https://github.com/Aeurias/NadeshikoSlimeVR/blob/ESP32-C3-Supermini/Tracker%20Supermini/Previews/Readme-Preview.png"  alt="MiniPreview"/></div>
+<div align="center"><img  src="https://github.com/Aeurias/NadeshikoSlimeVR/blob/main/Tracker%20Supermini/Previews/Readme-Preview.png"  alt="MiniPreview"/></div>
 
 <div align="center">30.2mm x 46.0mm × 19.52mm - 8.67cm³</div>
 
@@ -84,7 +84,7 @@ The files for the double stack battery case are:
 
 - [ ] [NadeshikoSupermini-Double-Battery-BASE.stl](https://github.com/Aeurias/NadeshikoSlimeVR/blob/ESP32-C3-Supermini/Tracker%20Supermini/3D%20Print%20STL/NadeshikoSupermini-Double-Battery-BASE.stl)
 
-<div align="center"><img  src="https://github.com/Aeurias/NadeshikoSlimeVR/blob/ESP32-C3-Supermini/Tracker%20Supermini/Previews/Readme-Preview-Double.png"  alt="MiniPlusPreview"/></div>
+<div align="center"><img  src="https://github.com/Aeurias/NadeshikoSlimeVR/blob/main/Tracker%20Supermini/Previews/Readme-Preview-Double.png"  alt="MiniPlusPreview"/></div>
 
 <div align="center">30.2mm x 46mm × 25.12mm - 10.13cm³</div>
 
