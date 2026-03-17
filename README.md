@@ -322,19 +322,19 @@ Useful Links:
 
 Ordering the PCB and 3D Prints is easy. Head to the [releases](https://github.com/Aeurias/NadeshikoSlimeVR/releases) section and download the 3D print .stl files, and the PCB Gerber .zip files.
 
-For PCB ordering, head over to  [JLCPCB](https://cart.jlcpcb.com/quote/) and upload the gerber .zip files. Use the settings below on the order page:
+For PCB ordering, head over to  [JLCPCB](https://cart.jlcpcb.com/quote/) and upload the gerber .zip files. Use the settings below on the order page.
 
 <img  src="https://github.com/Aeurias/NadeshikoSlimeVR/blob/main/Tracker%20Supermini/PCB%20Gerber/orderingPCB.png"  alt="Ordering"/>
 
-They can also be ordered from [Elecrow](https://www.elecrow.com/pcb-manufacturing.html), [PCBGOGO](https://www.pcbgogo.com/pcb-fabrication-quote.html), [NextPCB](https://www.nextpcb.com/pcb-quote#/pcb-quote) or your preferred PCB manufacturer.
+They can also be ordered from your preferred PCB manufacturer.
 
 ### Cases
 
-For 3D Print case ordering, head over to [JLC3DP](https://jlc3dp.com/3d-printing-quote) and upload the .stl files for each model, including the top/body and base/end cap etc. One case comes in two parts, so make sure you upload both halves. Then use the settings below on the order page and set the quantity of each part to the number of trackers you are building. The available SLA material and prices will vary, as the model has been designed to be used with any of the SLA resins, any of the cheapest options will be good enough for the trackers,
+For 3D Print case ordering, head over to [JLC3DP](https://jlc3dp.com/3d-printing-quote) and upload the .stl files for each model, including the top/body and base/end cap etc. One case comes in two parts, so make sure you upload both halves. Then use the settings below on the order page and set the quantity of each part to the number of trackers you are building. The available SLA material and prices will vary, as the model has been designed to be used with any of the SLA resins, any of the cheapest options will be good enough for the trackers, typically the opaques are the best. I recommend the 9000HE.
 
 <img  src="https://github.com/Aeurias/NadeshikoSlimeVR/blob/main/Tracker%20Supermini/3D%20Print%20STL/OrderingCases.png"  alt="Ordering"/>
 
-Cases can also be ordered from [Elecrow](https://www.elecrow.com/3d-printing-service.html) or your preferred 3D print services.
+Cases can also be ordered from your preferred 3D print services.
 
 ## Support
 
