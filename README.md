@@ -236,7 +236,7 @@ Where *c* is the speed of light (~300,000 km/s), *f* is 2.45 GHz (center of the 
 **Steps:**
 
 1. De-solder and remove the C3 chip antenna from the board.
-2. Cut a piece of wire to 31mm.
+2. Cut a piece of wire to 31mm. Tin the wire with solder if it's stranded so its one solid conductor.
 3. Solder the wire onto the chip antenna's main solder pad.
 4. Bend the wire into a **C shape** so it loops back, forming a small circular loop. This shapes the radiation pattern into an omnidirectional "donut" and improves how the antenna couples with the board's ground plane.
 
