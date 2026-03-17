@@ -85,7 +85,6 @@ Prices here are listed without any shipping costs, or pack sizes, or taxes, and 
 | @Nadeshiko Mini Case                  |     1 |  0.55 | [JLC3DP](https://jlc3dp.com/)                                         |
 | ESP32-C3 SuperMini V1/V2              |     1 |  1.59 | [AliExpress](https://www.aliexpress.com/item/1005006391993583.html)   |
 | SlimeVR Mumo ICM-45686 IMU Module     |     1 |  5.00 | [SlimeVR](https://shop.slimevr.dev/products/slimevr-mumo-breakout-module-v1-icm-45686-qmc6309)                                   |
-| ↳ or LSM6DSR IMU Module               |     1 |  2.59 | [Mofflab](https://moffshop.deyta.de/products/lsm6dsr)                 |
 | TP4056 Unprotected Charger Type-C     |     1 |  0.11 | [AliExpress](https://www.aliexpress.com/item/32646649119.html)        |
 | SK12D07VG Slide Switch in 3/4/5mm     |     1 |  0.04 | [AliExpress](https://www.aliexpress.com/item/1005005786809487.html)   |
 | 1206/3216 Resistors in 100K Ohm       |     2 |  0.01 | [AliExpress](https://www.aliexpress.com/item/32982307507.html)        |
@@ -101,7 +100,7 @@ Prices here are listed without any shipping costs, or pack sizes, or taxes, and 
 
 ## Assembly
 
-Using a solder helping hand will make putting everything on the PCB much easier! While soldering, keep your solder iron's tip tinned with solder when not in use to protect from oxidation. Make sure to clean the PCBs from excess flux after soldering. You can use PCB cleaner or isopropyl alcohol.
+Using a solder helping hand will make putting everything on the PCB much easier! While soldering, keep your solder iron's tip tinned with solder when not in use to protect from oxidation. Use plenty of flux for surface mounts. Clean the PCBs from excess flux after soldering and testing, you can use PCB cleaner, isopropyl alcohol, acetone or nail varnish remover.
 
 The basic steps of assembly for the main trackers are:
 
@@ -120,6 +119,9 @@ Flashing:
 - [ ] In Battery Sense section, select `BAT_EXTERNAL`, Shield Resistance to `0`, Battery Shield R1 & R2 to `100` kOhm, Battery Sense Pin to `1`.
 - [ ] OPTIONAL: Use polyimide tape or equivalent on sharp corners and the LiPo battery to protect it from puncture.
 - [ ] OPTIONAL: Remove the C3 chip antenna and add 29 to 31mm tinned wire for better WiFi signal (20-30dB better signal strength).
+
+> [!TIP]
+> When soldering make sure to use correct iron temperatures, a high quality flux cored solder wire and liquid flux in syringe. A multimeter will come extremely handy to test each component and solder joints. Check some guides on YouTube first if you've never soldered before!
 
 ## Detailed-Assembly
 
@@ -338,6 +340,6 @@ Cases can also be ordered from your preferred 3D print services.
 
 ## Support
 
-Feel free to open an issue if you have any questions or to share some pictures! :3
+If you are unsure of an assembly or flashing step, you can always reach out to me on Discord.
 
-You may also DM me on Discord: [@aeurias](https://discord.com/users/240905316013703169), or add on VRChat: [Nadeshiko ~](https://vrchat.com/home/user/usr_f6e358a4-a938-46eb-bfb2-4fee10bd21e5).
+[@aeurias](https://discord.com/users/240905316013703169), or add on VRChat: [Nadeshiko ~](https://vrchat.com/home/user/usr_f6e358a4-a938-46eb-bfb2-4fee10bd21e5).
