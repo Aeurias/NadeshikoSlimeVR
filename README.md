@@ -248,7 +248,7 @@ You can place the wire loop on either side of the PCB, but the backside (away fr
 <img src="https://github.com/Aeurias/NadeshikoSlimeVR/blob/main/Misc/Assembly-Supermini/Step-4-ESP32-C3-Supermini/9.jpg" alt="Wire antenna bent under the PCB so it only travels through the case"/>
 
 > [!TIP]
-> Solid core wire is ideal, but you can also use the offcut from the battery cable — tin it thoroughly with solder so the strands fuse into a single rigid conductor. Tinning gives the wire a smoother outer surface which is better for RF at 2.4 GHz (due to the skin effect), and makes it stiff enough to hold the U shape without shifting and detuning the antenna.
+> Solid core wire is ideal, but you can also use the offcut from the battery cable. Tin it thoroughly with solder so the strands fuse into a single rigid conductor. Tinning gives the wire a smoother outer surface which is better for RF at 2.4 GHz (due to the skin effect), and makes it stiff enough to hold the C shape without shifting and detuning the antenna.
 
 **Why a C shape?** If you leave the wire straight instead of doing a loop/U/C, the signal becomes more directional like a water hose pointing in one direction rather than spraying evenly around you and the tracker may lose connection depending on which way your body is facing relative to your router.
 
@@ -301,6 +301,8 @@ Use the serial console if it doesn't appear to connect to WiFi, forgot to set Wi
 Use the serial command `SET WIFI XXXX YYYY` where `XXXX` is your 2.4GHz name, and `YYYY` is the password, both are case sensitive.
 
 For everything else, use the SlimeVR Documentation, as it contains information for proper SlimeVR server setup, calibration, and wearing.
+
+Sometimes flashing the latest firmware might not work at all on the C3 Supermini's and certain IMU combos. Thus you can try older versions such as 0.6.2 with VSCode flashing method and then upgrade it to latest through the SlimeVR server afterwards.
 
 ## Resources
 
