@@ -330,7 +330,7 @@ They can also be ordered from your preferred PCB manufacturer.
 
 ### Cases
 
-For 3D Print case ordering, head over to [JLC3DP](https://jlc3dp.com/3d-printing-quote) and upload the .stl files for each model, including the top/body and base/end cap etc. One case comes in two parts, so make sure you upload both halves. Then use the settings below on the order page and set the quantity of each part to the number of trackers you are building. The available SLA material and prices will vary, as the model has been designed to be used with any of the SLA resins, any of the cheapest options will be good enough for the trackers, typically the opaques are the best. I recommend the 9000HE.
+For 3D Print case ordering, head over to [JLC3DP](https://jlc3dp.com/3d-printing-quote) and upload the .stl files for each model, including the top/body and base/end cap etc. One case comes in two parts, so make sure you upload both halves. Then use the settings below on the order page and set the quantity of each part to the number of trackers you are building. The available SLA material and prices will vary, as the model has been designed to be used with any of the SLA resins, any of the cheapest options will be good enough for the trackers, typically the opaques are the best. I recommend the 9000HE. You will get a warning of printing risk, such as walls being too thin in a certain spot, this can be ignored and is done by design intention.
 
 <img  src="https://github.com/Aeurias/NadeshikoSlimeVR/blob/main/Tracker%20Supermini/3D%20Print%20STL/OrderingCases.png"  alt="Ordering"/>
 
