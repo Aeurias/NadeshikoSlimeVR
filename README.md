@@ -5,7 +5,7 @@
 </h1>
 
 > [!IMPORTANT]
-> For the WEMOS D1 Mini variant please view the [D1 branch here](https://github.com/Aeurias/NadeshikoSlimeVR/tree/WEMOS-D1-Mini)
+> For the old WEMOS D1 Mini variant please view the [D1 branch here](https://github.com/Aeurias/NadeshikoSlimeVR/tree/WEMOS-D1-Mini)
 
 These are some of the smallest WiFi module based SlimeVR trackers possible, similar to [Gorbit99's Tiny Slime](https://github.com/gorbit99/tiny-slime), as small as extension trackers! The idea was for these to be a replacement for wired extension trackers, whose cables can get in the way and are prone to damage, and be a more useable and comfortable size for tracking locations such as shoulders, lower arms, neck, or head.
 
