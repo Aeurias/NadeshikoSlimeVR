@@ -224,19 +224,19 @@ Instead of using an IPEX antenna, you can solder a simple wire directly onto the
 
 **Why a wire antenna?** The stock chip antenna on the C3 is compact but weak. A quarter-wave wire antenna is tuned to 2.4 GHz WiFi and naturally approaches the 50-ohm impedance the ESP32-C3's radio is designed for, meaning more power goes into the air and less is reflected back into the ESP32 chip.
 
-**Wire length:** Cut a piece of solid core wire to **29 to 31mm**. This length comes from the quarter-wave formula adjusted for the velocity factor of copper wire:
+**Wire length:** Cut a piece of solid core wire to **31mm**. This length comes from the quarter-wave formula adjusted for the velocity factor of copper wire:
 
-$$L = \frac{c}{f \times 4} \times K \approx 30.6 \text{ mm} \times 0.96 \approx 29\text{--}31 \text{ mm}$$
+$$L = \frac{c}{f \times 4} \times K \approx 30.6 \text{ mm} \times 0.96 \approx 29.5 \text{ mm}$$
 
 Where *c* is the speed of light (~300,000 km/s), *f* is 2.45 GHz (center of the band), and *K* is the velocity factor (~0.96 for copper wire).
 
 > [!TIP]
-> Solid core wire is ideal, but you can also use the offcut from the battery cable — tin it thoroughly with solder so the strands fuse into a single rigid conductor. Tinning gives the wire a smoother outer surface which is better for RF at 2.4 GHz (due to the skin effect), and makes it stiff enough to hold the U shape without shifting and detuning the antenna.
+> The extra ~1.5mm accounts for the solder joint which doesn't radiate efficiently, the C-shape bending which creates stray capacitance that makes the antenna electrically shorter than its physical length, and the fact that WiFi spans 2.412 to 2.484 GHz so the true ideal length varies by channel. Starting slightly long and trimming is standard practice in RF, since you can always cut shorter but can't add length back.
 
 **Steps:**
 
 1. De-solder and remove the C3 chip antenna from the board.
-2. Cut a piece of wire to 29-31mm.
+2. Cut a piece of wire to 31mm.
 3. Solder the wire onto the chip antenna's main solder pad.
 4. Bend the wire into a **C shape** so it loops back, forming a small circular loop. This shapes the radiation pattern into an omnidirectional "donut" and improves how the antenna couples with the board's ground plane.
 
@@ -246,6 +246,9 @@ Where *c* is the speed of light (~300,000 km/s), *f* is 2.45 GHz (center of the 
 You can place the wire loop on either side of the PCB, but the backside (away from the battery) is ideal. On that side, the signal only has to pass through the case to reach your router. If it's on the front side, the signal has to travel through the battery, PCB, and case. However you need to make sure it does not touch the PCB as the ground fill plane will affect the signal:
 
 <img src="https://github.com/Aeurias/NadeshikoSlimeVR/blob/main/Misc/Assembly-Supermini/Step-4-ESP32-C3-Supermini/9.jpg" alt="Wire antenna bent under the PCB so it only travels through the case"/>
+
+> [!TIP]
+> Solid core wire is ideal, but you can also use the offcut from the battery cable — tin it thoroughly with solder so the strands fuse into a single rigid conductor. Tinning gives the wire a smoother outer surface which is better for RF at 2.4 GHz (due to the skin effect), and makes it stiff enough to hold the U shape without shifting and detuning the antenna.
 
 **Why a C shape?** If you leave the wire straight instead of doing a loop/U/C, the signal becomes more directional like a water hose pointing in one direction rather than spraying evenly around you and the tracker may lose connection depending on which way your body is facing relative to your router.
 
