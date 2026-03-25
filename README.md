@@ -348,7 +348,7 @@ If you are unsure of an assembly or flashing step, you can always reach out to m
 ## License  
 
 <sub>
-Copyright Nadeshiko 2026.<br> 
+Copyright Nadeshiko 2023.<br> 
 This source describes Open Hardware and is licensed under the <a href="LICENCE.txt">CERN-OHL-W v2</a>.<br> 
 You may redistribute and modify this documentation and make products using it under the terms of the CERN-OHL-W v2 (https://cern.ch/cern-ohl) .<br> 
 This documentation is distributed WITHOUT ANY EXPRESS OR IMPLIED WARRANTY, INCLUDING OF MERCHANTABILITY, SATISFACTORY QUALITY AND FITNESS FOR A PARTICULAR PURPOSE. Please see the CERN-OHL-W v2 for applicable conditions.<br> 
