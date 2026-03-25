@@ -343,3 +343,15 @@ Cases can also be ordered from your preferred 3D print services.
 If you are unsure of an assembly or flashing step, you can always reach out to me on Discord.
 
 [@aeurias](https://discord.com/users/240905316013703169), or add on VRChat: [Nadeshiko ~](https://vrchat.com/home/user/usr_f6e358a4-a938-46eb-bfb2-4fee10bd21e5).
+
+
+## License  
+
+<sub>
+Copyright Nadeshiko 2026.<br> 
+This source describes Open Hardware and is licensed under the <a href="LICENCE.txt">CERN-OHL-W v2</a>.<br> 
+You may redistribute and modify this documentation and make products using it under the terms of the CERN-OHL-W v2 (https://cern.ch/cern-ohl) .<br> 
+This documentation is distributed WITHOUT ANY EXPRESS OR IMPLIED WARRANTY, INCLUDING OF MERCHANTABILITY, SATISFACTORY QUALITY AND FITNESS FOR A PARTICULAR PURPOSE. Please see the CERN-OHL-W v2 for applicable conditions.<br> 
+Source location: https://github.com/Aeurias/NadeshikoSlimeVR<br> 
+As per CERN-OHL-W v2 section 4.1, should You produce hardware based on these sources, You must maintain the Source Location visible on the PCB of the @Nadeshiko SlimeVR tracker or other product you make using this documentation. 
+</sub>
