@@ -1,5 +1,5 @@
 <h1 align="center">
-<a  name="logo"  href="Misc/logo.png"><img  src="https://github.com/Aeurias/NadeshikoSlimeVR/blob/main/Tracker%20Supermini/Previews/logo1.png"  alt="@Nadeshiko's Mini SlimeVR"></a>
+<a  name="logo"  href="Misc/logo.png"><img  src="Tracker%20Supermini/Previews/logo1.png"  alt="@Nadeshiko's Mini SlimeVR"></a>
 @Nadeshiko's Supermini SlimeVR
 
 </h1>
@@ -38,7 +38,7 @@ The PCB lets every component be soldered on without any wire connections between
 
 PCBs can be ordered from [JLCPCB](https://cart.jlcpcb.com/quote/), [Elecrow](https://www.elecrow.com/pcb-manufacturing.html), [PCBGOGO](https://www.pcbgogo.com/pcb-fabrication-quote.html), [NextPCB](https://www.nextpcb.com/pcb-quote#/pcb-quote) or your preferred low cost PCB manufacturer.
 
-<div align="center"><img  src="https://github.com/Aeurias/NadeshikoSlimeVR/blob/main/Tracker%20Supermini/Previews/miniR4-2.png"  alt="Supermini Front" width=290px />&nbsp;&nbsp;&nbsp;&nbsp;<img  src="https://github.com/Aeurias/NadeshikoSlimeVR/blob/main/Tracker%20Supermini/Previews/miniR4-1.png"  alt="Supermini Back" width=290px /></div>
+<div align="center"><img  src="Tracker%20Supermini/Previews/miniR4-2.png"  alt="Supermini Front" width=290px />&nbsp;&nbsp;&nbsp;&nbsp;<img  src="Tracker%20Supermini/Previews/miniR4-1.png"  alt="Supermini Back" width=290px /></div>
 
 <p align="center">PCB Front/Back - 26mm x 38mm</p>
 
@@ -54,21 +54,21 @@ It prints as two parts: a snap-fit closure with holes for strap, the TP4056 char
 
 The files for the standard case are:
 
-- [NadeshikoSupermini-TOP.stl](https://github.com/Aeurias/NadeshikoSlimeVR/blob/main/Tracker%20Supermini/3D%20Print%20STL/NadeshikoSupermini-TOP.stl)
+- [NadeshikoSupermini-TOP.stl](Tracker%20Supermini/3D%20Print%20STL/NadeshikoSupermini-TOP.stl)
 
-- [NadeshikoSupermini-BASE.stl](https://github.com/Aeurias/NadeshikoSlimeVR/blob/main/Tracker%20Supermini/3D%20Print%20STL/NadeshikoSupermini-BASE.stl)
+- [NadeshikoSupermini-BASE.stl](Tracker%20Supermini/3D%20Print%20STL/NadeshikoSupermini-BASE.stl)
 
-<div align="center"><img  src="https://github.com/Aeurias/NadeshikoSlimeVR/blob/main/Tracker%20Supermini/Previews/Readme-Preview.png"  alt="MiniPreview"/></div>
+<div align="center"><img  src="Tracker%20Supermini/Previews/Readme-Preview.png"  alt="MiniPreview"/></div>
 
 <div align="center">30.2mm x 46.0mm × 19.52mm - 8.67cm³</div>
 
 The files for the double stack battery case are:
 
-- [NadeshikoSupermini-Double-Battery-TOP.stl](https://github.com/Aeurias/NadeshikoSlimeVR/blob/main/Tracker%20Supermini/3D%20Print%20STL/NadeshikoSupermini-Double-Battery-TOP.stl)
+- [NadeshikoSupermini-Double-Battery-TOP.stl](Tracker%20Supermini/3D%20Print%20STL/NadeshikoSupermini-Double-Battery-TOP.stl)
 
-- [NadeshikoSupermini-Double-Battery-BASE.stl](https://github.com/Aeurias/NadeshikoSlimeVR/blob/main/Tracker%20Supermini/3D%20Print%20STL/NadeshikoSupermini-Double-Battery-BASE.stl)
+- [NadeshikoSupermini-Double-Battery-BASE.stl](Tracker%20Supermini/3D%20Print%20STL/NadeshikoSupermini-Double-Battery-BASE.stl)
 
-<div align="center"><img  src="https://github.com/Aeurias/NadeshikoSlimeVR/blob/main/Tracker%20Supermini/Previews/Readme-Preview-Double.png"  alt="MiniPlusPreview"/></div>
+<div align="center"><img  src="Tracker%20Supermini/Previews/Readme-Preview-Double.png"  alt="MiniPlusPreview"/></div>
 
 <div align="center">30.2mm x 46mm × 25.12mm - 10.13cm³</div>
 
@@ -128,86 +128,86 @@ Flashing:
 #### Step 1 - Resistors and Diodes
 
 The diodes have an orientation marked by lines, which will match the line on the PCB diode footprint.
-<img  src="https://github.com/Aeurias/NadeshikoSlimeVR/blob/main/Misc/Assembly-Supermini/Step-1-ResDio/1.jpg"  alt="1"/>
+<img  src="Misc/Assembly-Supermini/Step-1-ResDio/1.jpg"  alt="1"/>
 
 Solder on the 100K resistors first, any orientation. Flux to make them easier to solder as it helps hold them and easier to clean later.
 Add a smidge of solder on one of each of the diodes pads, so it can be the first pad to solder the diodes down to.
-<img  src="https://github.com/Aeurias/NadeshikoSlimeVR/blob/main/Misc/Assembly-Supermini/Step-1-ResDio/2.jpg"  alt="2"/>
+<img  src="Misc/Assembly-Supermini/Step-1-ResDio/2.jpg"  alt="2"/>
 
 Should look like this, with the diodes lines facing each other:
-<img  src="https://github.com/Aeurias/NadeshikoSlimeVR/blob/main/Misc/Assembly-Supermini/Step-1-ResDio/3.jpg"  alt="3"/>
+<img  src="Misc/Assembly-Supermini/Step-1-ResDio/3.jpg"  alt="3"/>
 
 #### Step 2 -  IMU Module
 
 I'm using the Mumo ICM45686 IMU module here from the SlimeVR store, clamp it down on the backside of the PCB where you did the resistor/diodes with your solder helper clamps. I've added tiny bit of flux on the pads before doing this too:
-<img  src="https://github.com/Aeurias/NadeshikoSlimeVR/blob/main/Misc/Assembly-Supermini/Step-2-IMU/1.jpg"  alt="1"/>
+<img  src="Misc/Assembly-Supermini/Step-2-IMU/1.jpg"  alt="1"/>
 
 Solder the edge castellated holes of the IMU. If your module of choice does not have those and has drill holes, just use a bit more flux and do the holes instead.
-<img  src="https://github.com/Aeurias/NadeshikoSlimeVR/blob/main/Misc/Assembly-Supermini/Step-2-IMU/2.jpg"  alt="2"/>
+<img  src="Misc/Assembly-Supermini/Step-2-IMU/2.jpg"  alt="2"/>
 
 Do both left and right side, and double check visually to make sure there aren't any missed.
-<img  src="https://github.com/Aeurias/NadeshikoSlimeVR/blob/main/Misc/Assembly-Supermini/Step-2-IMU/3.jpg"  alt="3"/>
+<img  src="Misc/Assembly-Supermini/Step-2-IMU/3.jpg"  alt="3"/>
 
 #### Step 3 -  Power Switch
 
 The switch goes on the other side like shown in the image. It has its footprint there.
-<img  src="https://github.com/Aeurias/NadeshikoSlimeVR/blob/main/Misc/Assembly-Supermini/Step-3-Switch/1.jpg"  alt="1"/>
+<img  src="Misc/Assembly-Supermini/Step-3-Switch/1.jpg"  alt="1"/>
 
 Clamp it flat to the PCB, but still have access to at least one of the legs on the backside of the PCB to solder initially.
-<img  src="https://github.com/Aeurias/NadeshikoSlimeVR/blob/main/Misc/Assembly-Supermini/Step-3-Switch/2.jpg"  alt="2"/>
+<img  src="Misc/Assembly-Supermini/Step-3-Switch/2.jpg"  alt="2"/>
 
 Flux those legs/pins and solder.
-<img  src="https://github.com/Aeurias/NadeshikoSlimeVR/blob/main/Misc/Assembly-Supermini/Step-3-Switch/3.jpg"  alt="3"/>
+<img  src="Misc/Assembly-Supermini/Step-3-Switch/3.jpg"  alt="3"/>
 
 Flux will help pull solder through to the other side, which will make the switch very sturdy:
-<img  src="https://github.com/Aeurias/NadeshikoSlimeVR/blob/main/Misc/Assembly-Supermini/Step-3-Switch/4.jpg"  alt="4"/>
+<img  src="Misc/Assembly-Supermini/Step-3-Switch/4.jpg"  alt="4"/>
 
 That does the backside of the PCB, you can clean the excess flux so its not sticky n ewwee for the rest of steps.
-<img  src="https://github.com/Aeurias/NadeshikoSlimeVR/blob/main/Misc/Assembly-Supermini/Step-3-Switch/5.jpg"  alt="5"/>
+<img  src="Misc/Assembly-Supermini/Step-3-Switch/5.jpg"  alt="5"/>
 
 #### Step 4 - ESP32-C3 Supermini Module
 
 There are few a Supermini C3 variants out there. The most common of these is the one on the right with the C3 antenna only which works perfectly for these slimes. For this guide, I'm using an C3 Supermini Plus which has the same footprint profile as the normal C3 Supermini, but has an flexible IPEX antenna included with it for improved range. I will also explain later on how to use the IPEX antenna properly on the Plus as it requires a small modification for it to work, or how to modify the non IPEX ones for better signal strength.
-<img  src="https://github.com/Aeurias/NadeshikoSlimeVR/blob/main/Misc/Assembly-Supermini/Step-4-ESP32-C3-Supermini/1.jpg"  alt="1"/>
+<img  src="Misc/Assembly-Supermini/Step-4-ESP32-C3-Supermini/1.jpg"  alt="1"/>
 
 Soldering the C3 is same as the IMU earlier. Just slightly larger and few more pads. Start with fluxing the pads slightly.
-<img  src="https://github.com/Aeurias/NadeshikoSlimeVR/blob/main/Misc/Assembly-Supermini/Step-4-ESP32-C3-Supermini/2.jpg"  alt="2"/>
+<img  src="Misc/Assembly-Supermini/Step-4-ESP32-C3-Supermini/2.jpg"  alt="2"/>
 
 Clamp down the C3 with your solder helping hands in the correct position, lined up with the footprint on the PCB.
-<img  src="https://github.com/Aeurias/NadeshikoSlimeVR/blob/main/Misc/Assembly-Supermini/Step-4-ESP32-C3-Supermini/3.jpg"  alt="3"/>
+<img  src="Misc/Assembly-Supermini/Step-4-ESP32-C3-Supermini/3.jpg"  alt="3"/>
 
 Solder the edge castellated holes of the C3, both left and right side, and double check visually to make sure there aren't any missed pads.
-<img  src="https://github.com/Aeurias/NadeshikoSlimeVR/blob/main/Misc/Assembly-Supermini/Step-4-ESP32-C3-Supermini/4.jpg"  alt="4"/>
-<img  src="https://github.com/Aeurias/NadeshikoSlimeVR/blob/main/Misc/Assembly-Supermini/Step-4-ESP32-C3-Supermini/5.jpg"  alt="5"/>
+<img  src="Misc/Assembly-Supermini/Step-4-ESP32-C3-Supermini/4.jpg"  alt="4"/>
+<img  src="Misc/Assembly-Supermini/Step-4-ESP32-C3-Supermini/5.jpg"  alt="5"/>
 
 #### Step 5 - TP4056 Unprotected Charger Module
 
 The TP4056 3.7v Lithium battery charging module comes in many sizes and USB styles. You want the unprotected variant with 4 holes:
-<img  src="https://github.com/Aeurias/NadeshikoSlimeVR/blob/main/Misc/Assembly-Supermini/Step-5-TP4056/1.jpg"  alt="1"/>
+<img  src="Misc/Assembly-Supermini/Step-5-TP4056/1.jpg"  alt="1"/>
 
 Flux the PCB pads and even some of the holes on the TP4056 just to make it easier to solder and then clamp it down.
 It may not align with the footprint perfectly like mine, as these come with small variance in dimension between vendors.
-<img  src="https://github.com/Aeurias/NadeshikoSlimeVR/blob/main/Misc/Assembly-Supermini/Step-5-TP4056/2.jpg"  alt="2"/>
+<img  src="Misc/Assembly-Supermini/Step-5-TP4056/2.jpg"  alt="2"/>
 
 There may be a small overhang on the TP4056, mostly okay, but this can be filed/sanded down if it causes issues with fitment into the case.
-<img  src="https://github.com/Aeurias/NadeshikoSlimeVR/blob/main/Misc/Assembly-Supermini/Step-5-TP4056/3.jpg"  alt="3"/>
+<img  src="Misc/Assembly-Supermini/Step-5-TP4056/3.jpg"  alt="3"/>
 
 #### Step 6 -  3.7v LiPo Battery
 
 The tracker is basically complete and useable, and can be flashed right away. But we'll continue this guide with the battery. I am using a 602030 battery here that I was able to find super cheap on AliExpress, which is 6mm x 20mm x 30mm as the name states. This Supermini PCB/Case SlimeVR can house up to a 6x25x40mm battery. Thicker batteries like 7mm could fit, but we need a gap between the battery and the inside wall of the case for the strap to pass through.
 
 We need to cut the wire down as it's arrives bit too long. Cut them short around where the arrow is indicated. For smaller batteries you might need a bit more wire, and less for larger batteries, so its fits in the case easier.
-<img  src="https://github.com/Aeurias/NadeshikoSlimeVR/blob/main/Misc/Assembly-Supermini/Step-6-Battery/1.jpg"  alt="1"/>
+<img  src="Misc/Assembly-Supermini/Step-6-Battery/1.jpg"  alt="1"/>
 
 Strip the ends of the cable so we can solder it on the PCB.
-<img  src="https://github.com/Aeurias/NadeshikoSlimeVR/blob/main/Misc/Assembly-Supermini/Step-6-Battery/2.jpg"  alt="2"/>
+<img  src="Misc/Assembly-Supermini/Step-6-Battery/2.jpg"  alt="2"/>
 
 Flux the cable ends and the +/- holes on the PCB and solder it up. Making sure it's correct polarity.
-<img  src="https://github.com/Aeurias/NadeshikoSlimeVR/blob/main/Misc/Assembly-Supermini/Step-6-Battery/3.jpg"  alt="0"/>
+<img  src="Misc/Assembly-Supermini/Step-6-Battery/3.jpg"  alt="0"/>
 
 The wires can be shaped/bent around, so the battery sits nicely on top of the modules/USB's.
 If wires too long you can redo it and cut it shorter. If too short, you can undo the yellow polyimide tape on the battery and redo the wires on it.
-<img  src="https://github.com/Aeurias/NadeshikoSlimeVR/blob/main/Misc/Assembly-Supermini/Step-6-Battery/4.jpg"  alt="4"/>
+<img  src="Misc/Assembly-Supermini/Step-6-Battery/4.jpg"  alt="4"/>
 
 ## ESP32-C3 Supermini WiFi Antennas
 
@@ -218,7 +218,7 @@ There are two antenna modifications you can do to improve WiFi range and signal 
 For the Plus/V2 variant C3 Supermini, you must solder a bridge between the two points marked with the green arrow to use the IPEX antenna.
 This alone is enough to get the antenna to work, however the C3 chip antenna must be removed as it causes imperfect impedance matching and signal loss.
 As some power leaks into the unused antenna, this reduces the efficiency and dB of the external antenna. For that, simply de-solder the red arrow marked C3 chip antenna, and then bridge green point with solder or a 0 Ohm resistor, and attach the IPEX antenna.
-<img src="https://github.com/Aeurias/NadeshikoSlimeVR/blob/main/Misc/Assembly-Supermini/Step-4-ESP32-C3-Supermini/6.jpg" alt="IPEX"/>
+<img src="Misc/Assembly-Supermini/Step-4-ESP32-C3-Supermini/6.jpg" alt="IPEX"/>
 
 ### Option B - Quarter-Wave Wire Antenna (any C3 Supermini variant) - Recommended
 
@@ -242,12 +242,12 @@ Where *c* is the speed of light (~300,000 km/s), *f* is 2.45 GHz (center of the 
 3. Solder the wire onto the chip antenna's main solder pad.
 4. Bend the wire into a **C shape** so it loops back, forming a small circular loop. This shapes the radiation pattern into an omnidirectional "donut" and improves how the antenna couples with the board's ground plane.
 
-<img src="https://github.com/Aeurias/NadeshikoSlimeVR/blob/main/Misc/Assembly-Supermini/Step-4-ESP32-C3-Supermini/7.jpg" alt="Wire antenna soldered to C3 chip antenna pad"/>
-<img src="https://github.com/Aeurias/NadeshikoSlimeVR/blob/main/Misc/Assembly-Supermini/Step-4-ESP32-C3-Supermini/8.jpg" alt="Wire antenna bent into U shape for radiation pattern"/>
+<img src="Misc/Assembly-Supermini/Step-4-ESP32-C3-Supermini/7.jpg" alt="Wire antenna soldered to C3 chip antenna pad"/>
+<img src="Misc/Assembly-Supermini/Step-4-ESP32-C3-Supermini/8.jpg" alt="Wire antenna bent into U shape for radiation pattern"/>
 
 You can place the wire loop on either side of the PCB, but the backside (away from the battery) is ideal. On that side, the signal only has to pass through the case to reach your router. If it's on the front side, the signal has to travel through the battery, PCB, and case. However you need to make sure it does not touch the PCB as the ground fill plane will affect the signal:
 
-<img src="https://github.com/Aeurias/NadeshikoSlimeVR/blob/main/Misc/Assembly-Supermini/Step-4-ESP32-C3-Supermini/9.jpg" alt="Wire antenna bent under the PCB so it only travels through the case"/>
+<img src="Misc/Assembly-Supermini/Step-4-ESP32-C3-Supermini/9.jpg" alt="Wire antenna bent under the PCB so it only travels through the case"/>
 
 > [!TIP]
 > Solid core wire is ideal, but you can also use the offcut from the battery cable. Tin it thoroughly with solder so the strands fuse into a single rigid conductor. Tinning gives the wire a smoother outer surface which is better for RF at 2.4 GHz (due to the skin effect), and makes it stiff enough to hold the C shape without shifting and detuning the antenna.
@@ -273,7 +273,7 @@ Flashing these Slimes is the same as flashing [Gorbit99's Tiny Slime](https://gi
 2. For the board type, you want to choose `BOARD_LOLIN_C3_MINI`.
 3. Open **Advanced Options**, change **SDA Pin** to `6`, **SCL Pin** to `7`, **INT Pin** to `5`, and **LED Pin** to `8`.
 4. For **Primary IMU**, select the one you have.
-<img  src="https://github.com/Aeurias/NadeshikoSlimeVR/blob/main/Misc/Assembly-Supermini/Flashing/1.png"  alt="1"/>
+<img  src="Misc/Assembly-Supermini/Flashing/1.png"  alt="1"/>
 
 Next we do the Battery Sense settings.
 
@@ -281,7 +281,7 @@ Next we do the Battery Sense settings.
 2. Change **Battery Shield Resistance (kOhm)** put `0` .
 3. Set **Battery Shield (kOhm)** to `100` for both Battery Shield **R1** and **R2**.
 4. For **Battery Sense Pin** set to pin `1`.
-<img  src="https://github.com/Aeurias/NadeshikoSlimeVR/blob/main/Misc/Assembly-Supermini/Flashing/2.png"  alt="2"/>
+<img  src="Misc/Assembly-Supermini/Flashing/2.png"  alt="2"/>
 
 Open the Wi-Fi settings section and input your 2.4GHz Wi-Fi credentials.
 
@@ -291,7 +291,7 @@ After flashing you need to manually reset the Supermini. This can be done by eit
 
 If everything went well and your SlimeVR server is turned on, it should be able to connect and appear in there.
 
-<img  src="https://github.com/Aeurias/NadeshikoSlimeVR/blob/main/Misc/Assembly-Supermini/Flashing/3.png"  alt="3"/>
+<img  src="Misc/Assembly-Supermini/Flashing/3.png"  alt="3"/>
 
 > [!NOTE]
 > Another flash mode method is by holding the **"BOOT"** button, click the **"RST"** and then release **"BOOT"** button
@@ -326,7 +326,7 @@ Ordering the PCB and 3D Prints is easy. Head to the [releases](https://github.co
 
 For PCB ordering, head over to  [JLCPCB](https://cart.jlcpcb.com/quote/) and upload the gerber .zip files. Use the settings below on the order page.
 
-<img  src="https://github.com/Aeurias/NadeshikoSlimeVR/blob/main/Tracker%20Supermini/PCB%20Gerber/orderingPCB.png"  alt="Ordering"/>
+<img  src="Tracker%20Supermini/PCB%20Gerber/orderingPCB.png"  alt="Ordering"/>
 
 They can also be ordered from your preferred PCB manufacturer.
 
@@ -334,7 +334,7 @@ They can also be ordered from your preferred PCB manufacturer.
 
 For 3D Print case ordering, head over to [JLC3DP](https://jlc3dp.com/3d-printing-quote) and upload the .stl files for each model, including the top/body and base/end cap etc. One case comes in two parts, so make sure you upload both halves. Then use the settings below on the order page and set the quantity of each part to the number of trackers you are building. The available SLA material and prices will vary, as the model has been designed to be used with any of the SLA resins, any of the cheapest options will be good enough for the trackers, typically the opaques are the best. I recommend the 9000HE. You will get a warning of printing risk, such as walls being too thin in a certain spot, this can be ignored and is done by design intention.
 
-<img  src="https://github.com/Aeurias/NadeshikoSlimeVR/blob/main/Tracker%20Supermini/3D%20Print%20STL/OrderingCases.png"  alt="Ordering"/>
+<img  src="Tracker%20Supermini/3D%20Print%20STL/OrderingCases.png"  alt="Ordering"/>
 
 Cases can also be ordered from your preferred 3D print services.
 
