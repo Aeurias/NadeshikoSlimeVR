@@ -1,5 +1,5 @@
 <h1 align="center">
-<a  name="logo"  href="Misc/logo.png"><img  src="Tracker%20Supermini/Previews/logo1.png"  alt="@Nadeshiko's Mini SlimeVR"></a>
+<a  name="logo"  href="Tracker%20Supermini/Previews/logo1.png"><img  src="Tracker%20Supermini/Previews/logo1.png"  alt="@Nadeshiko's Mini SlimeVR"></a>
 @Nadeshiko's Supermini SlimeVR
 
 </h1>
